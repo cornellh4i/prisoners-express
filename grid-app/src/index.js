@@ -1,17 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+var Airtable = require('airtable');
+var base = new Airtable({apiKey: 'keyeCKNtiCyQGoVuX'}).base('appxq5A3yP1YfQOsp');
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+base('Contributions').select({
+    // Selecting the first 3 records in OPEN - Public Content - All 🔗:
+    maxRecords: 3,
+    view: "OPEN - Public Content - All 🔗"
+}).eachPage(function page(records, fetchNextPage) {
+    // This function (`page`) will get called for each page of records.
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    records.forEach(function(record) {
+        console.log('Retrieved', record.get('File Name (Formula)'));
+    });
+
+    // To fetch the next page of records, call `fetchNextPage`.
+    // If there are more records, `page` will get called again.
+    // If there are no more records, `done` will get called.
+    fetchNextPage();
+
+}, function done(err) {
+    if (err) { console.error(err); return; }
+});
