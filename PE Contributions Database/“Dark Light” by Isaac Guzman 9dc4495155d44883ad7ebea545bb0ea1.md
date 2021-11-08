@@ -1,0 +1,13 @@
+# “Dark Light” by Isaac Guzman
+
+Last Updated: March 17, 2021 6:02 PM
+Month: 12 - December
+Original Document (Google Doc): https://docs.google.com/document/d/1e8knjjCYEd0-GINvf52KOgpQWyNN19b6H9-a_5PRUto/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2020
+
+**“Dark Light” by Isaac Guzman**
+
+There is so much Darkness, to lose sight on, things that hold us back from where we need to be. The light can always show us the way, is it the right path, the mind holds us thinking ‘we’re ok, can we do better, we can accept the different.’ There will always be dark and light. Can one equal the other or will one always take over the other? All my life, I was lost in the darkness, not caring how I looked or what brand looked cool or if I needed more of things. Those things are just things. Then the light shows its spot, a picture of a person holding a white owl, kind of throwing it off his hands toward me. The man is dressed for the wild. I think, could life be so blind to the nature of life, something of awe. Does God want us to see the real things that pass us by everyday? The light made me feel open to some new feelings that I never felt so much alive. I wanted to do something, anything to not let the moment fade away. I danced and sang my mind free, some voice says “freak, get somewhere.” You must be one of those. Then the darkness comes back as if it was always at home in me. Then I look up to yell, and I see a rainbow in the clouds, light shining with the raindrops pouring down. Lucky drops, I’ve been told. I remember the promise that was made of the sight of colors by God. I think, “do you accept me for the way I am? Could you? Do you?” Well you stopped and this guy shakes me saying “you’re in my way.” Pushing a big cart of all kinds of colors, I follow him a little bit and I see a sign on the side of it saying something about pride. I wonder if this is from the light, that has come back to back to back. Well the darkness may take over again or I could be me and let the light flow through me. I wonder, does there have to be darkness? Light wants a new friend in me. I want to keep it now. Light, can you stay around and light my sad moments away? Be the path that I hear about in books and movies. Please make me a friend! No! Make me light… so I won’t have to deal with the darkness people put in the shade of my light that shines bright now.

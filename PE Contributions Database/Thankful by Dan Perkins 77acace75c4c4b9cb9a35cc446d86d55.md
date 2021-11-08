@@ -1,0 +1,21 @@
+# "Thankful" by Dan Perkins
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 12 - December
+Original Document (Google Doc): https://docs.google.com/document/d/1yxXOvd95YaFNHX4E59dYL7_hAAcYxIiOUWE85NK9ioU/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2017
+
+**Thankful**
+
+Like the old Bing Crosby song: “I’ve Got Plenty to be Thankful For,”... I’ve got plenty to be thankful for. My handwriting may not be pretty, but at least I can write. For that I am thankful. I’m literate; and functionally literate- I can follow written instructions and read maps and charts. I’m not colorblind or mobility impaired. I can carry a tune when I sing. I still have some hair on my head and that’s pretty good at my age. There are guys older than me who have more hair… I wish I did, but at least I’ve got what I’ve got, and I’m glad to have it. I was in the U.S. Air Force during the Vietnam War, but didn’t make it to Vietnam, and I’m thankful to have a whole body. Bodies a product of mind. But seriously, folks, back in the 80s, my mind went AWOL for awhile. It’s back now, but it’s different; better now, I believe. And I’m thankful for that. I had a good upbringing, lived in a good middle-class neighborhood, and went to good schools. I finished high school, and have some college. For these things I’m thankful. I was a smoker when I was arrested. I had tried a couple of times to quit smoking. I was hating it. Since my arrest, I haven't smoked a single cigarette. Good riddance. We’re not starving in prison, though we are currently getting less food served on our food trays than we have gotten in the recent past, and we’re getting less variety, and most is getting scarcer, a little at a time. Still, there are people outside who don’t eat as well as we do in here. There are people who commit crimes because they don’t want to work, they want to live off of the state- the taxpayers.
+
+We can get care packages and hobby packages, and have small electric appliances; I have a fan, a hot pot, a battery powered shaver, rechargeable batteries, and a charger for them. I’m on a sensitive needs yard (SNY), (a p.c. yard), and I’m thankful for that. Guys with convictions like mine would be in trouble on a main line (active) yard. I’m thankful I’m not in prison in Siberia, China, Mexico, or some country where Americans are despised. I have shelter, a “bed”, bed covers, and I can get a decent night’s sleep. I’m given underwear and clothes, and socks and shoes. I’m thankful for this. There are people who don’t have these things. We have medical/ mental health care services, (such as they are), and for this I’m thankful. I have a watch and a calendar I’m glad to have. I’d miss them if I didn’t have them. We can (usually) get a hot shower, and my cellie and I get along, and we both do our part to keep the cell reasonably clean and orderly.
+
+There are groups outside who come in and minister to our religious needs, and groups, like Prisoner Express, who offer some correspondence, and art and literary activities, and interactive prison news and exchanges/ sharing. Thank you P.E. Thanks for caring.
+
+We live in a free country- but let me qualify that statement. “Free” does not mean complete, unbridled freedom to do just anything that occurs to someone. It originally meant freedom from oppression by the Church and the State, that was prevalent in Europe at the time when this nation was founded.
+
+But, indeed we do enjoy many liberties here that people in some other lands do not. We can complain about and criticize our government without being put in prison, or getting unkind things done to us. Our soldiers have fought and died so we can have the right to burn our national flag in public if we want to (there seems to be an oxymoron in that, somehow), and we have the right of self determination. And anyone who wants education is welcome to it, and we’re free to choose our religion for our individual selves, or none at all, if that is our choice. For these few things, and many more that I have room for her, I am thankful.

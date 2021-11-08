@@ -1,0 +1,19 @@
+# "At the Puppy, Kitten, Ducking Prison" by Catherine LaFleur
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 12 - December
+Original Document (Google Doc): https://docs.google.com/document/d/11ScpB-rN9RWtEkokiu2AlVhRDBmv02xGrlxcULxMp_w/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2017
+
+**“At the Puppy, Kitten, Ducking Prison” by Catherine Lafleur**
+
+Here in Camp Prisoney Land we have many things to be thankful for. One of the things I am most thankful for is that we have puppies. These ritters ages 8 weeks are part of the New Horizons Service Dog Program. Imagine Labrador Retrievers, yellow balls of fluff, gamboling about the recreation field and other general areas of the compound. They love to lick and sniff you and are very playful. A loose shoelace or very blowsy pants legs provide much excitement in puppyville. They once, tug, and generally enjoy life with their care-free puppy attitude. It’s easy to get some of this puppy love. You merely have to ask the permission of the trainers when the puppy isn’t wearing his vest. For one hour everyday, the puppies get “time off ” from their jobs as “in training service pups.” Of course, once they are mature a bit, you aren't allowed to distract them by calling the pups by name. The names are very creative; Cape Hatteras, Cape May, Canaveral, Riso, Turtle, Shamu, Hamer, Level, thunder, Tracker, Stormy. It’s very soothing to play tug, fetch-it, and follow the command. These dogs are probably smarter than me since I’m fairly inept at following orders.
+
+There are also cats. Once these feral beasts broke into the prison through various gaps in the fence. They bred, and all the kittens were captured by inmates and tamed. There have been as many as nine cats living here. Midnight, Smokey, Mayhem and Heathcliff, Orea, CareBear, Sniper and Ghost. Eventually, all the cats were fixed, so no more kittens. These cats have lived to a ripe old age, some of them almost twenty years. Even though they are outside cats, they get the royal treatment. Cooked chicken dinners, liver strips, tuna, mackerel, and other tidbits cooked or bought from the store. Family members of inmates may donate bags of cat chow and cat treat. Unlike the dogs, there is no real support system for the cats. They seem aloof, uncaring about human contact. However, they are easily lured by food. Many can be convinced to sit in our laps while you run a comb over their kitty coat. The purring of cats in your lap is mesmerizing. I could do this for at least an hour.
+
+Since Prisoney Land is on the edge of the Everglades, we attract a lot of birds: Egrets, Hawks, Turkey Buzzards, Purple Martins and a strange African species with yellow legs and black bandit masks which escaped the Miami Zoo during a long ago hurricane. The birds I am most fond of are the Muscovy Ducks. Yes, I know they are beasts and the compound is in fact covered in bird poop. Every day, several times a day, we have to go out and shoo the ducks away from the library where I work because this is the ducks’ favorite poop spot. The one thing I like about these ducks is that there are always cute ducklings waddling about! And of course, I lure them closer with bread and Cheese Puffs. I have found that if you hold on to an especially long cheese puff while the mother is eating it, you can scoop up an unsuspecting baby. I usually wait until they are about four weeks old before holding them. The babies also like cheese puffs, just in smaller doses. I once fed one of the adult males a tortilla wrap, then he started choking on it. I was wondering how to do the Heimlich maneuver on him or perhaps mouth to beak resuscitation. Thankfully, duck lips have never touched my lips as he recovered, and I never tried to feed him anything that large again.
+
+These animals provide a lot of stress relief. I am so happy to be housed at the Puppy, Kitty, Duckling Prison.

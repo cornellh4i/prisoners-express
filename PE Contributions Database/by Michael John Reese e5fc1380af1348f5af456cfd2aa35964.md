@@ -1,0 +1,13 @@
+# by Michael John Reese
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 03 - March
+Original Document (Google Doc): https://docs.google.com/document/d/1tFWUDK2eOp6C84FD_YLUtFwEz443gBZzNudOJ-ubN5Q/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2019
+
+**By Michael John Reese**
+
+People ask me why. Why do you hate? Why are you so angry? Well believe it or not. The following is why. Why do I hate? Because I’m in pain, because I’m a victim who never gets any justice or relief, because those who victimized me are rewarded by life and the world, because I’ve always been given two options in life: #1 Death; #2 Forced poverty and degradation, because I’ve never known true unconditional love, because I’m lonely and no one truly cares, because when I need help no one will give it. Because those who hurt me get love, help, and sympathy without needing to ask or seek it and I don’t get it at all, because I’ve got nothing left. Because if I retaliate against people who harm me I will be incarcerated and hurt and degraded even more. Because no one believes me when I speak the truth. But those who harm me are believed when they lie, because so many claim to care and wish to help, yet they do not help in any real way at all, because their words are wind, because I want a job but no one will hire me. Because I’m sick of being alone hungry poor in pain fear and shame, because nobody cares what I feel or what happens to me, because if you truly love someone it’s unconditional and you help them whether they ask or deserve it or not. And their well-being is as important to you as your own, and when that “loved” one is suffering you suffer just the same and seek to end their suffering the same as you would your own. And no one feels that way about me, because I’m tired of failing, of hope that never is fulfilled, of dreaming dreams that will never come true, why do I hate? Because all that is left to me otherwise is pain shame fear failure or death. So I pick the lesser of “evils,” because hate at least gives me the will to go on, because I’m sick of trying to no good end, because I never learned how to do much else, I never found or had a reason no to, because I never learned how to love myself, or anyone else. And even though I want to, I know I never will. Because I know that all the beauty in the world I seek is not for the likes of me. And is forever out of my reach because acceptance, community, freedom, and prosperity are essential to a healthy spiritual and mental well-being, and in my life such beautiful things have yet to be seen. 1-4-2019. Believe it or not. It’s all true.

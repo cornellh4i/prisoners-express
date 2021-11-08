@@ -1,0 +1,15 @@
+# "My Parents" by Robert Hines
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 01 - January
+Original Document (Google Doc): https://docs.google.com/document/d/1knx3ibbwoKz9gqJ1Rg_SIsRFq8K3FQMgquzBcIPs_lk/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2018
+
+**“My Parents” by Robert Hines**
+
+She was twelve. Her body was doing some of the strangest things. A week ago she was given the speech by her mom about bras, panties, and periods. She’s the fourth child of nine: two older brothers and an older sister, two younger brothers, a younger sister, and a set of twins who strangled each other in the womb. Her older sister was six years older than her and very pretty. She had a lot of boyfriends and was popular. When her mom asked her to tell her little sister about bras, panties, and periods, she told her mom, “you do it!” Her oldest brother was her idol and best friend. She could talk to him about anything and he never broke his word. When he got his car, he never came home in time for her to talk to him. She started feeling lonely and unloved. Her father and mother were arguing a lot. Mostly about money and her father’s drinking. The arguments turned into fights and her older brothers kicked her father out. Her emotions and hormones had her spinning and she started craving attention. Her oldest brother was now the “man of the house” and her mom would retreat to her bedroom, heartbroken and depressed. Her sisters leave to stay with an Aunt. She’s invited but she chooses to stay with her big brothers and take care of her little brothers. She’s still twelve and very lonely.
+
+He was twenty-three. He was addicted to drugs. Nothing too hard, marijuana, alcohol, and valiums. His best friend switched up on him; it used to be him and his best friend getting high together, but now that he’s “the man of the house” he has no time to get high. All he does is work and go home. He talks his best friend into throwing his little sister a party. She sure is fine to him. He wishes she was older so he could sex her up. He is lonely and when he sees his friend’s sister at her party he tells her that he’s lonely and in love with her. He gave her some Boone’s Farm and one thing led to another. They kissed, but when he reached into her pants, she resisted and that made him angry. He grabbed her by the throat and showed her his knife. Then he raped her. She is still twelve and her birthday is on a Sunday, so she had her party on Saturday night. It was the worst night in her life. Her brother’s best friend raped her. She doesn’t blame him, it was her fault. She really liked it at the end, something happened to both of them at the same time. It felt like time had stopped and she didn’t want it to end. Neither one knew that nine months later they would become my parents.

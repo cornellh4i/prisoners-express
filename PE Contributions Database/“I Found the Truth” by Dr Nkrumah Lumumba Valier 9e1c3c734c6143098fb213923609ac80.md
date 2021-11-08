@@ -1,0 +1,31 @@
+# “I Found the Truth” by Dr. Nkrumah Lumumba Valier
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 01 - January
+Original Document (Google Doc): https://docs.google.com/document/d/1WSfhfvJIV9W9ZUww3DDSQHg9CPM1pq_45x8A_iP1IWA/edit?usp=sharing
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2017
+
+**“I Found the Truth” by Dr. Nkrumah Lumumba Valier**
+
+I found the truth that love is just another four letter word often used to make others believe something that is not true. I found out that love is not something we feel between your legs because once that feeling is over, I realized it was never real. Sometimes we are blinded by the illusions of life when we start to live the lie we make ourselves believe is true. If I told you the truth, would you believe me? Some of you would not because you have been lied to for so long that you don’t know what the truth sounds like.
+
+I was once like many of you, living a lie in my American dream. I was a licensed barber and a recording rap artist in Houston, Texas. Allah has blessed me with so many talents that allowed me to live the type of lifestyle I dreamt of as a child, a lifestyle that most poor, African-American children living in the ghettos dream of living. Some think that playing sports is the way out. There are those that are blessed with talent that seek their dreams by becoming professional entertainers, and there are those that find selling drugs to be their way out. The latter become trap stars in the ghettos who become rich by selling poison to their own Black sisters and brothers just to bling, bling, bling.
+
+And the golden rule is that whoever has all the gold is the one who rules? It seems that *Black Lives Don’t Matter* once slavery was abolished by the 13th Amendment. It seems that *Black Lives Never Mattered* and that we were just a means to help them live the American dream of every white man that has gotten rich from slavery. *Money is their god* and true religion in life. And the slave’s sole purpose is to obey and serve their lord and master. To program that into their minds, the white man painted Prophet Jesus white so that slaves would love the white man--they have been deceived to believe that God is a white man.
+
+Take a deep breath. I know that a lot of you reading this might be feeling like you are about to pass out. It is OK. It’s just the shock when our minds have been introduced to the truth. We have been deceived!
+
+What would you think if you found out the truth that you have been lied to all your lives? How do you feel? Angry? What if I told you that we were never set free and that we are still slaves all over the world? If I told you that Blacks will never have the rights that a white man has? The Constitution was written when slavery still existed and was written by white men who owned slaves and took part in the cruelty and inhumane treatment of African slaves. From rape to beatings and murders, they showed us that our lives did not matter to them.
+
+OK, you may say that that was the past, that white people have changed, and that the Democrats have made the conditions better for Black people in America. That slavery no longer exists. Learning the Constitution of America is important so that we know what are constitutional and federal rights are. The 13th Amendment gives States the legal right to re-enslave Black people if they are convicted of a crime. So to get the slaves, they need to populate these prison plantation industries owned by white men and Jews. The justice system conspires with the police to round up as many African Americans as they can to work in these prison factories for free. Some of us are innocent, but that does not matter when they forcefully drag us in chains into these state courts and use information they know to be false. They bring charges against us, and here, we are assumed *guilty* until proven guilty in a court of law. The judge, the prosecutor, and the appointed counsel work together to convict us then give us large amounts of time to make sure we die in prison as slaves.
+
+The prison system treats us in the most inhumane way and are allowed to get away with murder. White offenders are not treated the same way because their color gives them more rights and better treatment. Former President Bill Clinton played a major role in enslaving Black people when he trapped us in prison through the Anti-Terrorism and Effective Death Penalty Act (AEDPA). While white people do this, Black Americans still run to vote for the Klu Klux Klan party that legalized slavery, and Republican politicians like Rick Perry, George W. Bush, and Greg Abbott don’t give a damn about no niggers living in Texas! They have done all they can to lock all Black Americans up in Texas, the state with the highest rate for illegal and wrongful convictions in this country. That’s something they are proud of.
+
+God Most High says: What is there beyond truth but error? (10:35) He also says: Man is at loss, except those who believe, perform honourable deeds, encourage truth, and encourage patience. (103:3).
+
+I’m not saying that all white people are this way because they are not. Some are our sisters and brothers that feel the same way about the injustice African-Americans face every day of our lives just because they were born Black. Silence is never the answer after you have found out the truth. No more singing ol’ negro spirituals while they beat us with billy sticks then stick dogs on us! No more turning the other cheek to let them punch us again! No more will our blood flood the streets from not defending ourselves! No! We will not allow the government to take our Second Amendment right to bare arms as American citizens. If we do, then we will truly lose what little freedom we have left to defend our homes, families, and properties--as well as our life and liberty--from being seized by the government.
+
+What is worth dying for as a human being? I offer you a suggestion if you are really willing to pay the ultimate cost for your freedom: revolution is the only solution. Why be scared to die when you are already dead? I found the truth, and that is that we have to be willing to die to live...

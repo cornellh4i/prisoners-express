@@ -1,0 +1,41 @@
+{
+	"name": "pe-app",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.14.1",
+		"@testing-library/react": "^11.2.7",
+		"@testing-library/user-event": "^12.8.3",
+		"concurrently": "^6.3.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-scripts": "4.0.3",
+		"web-vitals": "^1.1.2"
+	},
+	"scripts": {
+		"server_run": "cd api && npm start",
+		"client_run": "cd client && npm start",
+		"start": "concurrently \"npm run server_run\" \"npm run client_run\"",
+		"server_install": "cd api && npm install",
+		"client_install": "cd client && npm install",
+		"install": "concurrently \"npm run server_install\" \"npm run client_install\""
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

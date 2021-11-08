@@ -1,0 +1,21 @@
+# "Clothes" by Salvador Ibarra-Pena
+
+Last Updated: February 24, 2021 12:24 PM
+Month: 04 - April
+Original Document (Google Doc): https://docs.google.com/document/d/1uFCFXUCUQQ9ETZDwt4nxTd98pZuYH0jfedgQiPi6LL0/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2020
+
+**Clothes by Salvador Ibarra-Pena**
+
+Because of Adam and Eve, we are now aware that we have to wear clothes. The clothing we choose to wear leaves an impression, and not only that, as time changes so does the style of clothes. I was born December 25th, 1979 and my mother used to dress me like a young scarface, and even in a charro suit looking like a young mariachi. Then there was the 80’s, and I remember always wearing my Adidas, Pumas and other breakdancing outfits, and I would be dancing in the streets of East Palo Alto California, battling others that also wore similar clothing. They had different poses that wore different colors and brands, and that’s how you would know who they were with. Then came the starter jackets and Levi’s,and that’s when the EPA Mob and PLR’s were mobbin’ around.  PLR means Professional Low Riders, and EPA Mob was the East Palo Alto Mob. You could tell who was who by the clothes they were wearing, and then came the 90’s where everyone from EPA was wearing all black and black hoodies too. East Palo Alto back then was not how it is now. We were next to Stanford University, and even they have certain clothes they wear. The clothes I wore also had to do with the environment I lived in, and if you looked like you had money you were going to get robbed. I remember when I used to wear silk shorts in the 90’s with Dicky’s or Ben Davis derby coats, which were in when I was a teenager.
+
+In 1997 at the age of 17 my clothing changed because I committed a home invasion that ended up giving me ten years in prison. I ended up going from all orange in San Quentin State Prison to state blues in High Desert State Prison. Also, we were able to get clothes sent in a package by our loved ones like blue Levi’s and jackets as well as grey sweats, but no other colors. As time passed, the rules changed, and we were not able to wear or get any more personal clothing and even the state clothes changed. The shirts used to be button-ups and the pants used to have four pockets and look like Levi’s. On the shirts it used to say CDC, now they have put an R at the end for “rehabilitation” and I have seen more programs now than before.
+
+When you start to change your mentality, you also start to change the clothes you wear and I also can see how I used to be treated before, when I looked like a hoodlum, and now when I wear a nice button-up with a tie. Not only that, when you look nice, you feel nice and we all at some point in life have judged someone by the clothes they were wearing. Some people still do, so it is important to always dress yourself with respect to yourself and others.
+
+I’ll give you an example. I went out one weekend to a club in Palo Alto, CA. Whole different city and county, and after the club I went to my cousin’s pizza place called Pizza My Heart on University Avenue and it was about 3 am. There was this nice looking woman who was standing next to me with a very short skirt so you can almost see her behind and there was all these guys looking at her and trying to talk to her and she turns to me and says, “Why are all these guys bothering me and staring like they have never seen a female before,” and I said, “Really? Look at what you are wearing, plus you are a very attractive female and your behind is almost hanging out.” Then she said, “I know, but I don’t want these ugly guys looking and staring at me.” I told her, “Maybe you should wear a sign that says ‘only guys I find attractive can stare at my ass.’” She didn’t like that one bit and told me that I missed my chance. Chance for what, to lie? So be careful what you wear, how and where you wear it, because it can also cost you your life. The tongue is a powerful thing and the clothes you wear can say so much about a person. So beware of the clothes you wear.
+
+With all respect, Salvador Ibarra-Pena

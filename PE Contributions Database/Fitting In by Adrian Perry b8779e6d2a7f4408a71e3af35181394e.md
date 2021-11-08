@@ -1,0 +1,39 @@
+# "Fitting In" by Adrian Perry
+
+Last Updated: April 7, 2021 8:48 PM
+Month: 03 - March
+Original Document (Google Doc): http://prisonerexpressarchive.org/?mode=essay&file=FittingIn_Perry.xml
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2004
+
+Something frightens me about the words "fitting in", which coincidentally is the title of this essay, of course. And though this may seem an easy topic to write upon- I have found it at once demanding, yet still, a surmountable task.
+
+I suppose my reason for finding the topic demanding to write about is linked to the fact that I have always had my difficulties fitting in. Whether it was in a classroom, in a prison, or even on a dance floor -- I could never dance well -- and I'm black! So much for cultural stereotypes, mind you...
+
+At any rate, I knew that I would have to really think on this subject if I were to be able to write an intelligent discourse on it and at the same time enlighten my readers. And I thought that the most practical thing for me to do was to begin this undertaking by consulting Webster's dictionary, so that we may arrive at precise definitions of our terms: fitting, and in, respectively.
+
+Discovery: fitting in, as two words are not a compound term, will not be found as such in the dictionary. While this is not a startling fact, I confess that originally I had construed those words as a concept and I thought that I would find both words together lexigraphically. But that's okay, because our reviewing the words separately will facilitate a closer examination of the interrelationships between the words and how they fit into the context of our amiable discussion. However, as I stated earlier, my friends, something frightens me about the concept of fitting in! I perceive a coercive element in the idea of having to fit in. My question is, at what cost? What is the price that I must pay to fit in -- perhaps in your club or association? Clearly implicit in the concept of fitting in is a political slant, if you will.
+
+Let us now turn to Webster's. We shall first get a clear understanding of the word, fitting. Then we will get the relative definition for, in.
+
+Fitting: adj. suitable, proper, appropriate -- n. an adjustment to trying on of clothes, etc. for fit. 2. a small part used to join, adjust, or adapt other parts, as in a system of pipes...
+
+If the reader would pay close attention to the connotations of the underlined word above, he and she will notice that there is nothing in those terms that defines natural human intercourse. Every connotation connotes one mechanical undertaking or another. How can a human personality be suitable -- suitable to what -- your subjective likes or dislikes?! The same query must be ventured regarding a proper or its anatomical counter -- improper character and so forth.
+
+In short, if a human is a small part to be twisted, adjusted, adapted, to join, etc., we had better rethink our anthropologically cultural and social prescriptions. If people do not naturally gravitate in a particular direction, we should not try to make them fit. Meanwhile, Webster's offers over thirty different connotations and variations of our "in" word... but we will concern ourselves with only a few that fit into our talk. In fact, I think that merely one suitable or rather solid definition shall suffice that relates here: Any of various mass actions or gatherings of a (specified) type, as a political demonstration of a form of entertainment. In this instance, Webster's refers to words like "mass," "collective," "be in," etc. SO in this sense, one must be a part of the mass or of the collective to be in, aye? In any case, the problem is that the masses, so to speak, often feel that we all should adhere to the same social, political, and cultural views. And there is the conflict! For example, imagine yourself, good reader, walking through your city park in a blue-skied, sunny day. Simply enjoying yourself in nature's magnamity: the beaming, warm sun, green soft grass, lovely trees that seemingly reach the skies, and whatnot. And as you continue your stroll, you, by perchance, stumble upon an attractive crowd of Homo sapiens gathered on a patch of the park's friendly grounds. About ten people, men and women.
+
+So you, being a social creature, so to speak, venture amiably over to that unassuming group of people. "Hello," you say, as you assemble among them curiously.
+
+"High there, sir," says a man named Michael, who seems to be the leader of the pack. Then he tells you to sit down, and you do. Next, a fair lady in her sundress reaches into a cooler and draws from there a cold soda which she offers you, benevolently. Then, another man offers you a pamphlet that reads on its cover, "Support U.S. Patriot's War on Terrorism!"
+
+"Tell us about yourself," Michael says. "Well, my name is Lavelle. I'm a short story writer and a railroad worker. I'm off today and I thought I would enjoy some time alone in the park. Then I saw you noble people gathered here, apparently enjoying each other, then I thought I should like to join," says my smart reader whom I, by the way, have arbitrarily though expediently named Lavelle.
+
+In return, the leader of the pack informs you, "Lavelle, we're a group called Americans Against Terrorism. Would you like to join us in a political dialogue?" "Sure," you say, being a natural polemicist and a haughty debater. "Now, then," comes Michael. "Today, our question is: why not support the troops in Iraq. You see, Lavelle, in Iraq they are building weapons for mass destruction! We will find them, to be sure. Secondly we want those Muslim thugs over there in the Middle East to know that in America we will not be intimidated by their rag tag regimes! The "civilized world" will not be cowed by thugs, goddamnit!" Michael's face turned red as he pontificated passionately. "They are a threat to our national security, Lavelle. And our group is trying to do away with all of this dissonance in the homeland and foster a community of real national unity," he concludes. He also apologizes for getting so worked up.
+
+Then you, Lavelle, counters with, "Sir, what draws you to the conclusion that America is civilized in contrast to the Arab people?" "Come on," begs the leader of the pack. "America is a god-fearing nation. We are a democracy!" All the members begin ferverently clapping now. But you, Lavelle, are no pushover.
+
+"Wait a minute!" you declare indignantly. "I have a problem with you zealots negating the humanity of other human beings by inadvertently categorizing them as savages by implication." Then, suddenly, all the members' faces turn red, maniacal, and malevolent, and you, by instinct, know that you better get the hell out of Dodge. You should have minded your own damn business and enjoyed your simple walk in the park, aye?
+
+The leader of the pack, finally, after little deliberation, gets up and says, "I'm sorry Lavelle. You don't fit in, sir. We can't ruse you... now get gone! You unpatriotic, ungrateful swine!" The author hopes that by way of this short, friendly discussion and dialogue that he has shed some light on the coercive potentials of the concept of fitting in, if we hold it so rigidly. Meanwhile, I will leave my readers with a quotable quote from an 18th Century illustrious English philosopher named John Stuart Mill, who himself was a staunch proponent for individual freedom and free discussion. The following is an excerpt from his long 1859 essay entitled "On Liberty", a must-read for thinkers, and certainly for the narrow-minded nonthinkers. Mill wrote: "Human nature is not a machine to be built after a model, and set to do exactly the work prescribed for it, but a trec, which requires to grow and develop itself on all sides, according to the tendency of the inward forces with make it a living thing." Very well, then.

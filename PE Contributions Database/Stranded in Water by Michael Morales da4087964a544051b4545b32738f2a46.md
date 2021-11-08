@@ -1,0 +1,13 @@
+# "Stranded in Water" by Michael Morales
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 10 - October
+Original Document (Google Doc): https://docs.google.com/document/d/1G2vjLSRASHpI4B7mBP6wEs4AzsWnYJt-8Wc41WnHu1o/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2015
+
+**"Stranded in Water" by Michael Morales**
+
+I was at work and my wife was at home, pregnant with our first child. She calls me and said “Baby, it’s raining really hard and I’m so scared. Hurry up and come home.” I said “Okay, Baby,” but didn’t really take much thought about it. Well, I got off work and went by my uncle’s house to chill for a while. Well it started raining again, hard. It was getting dark now and I needed to make it home. So I jumped in my little old Buick Skylark and headed home. I get to the road to my house and there are cars parked and backed up everywhere. I saw the water and said, “Man, it’s flooded.” So I turned around and tried to go the other way. And it was the same thing, worse even. The wife is calling talking about how she is hungry and the power went out, so I was like, “Man, I need to get to her quick.” So I go back to my uncle’s and ask him to take me in his big dually truck. He says okay. My aunt gives me some food to take to my wife and we go. Well, his truck could not make it either. So I told him to get me as close as he could and I would walk the rest of the way. So he said “okay, this is it--get out!” I was like “Hell nah!” This is far, about a two and a half mile walk. He said you got to do what you got to do. So I get off the truck and go. The water was past my ankles. I had a bag of food in my hands and steel toe boots on. I’m passing up cars flooded out, people on top of their cars. The water was waist deep by now. I had the cell phone, cigarettes, keys, and wallet all in the bag on my head. This guy comes by on a 4-wheeler, then a jet ski goes by. I was tired and the water was up to my chest now. But I had to keep going for my family. I finally made it past the deep part and the water started going down. I still had a ways to go. Some guy in a big truck picked me up and took me a little further until the water got deeper again. Then I had to walk again. It was around midnight, and I had been walking, trying to get home for about four hours. Well, I finally made it home and my wife is mad, saying “Where the hell you been? Why haven’t you answered your phone? Where’s my food” and I was like “Man, I was stranded in the water!” She wasn’t even trying to hear it. She never believed my story, but it is the truth!

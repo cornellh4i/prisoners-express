@@ -1,0 +1,31 @@
+# “Do Black Lives Matter? How Much?” by Matthew Tomlinson
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 08 - August
+Original Document (Google Doc): https://docs.google.com/document/d/1UY55yWN4QGj9cA2csdZli8xuQxThyI37ZbTIdhtaVVI/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2016
+
+**“Do Black Lives Matter? How Much?” by Matthew Tomlinson**
+
+In the winter 2016 Prisoner Express Newsletter on page 18 Gary says, ”A picture is worth 1000 words, and that is the word limit we can accept for these selections.” Getty Images 322-8493 didn’t provoke me to generate a kilo-word product. What was there to say about a group of black servicemen in their Class-A uniforms? They were sitting around possibly receiving a briefing. What could be said of these heroes of yesteryear?
+
+Along came July 07, 2016 Thursday. Police had murdered unarmed blacks in Minnesota and Louisiana. During a Black Lives Matter rally in Dallas to protest the murders, five cops were killed by heroic Army veteran Micah Johnson. That provoked me to generate the following guest column for the July 15, 2016 edition of Amarillo Globe-News newspaper.
+
+Black Lives Matter? How much? To whom? The illuminating event in Dallas give us a preliminary ratio. It seems that two Black Lives Matter as much as five Blue Lives Matter. The media is unwilling to acknowledge the animosity between police and blacks, because that acknowledgement is racial profiling, Hate Speech. The antagonism between the concept that Black Lives Matter and Statutes proclaiming that Blue Lives Matter is nothing new. Acknowledge that this antagonism does exist. Assess how much of it there is. It’s not true that most black are criminals. It’s true that most criminals are black. Look up the numbers to find that most of my cohorts in Texas Department of Criminal Justice(TDCJ) are black, about eight of every ten cohorts. Black Lives Matter versus Blue Lives Matter controversy arises because some cops can’t differentiate. The fact that most criminals will be black doesn’t have inverse proportions: most blacks will not be criminals.
+
+Black Lives Matter… but not in Amarillo. At Bill Clements Major Psychiatric Unit(note well the name) TDCJ officials allowed a black to starve for about 60 days. In November 2015, cop-killer Alton Rodgers wrote his mother that his food was being poisoned. TDCJ Ombudsman from Huntsville quarters investigated. No action followed. In January 2016 cop-killer Rodgers died. The man was 6 feet 07 inches treetop tall and weighed 148 pounds when they did his autopsy. No significant action followed. It is true that TDCJ Major Rowdy Boggs was fired. Does that reincarnate cop-killer Rodgers? Does his mother, Gwendolyn Rodgers of Dallas, feel vindicated? Black Lives Matter...some. Cop-killer Alton Rodgers was worth enough that TDCJ Major Rowdy Boggs got fired. But that’s all.
+
+Let’s broaden the subject. In Orlando, a man went into a sodomite night club to murder 48 people. The FBI investigated the man’s wife. What did she know about what her husband planned? When did she know that? What did she do about that? The FBI investigation was swift.
+
+Black Lives Matter? How much? Any investigations of the murders of unarmed blacks by police in Minnesota and Louisiana is “ongoing”, you know. Black Lives Matter versus Blue Lives Matter became a vociferous competition for scarce judicial resources. The FBI at Orlando was prompt-sodomites got preferential treatment. Investigations at Dallas are stymied because police can’t number how many snipers there truly were Acknowledge that there were multiple snipers. Assess how Blue Lives Matters concepts were damaged. Not all snipers need guns. Black Lives Matter? Well, of course… and investigators will get around to Minnesota and Louisiana in the fullness of time. These matters have to wait their turns.
+
+Black Lives Matter… but not at Bill Clements Major Psychiatric Unit(note well the name) in Amarillo, and not in TDCJ as a whole. Cop-killer Rodgers, believing his food was poisoned, starved for about 60 days. What did TDCJ employees know?(answer: They knew cop-killer Rodgers had reported his food was poisoned, and that TDCJ Ombudsman from Huntsville headquarters said it wasn’t) When did they know that? (Answer: The report was in November 2015) What did they do about that? (Answer: In January 2016 they fired TDCJ Major Rowdy Boggs.) Black Lives Matter… but not much, to TDCJ employees. TDCJ Office of Inspector General Legal Assistant Susan Machutt said the investigation into cop-killer Rodgers’ death will “be open for quite a while”. (The newspaper story:”Autopsy: Inmate was starving when he died” by Aaron Davis, Amarillo Globe News April 01, 2016) Investigators will get around to doing something in the fullness of time. The matter of cop-killer Rodgers has to wait its turn, like the matters of the killings of the blacks in Minnesota and Louisiana.
+
+Black Lives Matter? How Much? Dallas Police Department has a parking garage nearby. At 1800 hours on July 09, 2016 Saturday, ABC Radio News reported that downtown Dallas had been condoned off again. A suspicious person was in the parking garage with a clear line of sight to Dallas Police Department headquarters. The area was searched. Nobody was found, of course. Police paranoia might be less when Black Lives Matter versus Blue Lives Matter controversy is nothing near the Irish Republican Army versus British troops conflict. IRA snipers killed many a Black and tan. Police could defuse the Black Lives versus Blue Lives stand off before it escalates to that level. We could measure how much Black Lives Matter by how much federal prison time the cops in Minnesota and Louisiana do for the murders they did.
+
+Do Black Lives Matter in Amarillo? We could tell Gwendolyn Rodgers in Dallas that they do, by pointing out how much federal prison time TDCJ employees do for the death of her son Alton Rodgers, and we could pray for her and her son. Let his needless death be the final needless death.
+
+That was my guest column for Amarillo Globe News Looking at Getty Images 322-8493 again, remembering heroic army veteran Micah Johnson, considering cop-killer Alton Rodgers’ needless death… do Black Lives Matter enough?

@@ -1,0 +1,13 @@
+# "Helping Hand" by John Naylor
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 07 - July
+Original Document (Google Doc): https://docs.google.com/document/d/1d54UE3ILomdE60S3uYMlo_fWwlDxxv8n2MZIUGZM5Nw/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2019
+
+**Helping Hand by John Naylor**
+
+I think back to a weird circumstance. My brother Andy and I had been enjoying a night at Fort Phantom Hill, Taylor County as I recall. It’s a manmade lake next to a privately owned fort from the civil war. And as forts go, it couldn’t sound more confederate. To be able to smoke and think is a right well eroded in America. So we often found ourselves about 20 or 30 minutes outside of Abilene, Texas. Students hang out there at night mainly. As parks in Abilene close early and have police patrols. So with enough trips, we saw some strange things. In one instance, I heard crunching like a cat eating food. The limestone, as it seemed to be as far as rocks go is intact nowhere. Large pieces about as big as a compact car sit around the edge of the lake. Placed by machinery or erosion. It’s hard to say. There are spaces between them. In the back of my mind, I know there’s a probability of Western Diamondback rattlesnakes. I hear them at times like the worst trips coming to reality. Get a grip. Investigate, with a light if need be. It’s to our right. So I’m apprehensive for every obvious reason. There’s a light by the boat ramp. We enter the area there as a defensive measure. If a creature would ‘exit stage left’ that’s probably the way I’d go. Into darkness. I was in shock! Not one or two cats as it sounded. No that’s too sane. Instead it was at least a dozen skunks and they’re eating large black crickets between the rocks. Going around them like a corn maze! I’m wondering why I didn’t smell skunks really strong. They’re at peace. That’s why, just eatin’ crickets. Just bold skunks benefitting from a large streetlight. Over the years, we experienced some odd times in nature due to wildlife or whatever seemed out of the ordinary. Living in Texas wouldn’t be forever. Just chillin’ and learning. Looking back, I get the large group of alumni on Abilene Christian University’s campus. Sure I couldn’t graduate due to the incarceration. Still, I think it sounds better than being a college dropout. Yeah, high volume, high information classes are hard. As it stands, I look forward to an appeal that should free me from prison. Time on God’s standard is hard. Still waiting on a “helping hand”.

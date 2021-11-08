@@ -1,0 +1,23 @@
+# The Station
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 04 - April
+Original Document (Google Doc): https://docs.google.com/document/d/1Gkz_UABKQ8NKo1zNJ_A7VzDjnOa6-g_g-AtJsSA7yqw/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2016
+
+***The Station* by William Andrews**
+
+****The bell dinged twice. A customer waiting at the pumps, again. I blew the smoke out the bathroom window, rinsed my hands in the old sink, and opened the door. Stoned again. I put on my shades and faced the chilly air blowing alongside the station. It was my first job that took taxes from my weekly check, not counting the job I had in reform school cutting grass around the institution which paid too. I was 16, almost 17, working at “The Station” as everyone who had any doings with it referred to it. Pumping gas and fixing tires was the main reason I was hired, but so much else filled my time there, leaving a lifelong impression on me. I was once an ESSO in the early ‘60s, and maybe even the ‘50s. It seemed to be ancient even in the ‘80s when it was a Texaco with two service bays, with inground lifts, a glass walled front office to the left, with the bathrooms around the side. The station sat a few blocks away from the Maryland/DC line on the Maryland side on what was once called Palmer Highway but is now another MLK Boulevard. A high crime area where in the ‘80s, crack was making its debut in full glory. Even the Mayor of DC partook in inhaling while spending time with a paid whore in a motel room and eventually getting stung. The murder rate was soaring above 500 per year in the smallest of cities. All said and done, I believe he was sitting on City Council some years ago--go figure.
+
+My boss was named Woody, Woody Peacock, owner of the place, and he did most of the towing for the police department in that area. It held the highest police brutality rate for a while.
+
+When my day was done pumping gas, there was not much a white 16 year old had to do, not in that area, especially since I had not yet bought a car. I’d hang out at the station many nights, and as the night fell upon the streets, the accidents and wreckage would mount. I’d ride along with the night shift tow truck drivers, helping them hook up chains, hook, and sling to the cars, cleaning up around the wreck scenes with flares burning. We had a police scanner that squelched out the nightly mayhem. Our ears perked to catch the call by the P.D. dispatcher and cop on the scene. “Call Palmers,” we’d hear, and by the time they did, we’d already be en route, as Woody would say into the phone as soon as it rang. Upon getting on the scene so quickly, we’d sometimes even beat the ambulance and see the carnage and/or removal of victims, or whatever remained of them. My first exposure to death, au natural.
+
+We’d also tow crime scene vehicles left by prey, some by predator, and so we’d not touch anything unneedingly, honoring the tape yet climbing over it. We saw realities that Hollywood learned to pretty up and glamorize on TV. I learned how ugly real death can be at an early age.
+
+A fairly rotund and stationary figure, Woody basically lived there, and night or day, he would be found horizontal on an old bench seat out of a band converted into a piece of office furniture. He may be asleep, or he may be playing opossum; you’d never know since he’d listen to the scanner and the chatter around him. He’d wear a pea green Texaco uniform, though everyone else usually wore jeans and work shirts. Woody would also puff a cloud from his pipe, saturating the area with the scent of pipe tobacco and looking like a Captain of a Whaler ship about to embark. Though he was usually planted, he was still able to move like a bear when he meant business, all 400 pounds of him would become a wrecking ball, if needed, with some unruly straggler who’d happen upon his kingdom or even with hired hands. He kept a .357 snub nose nearby, though I never saw him need it or use it, but I heard stories about him back in the day. I think things were mostly understood by those in the area and in his circles: don’t start any and there won’t be any. There was always some underlying drama, and I never figured some of them out. Lots of history and secrets were stored there, never to be told.
+
+My dad used to work for Woody in the ‘60s before I was born, then on and off. He got too lost in the bottle and never got himself back together. Woody and a detective friend of his broke the bad news of my dad’s death to my mom and me one hot June evening. I felt numb, never expecting that. It changed how I saw life and maybe changed how those at the station saw me. Things were different after that.

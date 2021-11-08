@@ -1,0 +1,27 @@
+# "Simple Pleasures" by Laboddy J. Ramsey
+
+Last Updated: April 13, 2021 12:16 PM
+Month: 04 - April
+Original Document (Google Doc): http://prisonerexpressarchive.org/?mode=essay&file=SimplePleasures_Ramsey.xml
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2004
+
+**"Simple Pleasures" by Laboddy J. Ramsey**
+
+When I discovered the upcoming subject was simple pleasure, the only notion that surfaced to the forefront of mind was the talent I have as a writer: I take pleasure in writing; the art itself is simple.
+
+For many people, simple pleasure is a spare-at-the-moment thing added with the force of attraction behind it. That means simple pleasure can be taking a walk, chewing gum, smoking, drinking, sleeping, watching TV, or observing nature, therapeutic massages, calisthenics, meditating--but only a few that requires the law off efficiency, so to speak.
+
+Furthermore, simple pleasure may unfold in conveying a message of love to someone whom we adore; or giving thanks to loyal friends; or to render an apology to the person it is earnestly due; and it can also be forgiving someone for their trespasses against us. We most certainly take pleasure in being forgiven! If you are an altruistic individual, then perhaps going out of your was to assist someone else is simple pleasure enough for you! Well, hell, besides all the above, I take pleasure in writing in general. Writing my thoughts on paper never fails to manipulate my mind, freeing it from its boundaries. Remember the nightmares we used to have as a child (of no certain age). Naturally, as in any case we deemed dreadful at that vulnerable time, we'd run to our parents, or for some of us it's our grandparents we'd run to and cry in fear of impending danger. We doubtless found comfort in their arms. They'd wipe away our tears, soothe our fears, and assure us the nightmare is over. By the same thesis, when beset by despair, and up against and ordeal, I turn to expressing myself through writing. For one, it accommodates me, allowing me to confront the problem head on in advance. This was I can view it from a distance; then I'm able to sort through all the chaos to find the solution instead of facing the impediment trend of brainstorming. Or when I'm face to face with one of my greatest fears, the art of writing it all down soothes me. If I'm ever agonizing over a contemporary situation, I sit to write it out in maybe two or three poetry pieces in the same way I do to avoid crestfallen moments.
+
+Not much of an effort is needed to scribble several literate words on paper to express yourself. Through its technique, the opportunity to explore the art, I see it to reality to deem it as simple pleasure. At any given moment, taken a pen on paper in expressing myself and transporting most of my hidden thoughts on paper is pleasurable. For any writer with a fertile imagination compacted with vividity, simple pleasure will ultimately come in the form of writing, and not as a hobby, which is something one does as an amateur or when their bust schedule provides one with enough time. The writer writes because they love to write. We simply receive great pleasure from what we accomplish as a writer. Writing is our simple pleasure. It's like the air we breathe: we won't live without it!
+
+If you own a diary or even a chapbook, then you are aware of the pleasure acquired through writing. You know just in one sentence, you can express love or hate, happiness or sadness. Which ever comes first, you find it is more bearable to express ourselves. This brings pleasure and contentment. Accompanied with just enough imagination, a paragraph can take you outside the space of your domains into a world more suitable for you. I will even go so far as to say writing is equally pleasurable with the art of controlling your dreams to befit your outcome. Or the technique of traveling in one's spirit to places you've always wanted to visit on any occasion.
+
+Daily I welcome myself to a world where I'm fully in charge, where only my laws exist, where there is love, peace and harmony, and where happiness supersedes sadness by a large margin. When I exploit my creative writing, I'm likely to be anyone, be anywhere, having anything, and capable of doing whatever. No one is there to stop me--whether if it depicts beauty or heniousity. Who said simple pleasure has to conform to morality. On the personal level it regards no strictures or anyone else's opinions, and will take none into account.
+
+Simple pleasure of this kind is hardly ever limited; as it takes on a variety of forms to bring you pleasure. Needless to say, if proficiently applies, it can also be accommodating to relieving stress itself. Also, if I'm not taken the pleasure in creative writing, though other techniques of writing I can destroy the monsters I created, the image I gave it, rectify the problems I caused, demolish the troubles I've made, and heal the hearts I've broken. Why? Because it is simple pleasure to do a good deed, to be the origin of positive results or to be the reason someone is able to smile again, all through writing.
+
+I am a novelist, a poet, and screenwriter, and for me, living up to those attributes at 100% is absolutely simple pleasure for me.

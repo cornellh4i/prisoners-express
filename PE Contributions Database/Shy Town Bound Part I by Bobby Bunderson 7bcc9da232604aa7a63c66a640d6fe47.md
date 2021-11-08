@@ -1,0 +1,25 @@
+# "Shy Town Bound: Part I" by Bobby Bunderson
+
+Last Updated: February 21, 2021 4:49 AM
+Month: 08 - August
+Original Document (Google Doc): https://docs.google.com/document/d/1ODAVYJ-wJG15y6Gs9QV79LXgE3PH-CwHuAzIBIXobz0/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2015
+
+"**Shy Town Bound: Part I" by Bobby Bunderson**
+
+****Each morning after work I stopped by the local 7-11 store and bought a four-pack of Bartles and James before heading down to the ferry dock, where I would spend about an hour unwinding. I would sit on the corner of the dock drinking a wine cooler and smoking a fat doobie which I could never finish. Somehow watching the ferry tote cars back and forth between Mukilteo and Whidbey Island was comforting to me after my twelve-hour shift at the bakery where I worked in Juanita, Washington. Besides, I dreaded going home. The scene was always the same; my mother-in-law would be parked at one particular end of the couch - smoking hand-rolled cigarettes, working on a crossword puzzle and watching a game show on television. My three-year-old daughter Kriste would hopefully be awake so that she and I could spend a few hours together before I myself had to get some sleep and of course my wife Patti would be in bed until noontime.
+
+I guess you could say that I was in a rut. I hated my mother-in-law deeply. I rarely had an opportunity to see my baby daughter, and my relationship with my severely depressed wife consisted of an hour a day just before I dragged my tired ass out the door and back to work for another twelve-hour shift. I was lucky to have sex once a month with my wife then the planning it took to coordinate the event was exhausting.
+
+So my thoughts drifted to the cashier at the 7-11 as my thoughts often did. Her name was Jacque and she was “Da-Bomb!” Jacque was about 5’10”, 130 pounds, green eyes, long, brown, curly hair and legs so beautiful they managed to keep my eyes off of her perfect breast. As I sat there on the dock, my head pleasantly swooning from the effects of the pot and alcohol I decided “Screw it!” and headed back up the Mukilteo speedway to the 7-11. I walked up the counter and asked Jacque out on a date. She seemed a little confused at first but said okay. I knew she had seen me with my wife on a couple of occasions but I was such a polished liar by this point in my life that I felt comfortable enough in my ability to ad-lib a nice yarn. We dated for two days and then I simply moved in with her, leaving behind my wife, daughter, and mother-in-law.
+
+Jacque lived in a modest two-bedroom apartment on Casino road about four miles from my house in Mukilteo. Her roommate had recently moved out and she had been actively seeking a replacement. Together Jacque and I decided on this guy named Dan was working as an electrician for Boeing. Dave seemed pleasant enough although neither Jacque nor I had any clue about the “dark” secret that he harbored. It took about a week for Dan’s secret to become exposed. Dan, it seemed was very fond of “freebasing” cocaine. It had been nine years since I last danced with that demon. However, the temptation was too great. Overnight my life was once again in freefall.
+
+I met Dan’s supplier, Dave, and quickly became his right-hand man. I “collected” from people who must have thought that cocaine was free and I also became an “appraiser” of sorts. Many dealers have to settle for an endless stream of merchandise as payment. I was responsible for setting an equitable price on this merchandise. I was living "La Vida Loca". I had an unlimited supply of powder cocaine at my disposal and an endless line of desperate women willing to do anything I asked for a few lines. I left Jacque and this twenty-four hour a day party had become my new life.
+
+Dave called me up to his “office” one day and told me that he had a new “assignment” for me. Dave sat me down, pulled out five thousand dollars and forty-two grams of cocaine and told me that it was mine as long as I “got rid” of his wife Becky. Without hesitation, I scooped up the payment and told him I’d take care of it that very day. I went downstairs and asked Becky to go on a few errands with me. We went to a local watering hole called the Ponderosa, ordered a pitcher of beer and then I told her about my “contract” with Dave. Of course, I had no intention of carrying out such a grisly act and explained that I was on my way to Chicago and that I would give her half of everything as soon as she told where I could drop her off safely, far, far away from Dave. Becky was afraid. Not of me, but for the fact that Dave had actually wanted her dead. She told me that her sister lived in Coeur d’Alene, Idaho and Dave had never met her. So we began the journey eastward across the state of Washington.
+
+We decided to stop for the night in Spokane. We rented a nice room at a nice hotel and Becky showed me the gratitude she felt for saving her life.

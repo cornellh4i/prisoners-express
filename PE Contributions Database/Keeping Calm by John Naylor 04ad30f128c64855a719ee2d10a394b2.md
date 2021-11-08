@@ -1,0 +1,13 @@
+# "Keeping Calm" by John Naylor
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 08 - August
+Original Document (Google Doc): https://docs.google.com/document/d/1RVkUeGSaw6_rVxdAqYNpSFpZx_b2l7Dq4KE2CXZCCag/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2017
+
+**Keeping Calm by John Naylor**
+
+In highschool I had some problems biting my tongue. Even if it didn’t make sense to others. Like a rude driver in traffic. I felt justified. I mean ‘look what you’re doing to me.’ I haven’t been violent in traffic. That’s discipline right? Oh bavely. Adults always told me I was growing and had to be careful with my feelings as it could cause me legal trouble. Especially Mom and Dad, and yes my brother too. Apparently free speech is a first amendment right. Perhaps it should be a more protected right when life seems to park you under a metaphorical outhouse. So years later, in prison people saw my last event in the wrong light. My discipline, even if it was by the short hours of my neck, was gossiped about! Can you imagine? The misconception! Surely it wasn’t just me. Though at times it felt like I was the only one parked under the outhouse. Their evaluation was unethical and immoral. As you can imagine, ethical and more standards don't hold a large sway over prison life. I knew I could still benefit from classes though. So now I’m a graduate of anger management I, II and III and veteran’s process group. In time I hope to graduate from the programs as my involvement deepens. I learned my family’s evaluation was right. A lack of discipline could land me in jail. Evening in prison. I’m glad I took the time to learn about anger and processing my emotions. Not hurting people isn't the trophy in anger management, but it is a good start. I feel much healthier. I’m better for applying myself to improvement. Even if I felt being hot headed was masculine, hard and respectable in high school. Sometimes our peers greatly encourage the behavior so it seems fully acceptable. Though we must ask ourselves what the greatest ship is without a simple rudder? If you’re so predictable, others may out maneuver you leading you into various perils. No matter if you win or not in such internal struggles, what others think, you feel or what you were taught if you cheat the man in the glass. Be true to yourself, be a man, or a woman for that matter. I appeal to you as individuals to learn more about discipline. Prison, even death vow is filled with those who didn’t. What man can’t do inside and outside of himself God can.

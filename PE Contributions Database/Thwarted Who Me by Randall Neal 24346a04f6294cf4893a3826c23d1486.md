@@ -1,0 +1,35 @@
+# "Thwarted? Who Me?" by Randall Neal
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 11 - November
+Original Document (Google Doc): https://docs.google.com/document/d/1jpxecwYOAteuw6KSMvbdieIXeiG5v5obb-DJnQDaSPg/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2017
+
+**“Thwarted? Who Me?” By Randall Neal**
+
+****Thwarted? Who me? Well maybe to the blind eye that sees me serving a 35 year sentence in the great state of Texas, the answer would appear to be yes! Although sometimes the question asked can produce a deceiving answer. Perhaps if we re-phrased the question and asked--Am I thwarted or have I been set free?--Now there’s a question worthy of an eye opening answer! For me to give an honest answer I must delve into the spiritual world that many don’t care to visit. Why do they not care to visit this world? Why should they? After all, look what all this world has to offer us. Right? Allow me to explain what this world had to offer me as a child and perhaps you may see a reflection of yourself in my mirrored image.
+
+At my earliest childhood remembrance, (5 years old), I attended a little country church with my Dad’s parents. My hair was white as snow at the time so the preacher and congregation called me Cottontop. I vividly remember my favorite song in Sunday school class. “This Little Light of Mine.” Everywhere I went I would hold up my right index finger, (even though I was left handed), whirl it in circles and bellow out the words for the whole world to hear. For the most part I was a benign little boy that loved to emulate my Grandpa and Grandma Neal. Their zeal for God and people alike was unmatched to anyone I had ever met. Especially my parents who never served God.
+
+Just after my sixth birthday, an evil darkness began hovering over me and trying to put out the little shining light. My mother left my dad and I found myself moved away from my grandparents and living with a man I had never met. They had moved me to another town far away from my grandparents, my Dad, and the little Country Church I loved to attend. I had been catapulted from a life of light and love, into a life of darkness and confusion. I tried to let my little light and love, into a life of darkness and confusion. I tried to let my little light shine but many sleepless nights left my pillow full of tears. I missed my dad and grandparents to the point of hating my mother and her new husband for taking me away.
+
+Then they moved me all the way to Memphis, Tennessee where I felt alienated from the rest of the world. That soon changed the day I met Janie. I had just turned eight and she was six. The two of us became inseparable and even began pretending we were husband and wife. Our neighbor whose kids had long moved away let us play in the treehouse in his backyard. This ultimately became our pretend home. One day Janie hadn’t come out to play so I went to her house for the first time ever and knocked on the door.
+
+A young woman answered the door and invited me in, she led me into the living room where a man was standing beside a camera sitting on the top of a tripod. Janie appeared from the back of the house and she looked scared. She told me I probably should go home but the man smiled and told me to stay. The next thing I realized, the man was taking pictures of Janie and me. The young woman began instructing us on what they wanted us to do. We were instructed to fo things to each other no child should ever know how to do. As I lay on top of janie tears were streaming down her face as well as mine. A morbid darkness was engulfing our souls and minds. We were then instructed to get dressed and told that if either of us ever told anyone we would be killed and so would our families. I never knew who the grown-ups were.
+
+At the tender age of ten, I was moved away from Janie with whom I shared a type of love
+
+with like no other person in my life. After arriving in Kansas, I spent many more sleepless nights crying for Janie. I was introduced to marijuana and told that it would make me feel good. It did but there was a major drawback. It made me think about the things I missed doing with Janie. At the age of eleven, I was introduced to cigarettes and alcohol. My young life continued to spiral into a web of darkness I couldn’t escape.
+
+By the time I turned sixteen I met a girl named Karen who was almost a spitting image of Janie. She was fifteen and our parents agreed to let us get married. After three months we had the marriage annulled. I then got caught up in a whirlwind of girls, sex, drugs, cigarettes and alcohol. I had been taught, along with Janie that sex was love and I loved lots of girls. At the age of 24 I met Julia. She didn’t look much like Janie but my heart fluttered when I first looked into her hazel eyes. We married, had two children, then divorced. My world was torn apart to the point of no return. Again, I found love in drugs and alcohol but no girls. For seven years I stayed single. The no-girl-clause I had set for myself only lasted one year. Again, I showed many girls how much I loved them.
+
+Then I met Becky. She favored Janie in a lot of ways and I was determined to marry her. We stayed married for 11 years then got divorced. My third divorce and my fourth destroyed home. I hit rock bottom and allowed drugs to overtake my mind. Soon I felt as though someone else was running my life. I no longer had control over any emotions, my heart became a heart of stone. I no longer feel love or give love.
+
+After three marriages, two children, and twelve grandchildren, I found myself alone and spiraling even deeper into a life of lies and deceptions along with my drugs and alcohol. I spiralled into a world of self-pity and loneliness like I had never known. Ona drug induced stupor I made a mistake that cost me a 35 year sentence behind bars. I felt thwarted to the point that I wanted to die! That night in County Jail I met Jesus Christ and He assured me that if I confessed my sins to the father in heaven, He would forgive me and set me free! I began reading the Bible a Preacher gave me and learning how to become a child of the living God. I’ve been living my life for Jesus and He has turned my heart from stone to flesh. He has taught me how to love the way God loves me.
+
+I have learned to forgive others and show them compassion like my Savior has shown me. When the spirit of God comes into your soul, your moral thoughts will be transformed immediately. You will see sin for what it is, nothing but darkned lies and meaningless deception. You see, Jesus let me out of the darkness into His marvelous light of love and compassion. So to answer the question--am I thwarted or am I set free?-- I can only answer by saying this; God has graciously re-kindled the little light that once became darkness. Jesus Christ has set me free to once more twirl my finger in the air and sing.
+
+“This little light of mine, I’m gonna let it shine! This little light of mine, I’m gonna let it shine! This little light of mine, I’m gonna let it shine! Let it shine! Let it shine! Let it shine!”

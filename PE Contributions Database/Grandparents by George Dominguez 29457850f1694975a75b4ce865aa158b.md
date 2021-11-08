@@ -1,0 +1,13 @@
+# "Grandparents" by George Dominguez
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 05 - May
+Original Document (Google Doc): https://docs.google.com/document/d/1ikASSyU-Fh2AJgjfZnL_UGF_o0xpbtHc6G3hBewX-LI/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2016
+
+Grandparents by George Dominguez
+
+Well, I love both my grandparents. I remember living behind my mom’s mother, in San Antonio. Sometimes I could spend a night at grandma’s house with cousins. Before going in, we would play outside until midnight. Of course, it would be on the weekends. When we were called to come in, we would make-believe we were asleep. We would stay up talking and mess around under the sheets without anyone knowing. Then, in the morning, we would wake up to the good smells of bacon, salchichon con huevos, and homemade tortillas. We kids would get up, make our beds, wash our faces, brush our teeth, turn on the TV to watch the cartoons, and then my grandma would call us to the kitchen to eat our breakfast. Whenever I would come home from school, my grandmother would be sitting outside with a cup of coffee. She would ask me how was my day in school. There were some things I could talk about with my grandma that I couldn’t with my parents. I miss her a lot, and my other grandma, my dad’s mom. I had both my grandma and my grandpa. I liked going over because my grandpa would give us a quarter or 50 cents. Back then, you could buy a lot of candy with a quarter. That was back in the 1960s. My other brothers and I would get to spend a night at my grandparents. We had moved just across the street from them and we would go see my grandparents a lot. While we were living there, my parents dropped a bomb on us: that we were moving to Lubbock. I kept telling them I didn’t want to go because I had my friends, a girlfriend, and a lover. I was 12 when I decided to leave home. A couple weeks later, I ran into my uncle. He told me to go see my grandma. She told me I could stay with her. I really, in a way, did want to, but I had a lover I was with and his uncle let me stay there. Plus, my girlfriend lived right next door to the friend I was staying with, and I would be with her every day. Then, my grandparents told me that my mom called and said that they were planning to come to San Antonio, but to not say anything to me. I was 14 then. I told myself I think I’ll go back with my parents, because I knew the law was looking for kids breaking into cars and houses, and I was scared. So I told my grandparents, but I never told my girlfriend, friends, and lover that I was leaving. Having grandparents is a blessing because they’re there for you, no matter what. I love and miss my grandparents.

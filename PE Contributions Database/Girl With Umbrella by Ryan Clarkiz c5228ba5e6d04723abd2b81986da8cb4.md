@@ -1,0 +1,27 @@
+# "Girl With Umbrella" by Ryan Clarkiz
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 01 - January
+Original Document (Google Doc): https://docs.google.com/document/d/1y664uvdeUEtNy00of_nH4V1UKB8PxHNolru6nlGOfGI/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2016
+
+**by Ryan Clarkiz**
+
+The soles of her sneakers slapped the sidewalk with each stride. Though her legs ached and her lungs burned, Evelyn kept running. She was in her element. She did her best thinking on long runs, and she had a lot to think about. Chief among her problems was that she had not heard from her partner, Deb, in two days. They split up after the job and were laying low, but the client called and wanted to make the drop earlier. Deb went to negotiate terms due to the change in plans, and the client insisted upon an in-person meeting.
+
+*Something went wrong*, she thought as she glided over the pavement in long, controlled strides. Maybe the client didn’t show, or maybe they went back on the deal. Deb wouldn’t cut her out, would she? Her pace was steady, and her rhythm never faltered. By the time she reached her building, she talked herself into waiting until dusk. If any of the scenarios playing in her mind had actually happened, Evelyn would disappear into the night. Until then, she would sit on the files. At the end of her run, she looked back at her route then up at the sky, a threatening shade of gray. Evelyn went inside as the thunder roared.
+
+The building was so old that there was no elevator. Evelyn took the stairs to her third floor apartment which was a safehouse that the pair rented on a month-to-month basis. If Deb cut her out of the deal, how could she be found? How could the client be found? As Evelyn reached the second floor, she thought about where to start. She knew “Deb” wasn’t Deb’s real name. Evelyn Hall was the girl that picked on “Evelyn” through grade school. Deb could actually be anybody. That’s the way this type of business works: aliases, safe houses, numbered accounts, anonymity. But there is always a way around if you know where to look.
+
+She got to the third floor, took two steps toward the apartment and froze because the door was cracked open. The only other person who had a key was Deb, and she’d never leave the door open. Evelyn turned back toward the stairs, reached up to the exit life, and withdrew a small, silver pistol with a silencer attached. The fun was very James Bond looking because “we gotta look the part,” Deb said in the store. To that, Evelyn said, “What happens when we gotta act the part?” Standing in the hall, Evelyn couldn’t remember what Deb’s answer was. She took a breath and slipped through the door, noticing an unmoving Deb laying on the floor.
+
+Adrenaline coursed through Evelyn like a racehorse: she rushed to Deb’s side and shook her partner. Her hands came away red and sticky. Evelyn knelt there, gun in hand, waiting for the scene to make sense. A storm began to howl outside. Evelyn almost missed the voice the hall over the rain and the sound of her own heart in her ears. “...safe was empty, she tried to run, so I handled it. I’ll bring the other one to you, so be ready.” Evelyn had a feeling that the “other one” was her, and so she turned and aimed the gun at the door. What happens when we gotta act the part?” She heard the door creak, closed her eyes, said a quick prayer that sounded like “Oh God” and emptied her gun in the door’s general direction.
+
+Evelyn stopped screaming when she realized that her screaming was the only noise in the apartment. She opened her eyes. The grabber was in a clumsy heap leaning against the fully opened door. Hsi phone was in his hand, and a call was still connected. It definitely was time to move. “Did you get her? Did you get the files?” She heard a voice yelling from the Grabber’s phone. She ran over and ended the call. The files were still here. That was her only lifeline; she has something they need.
+
+Evelyn went to the small bedroom, changed out of her running clothes and slipped on jeans and a t-shirt. She had to step onto the bed to get to the air duct. SHe pried off the grate, reached into the duct, and pulled out a small safe. The tall, green gun safe in the closet was just a decoy while the safe in her hands was the real prize. In it was $200,000 cash and four sets of fake identities including passports, driver’s licenses, credit cards. The safe also held two more guns, two prepaid phones and the thumb drive that would either save her life or get her killed. She emptied the contents of the safe into her gym bag. She made sure to take her laptop too. On her way out, Evelyn stopped to look at her partner and said, “Sorry I didn’t trust you. Sorry this happened to you.” She would cry later.
+
+Evelyn stepped over the grabbed, staying well clear of his hands, to get to the raincoat and umbrella on the coat rack. The raging storm was now quiet pitter-patter against the side of the building. Downstairs, she opened the umbrella and stepped out into the rain. Where was she going? How would she get there? What’s in that file? One thing at a time, she thought. That’s how to finish a long run: one foot in front of the other, one step at a time.

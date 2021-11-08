@@ -1,0 +1,21 @@
+# "Tuned In" by Joseph Alvin Parrish
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 02 - February
+Original Document (Google Doc): https://docs.google.com/document/d/1KUQC7R2YsBcPCdC_OMDhOLuhaBhemk_Ea-MvvzXYkwQ/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2018
+
+**Tuned In By Joseph Alvin Parrish**
+
+I have denied myself. I have taken up my cross, and now I am following him for the long haul. I am tuned-in. Have you made any decisions about your life, and the direction you’re headed in? Have you put God into the equation? Do you seek him on a daily basis? Tuned-in, or are you just going through the motions with him, being not really sure but just hoping against hope that there is truly a God out there somewhere who is committed to revealing himself to you? Do you really believe or are you just banking your shot? Do you call on God when you are in trouble, when your back’s against the wall? Do you like to fret or have anxiety attacks? Can you recall a time laying a crucial request before God perhaps a life and death matter, and you expect something fast and spectacular. Instead God often directs us to keep walking around that jericho day after day, repeating the same old fundamental steps while nothing seems to happen. Oh it will. We must never stop believing, it will but in the meantime we’ve got to remain “Tuned-in” We’ve got to keep walking and keep circling no matter how many times we’ve done it before and no matter how many times we’re yet to do it. Just stay tuned-in.
+
+I am relating to you on a christian experience. I have accepted Jesus Christ into my life. I am no longer alone. I don’t have to do anything in my own strength. I now have to do anything in my own strength. I now have help. That's why it's so important for me to stay tuned-in. I can do all things through Christ who strengthens me Phil. 4:13. I have lived too much of my life in defeat to risk living in the gray zone. A long time ago I had to quit giving myself the option of whether or not to rise for prayer. Spend time in the word that day, or attend and serve my church consistently. These fundamentals are part of my life. They are his will, and to do otherwise no matter how i label it is disobedience. I'm tuned-in. Within those fundamentals God gives me lots of leash to exercise my need for passion and drama. Though my morning almost always begins in the same old prison cell, and my bunk (or bed) it might end in the dayroom, with two noisy T.V.’s competing to see which one will be heard or captures someone’s attention. Really it’s a big distraction but I must at all cost stay tuned-in to the praise and worship of my great God and King. Everywhere I go I must be mindful to keep my focus and stay tuned-in to those spiritual exercises that nurture a well balanced spiritual diet. Do you catch my drift? Remember don’t give up, stay tuned-in. Even when it seems as if nothing’s changing, day in and day out the fundamentals are the way I march repeatedly around my Jerichos. Unlike Joshua and the Israelites, I never know when my present Jericho is going to fall. I just know that I’m to keep believing and keep marching. When the time is complete the wall is going to collapse. When the Israelites marched around Jericho their seventh trip around on the seventh day could not have seemed any different from the rest with the exception that they were wearier. Why did God purpose for the wall to fall on that particular round?
+
+Simply because it was time. Beloved, God is not tired of you. He delights in your attention even when you practice them much like you did yesterday. He waits for you to awaken and He anticipates his time with you. When you or I ignore him, He is disappointed. Somehow, in His self-existent essence, and omniscience, His fore knowledge does not cheat Him of reactive emotion. When you speak to Him, He honors you when you persevere with Him. In all the changes He is making that call for blessed sameness, let’s stay faithful, you and I. Let us not become weary in doing good for at the proper time we will reap a harvest if we do not give up. Gal.6:9
+
+And so let’s stay tuned-in.
+
+Thank you! I love you.

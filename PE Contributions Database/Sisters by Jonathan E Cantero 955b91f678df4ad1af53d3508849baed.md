@@ -1,0 +1,23 @@
+# "Sisters" by Jonathan E. Cantero
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 10 - October
+Original Document (Google Doc): https://docs.google.com/document/d/17BIPXQ9yTkcOVdcbk-aZW_PmUKhexOasBBit0gO1dAM/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2019
+
+**Sisters by Jonathan E. Cantero**
+
+We all have a vocation - a calling in which we may best serve our fellow man and our God. Some are sisters called to consecrated life, some are called to live out their baptismal promises more fully as a member of a secular or religious order like the Carmelites, Benedictines, etc., and some are called to family life as wives, husbands, sons, daughters, sisters, and brothers. In this essay, I’d like to honor our sisters who not only play vitally important roles in the daily rind of our secular lives but who also are an often unappreciated blessing in our spiritual lives.
+
+Women consecrated to serve God by vowing to live by the evangelic counsels of poverty, chastity, and obedience are who the Church officially designates as sisters. They have a consuming desire which they have discerned as the calling of the Holy Spirit to surrender their lives in the service of God. Nothing short of this sacrifice of mind, body, and soul to God brings them peace and satisfaction. Depending on the community, they devote themselves to prayer, service, meditation, charity, and/or missionary work. These amazing sisterhoods bring honor to God and stand as one of the final bulwarks against the tide of indifference towards the Holy Scriptures that pervades our society. Who knows but that they are “the ten righteous” who by their presence and the depth of their faithfulness forestall God’s judgment?
+
+It was a sister (who by sister not by virtue of her ritual consecration but by the genuineness of her love) who led me to embark upon the Way of Carmel. She showed me every week as an extraordinary eucharistic minister at Okaloosa C.I. what the pursuit of holiness looked like as a Carmelite. It looked like someone who didn’t take offense from the crass comments and actions of inmates but who forgave beyond seventy times seven. It looked like someone who spoke blessings into the lives of the people she just forgave. It looked like someone who never missed a scheduled service despite what the chaos of life threw at her because the small group of inmates attending Catholic service depended on her to bring them the Bread of Life. And because of her and her commitment to the Carmelite Order, I decided to pursue (felt called to pursue) formation into the Carmelite Order. Carmelite formation is a lifelong journey during which I have experienced some bumps and bruises but which has also become a great blessing.
+
+Then there is my sister, my blood-relative from the same father though different mothers. My baby sister whom I cherish. Growing up, if we were to go somewhere and she couldn't come then neither did I want to go. I didn’t care that my step-brother complained that she would cramp his style. I wanted her to share our experiences and to have as much fun as we were going to have. She was the only girl in our family and I didn’t want her to feel isolated or left out and lonely. For some reason, I’ve always felt a deeper connection to her than to anyone else in our family. I have love for everyone: my little brother, stepbrother, my dad and mom, step-moms, grandparents, and aunts. But with my baby sister, there's always been something more, something indefinable but yet something I’m tangibly aware of. I won’t try to analyze it too much. Something this special can only be demeaned by placing a label on it. I just want everyone to know that I love you, Little Sis.
+
+None of this is to say that I’ve been a wonderful brother. Quite the contrary. For despite my best intentions I know I’ve been the cause of much pain to her and to others I dearly love. My ramblings and selfishness have hurt her more than I’ll ever know. The demands I made upon her time so that I’d be a priority in her life were unrealistic, to say the least. As both a wife and mother, her calling was to her family not to me. So it is no fault of her own that we are now at odds with each other and may never speak to one another again. That is a consequence of forgetting how very special it is to have a loving, devoted sister who is willing to stick with me through my most difficult times. It is the immutability of our actions that often teach life’s hardest lessons.
+
+Thank you to all my sisters near and far who are doing God's work, serving God’s people, and raising godly families. The world would be a mess if left to the rest of us who still manage to make a muck of things.

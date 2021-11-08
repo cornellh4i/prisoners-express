@@ -1,0 +1,25 @@
+# "Gone" by Eva Shelton
+
+Last Updated: March 16, 2021 6:44 PM
+Month: 11 - November
+Original Document (Google Doc): https://docs.google.com/document/d/1GfIjy_3hlQvqwQnuxemJ1qYi6etGqMY8mXHFVjVZvDU/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2020
+
+**Gone by Eva Shelton**
+
+My dad snapped this photo the day he told us our mom wasn’t coming back. I remember Billy and I were high and drunk. We’d had a small party when Dad called to say hi and Mom wouldn’t be home tonight. Justin had come home from work and ran everyone off right before Dad pulled up in the driveway. I saw him get out of the car on his own. Saw him glance at the house and take a deep breath. He could’ve taken my breath; I didn’t need it anymore. Wouldn’t need it in a few minutes anyway. I don’t even know why he took this picture. Who does something like that? It’s just weird and demented, but he’s like that sometimes That’s where I got it. “Just like your father,” my mom would tell me and laugh, “Just like your father.”
+
+I guess that’s not really a bad thing to be. He was strong enough to come home from the hospital and tell us she was gone. I remember Justin saying, “where’d she go.” Dad started crying then. It’s like we knew they’d gone to the hospital, she’d been having some pain in her stomach. But you know parents; they’re stronger than you are. Tougher. I guess we had this thought, well Justin put it there with that question, our mom in a hospital gown, hand on her IV pole, sneaking out the back door and getting in a taxi. We were thinking divorce, not death. They can be similar things when you’re younger. Not when you’re older. Death is permanent. Divorce is not.
+
+Justin’s the one holding us. He’s the stronger one, the oldest one. “Jameson?,” my dad said or asked. I didn’t lift my head. I couldn’t look at him. His tears said parents are human. Parents can be broken. I needed the illusion that things were fine. The truth was I drank too much. There were some pills and some pot. I wouldn’t have made it through that night if I’d not been so numb. Funny, I never touched the stuff again. It reminded me of that day. Some people drink to forget. I didn’t drink so I could forget. It’s the way my life is.
+
+Billy’s had it the worst of all. He’s still drowning and we can’t save him. Dad takes his anger and pain out on Billy. But it’s because BIlly can handle it. He fights back. He drinks and he lashes out and he and Dad go at it. I don’t know if they’re killing each other or saving each other, but sometimes they fall asleep in almost the exact same position that Billy and Justin are in this photo. Sometimes, I think they only have each other. That’s okay really. I’m not fit for that type of pain and forgiveness. I just bury and stuff it all down. I don’t think I’ve looked up since this picture was taken. I just stare at the cracks in the sidewalk and think about how my life is exactly like that.
+
+I’m still mad she left. Mad at my dad for not forcing her to go to the hospital sooner. Mad she wasn’t strong enough to come home. Mad that she didn’t think we were worth fighting for. I know it’s irrational thinking. I could pay a hundred-fifty an hour for a stranger to tell me that exact thing. BUt it wouldn’t make a difference. I’d pay it to talk to her again. To be able to ask her why we weren’t enough for her. I guess we all have our questions. I see Justin peering in taxis when they drive by just in case Dad is lying. Billy doesn’t do or say anything. Sometimes I wonder if she took part of Billy with her. He was her favorite. I really wish she’d give him back. I miss her, but I really miss Billy. I don’t like what he’s become.
+
+Loss is like that. You lose someone. You lose parts of yourself. You drop off bits of you in their coffin and when they start to fill up the hole, your parts stay down there. You can’t ever get them back. Grams says that Mom went to Heaven. I try to believe that. I try to imagine she’s up there with a shadowy, flickering angel-like Billy by her side. I can hear them laughing together sometimes in the middle of the night and I’ll get up to find them. Billy sitting on the couch watching an old home movie of Mom. I’ll see his shiny cheeks in the television’s glow, see him tilt the bottle up, and I’ll go back to bed. I’ll cry myself to sleep. I can’t believe she’d take Billy with her and leave his shell behind. She should’ve taken all of him and maybe we could all move on.
+
+Death isn’t really fair. We got to trust in whatever we trust in. God, biology, ghosts, reincarnation. We hope we’ll see the people we love again. We hope they’re somewhere waiting for us. We hope they forgive us for being assholes, forgive us for forgetting them. Forgive us for being so angry that we want to die. Forgive us for blaming them. We hope for God because otherwise all of these feelings are pointless. I hope for God because I need Mom to be somewhere, even in a taxi with the flickering BIlly beside her while she brings him home.

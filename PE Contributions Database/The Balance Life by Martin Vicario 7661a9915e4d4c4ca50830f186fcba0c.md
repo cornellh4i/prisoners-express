@@ -1,0 +1,17 @@
+# "The Balance Life" by Martin Vicario
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 02 - February
+Original Document (Google Doc): https://docs.google.com/document/d/16z_rj60pYoR2oUGNXZUygfaaSJm-531HqQP7mPiamjk/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2018
+
+**“The Balance Life” by Martin Vicario**
+
+And then she said, “I’m going to divorce you.” I felt sick! I fell silent. And my mind started to race through loads of information, looking for something, yet not knowing what i was looking for. And then my mind started to race through all the years of having been together, married, and now it was sinking before me and I didnt know what to do. I didn’t know what “all this” was about. Instead of being tuned-in, I realized my mind had been tuned-out, and out of touch, with the person I love most, my wife.
+
+My thoughts, my feelings, and my actions were now the immediate attention before me. I couldn’t stop my mind from racing through the journal of my life that included my wife. My mind tuned-in to the sound of her voice, and I could smell the scent of her hair and feel the warmth of her body. But these weren’t sensations of passions, but of pain and loss. My mind tuned-in to the darkness of the pain, full of anxiety and yet out of touch with my body. I didn’t want to be here, and I didnt want to be there, I just wanted to be…. And be with the woman that had caressed the last 25 years of my life with her love and charms. I was tuned-in to the roughest waters a ship can sail, and I was sinking, my heart was sinking and I had to jump, but I couldn't abandon the vessel we had both built, travelled in, and had vowed to work until we made the promised land. I’ve been through hard times before, and so has she, and so long as we stay tuned-in to each other, we could overcome any storm. But she wasn’t seeing me anymore, she had lost sight of me , and my heart knew I was losing her to the many winds that gave their opinion and kept whispering in her ear to let go and come into the eye of the storm where pride and unforgiveness.
+
+I kept reaching out to her as I yelled “come back, please don’t do this…!” But my body wasn't tuned-in to the actions I was demanding of it, and I lost her to the eye of the storm--- a false claim of deception inundated with pride and unforgiveness. It took me a while to get tuned in, but I finally made it out of the storm, but I was alone with a heaviness of anxiety and loss pressing on my chest. I really wanted to die. I never imagined I would lose her. Her words still resonate in my ears that we would always be together and nothing, nothing, absolutely nothing, could separate us from the love of God. The same love that glowed and bonded our hearts together. Sometimes people just give up, they forget about the mission and the call to glory… in all things we are more than conquerors! With time, this pain will also pass, but be sure of one thing, “I am decided,” “I am tuned-in,” and I will finish this race, and drop anchor at the shores of the promised land, where I will be greeted and welcomed to walk through the rainbow gardens with the man that carried me through all the stories of my life… my Lord Jesus Christ.

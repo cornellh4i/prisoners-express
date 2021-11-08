@@ -1,0 +1,21 @@
+# “His-Story” by Calvin Westerfield
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 12 - December
+Original Document (Google Doc): https://docs.google.com/document/d/1AzMP0kcq6-J0O6pMysr8GAPls-MJfMPz2TW7RBWfx-M/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2016
+
+**“His-Story” by Calvin Westerfield**
+
+There is a history of many centuries filled with loss, struggle, deception, and derogation behind the unseeing eye of this indigenous elder of America. I cannot help but reflect upon the coming holiday season when I look at this picture and ask myself what is Thanksgiving Day really about. Exactly what is being celebrated on this third Thursday of every November?
+
+My entire family would come together every year to prepare a feast in honor of this day. The food was always superb, and my favorites were my mother’s turkey dressing and pecan pie. This whole family enjoyed each other’s company, sat at the table to what we all were grateful for and thank God for our blessings. I can’t remember anybody ever revealing what that day was actually commemorating. Not even in school was the truth given about the conquering of the Wampanoag Natives by the so called pilgrims: to use manipulative tactics as a strategy to secure the “rights” to land is, in essence, conquering a people. The kindness of the Natives were used against them to eventually steal their land. I’m not gloomy gus by far, and while I enjoy the holidays like the next person does, to blindly celebrate an occasion or commemorate a day without knowing the details of its history is a bit remiss.
+
+Sure, there was a feast held in 1621 at a place the colonists named Plymouth (after a borough of SW England on Plymouth Sound) in Boston, Massachusetts. This is an irrefutable event that took place between the so called pilgrims and the Wampanoag Natives, and they may have all gathered to give thanks to God for harvest and health (despite the English labeling the Natives heathens.) I’m positive the Wampanoag expected all the “pilgrims” to eventually board the Mayflower and return to whatever foreign place they came from. Clearly this was not the case; in fact we have been taught to claim English invaders as the founders of the Plymouth Colony! How can you find a place that has never been lost, has been functioning as an inhabited territory for centuries, and was unmistakably owned by the people there before you? Plymouth Rock was stolen. Is this the basis of Thanksgiving Day celebrations? Surely, the surviving Wampanoag (meaning those of the east) are not commemorating this historical event on the reservations they have been displaced to!
+
+To even refer to the English Separatists as pilgrims is a desecration of the symbolic representation of true pilgrimage. A true pilgrim is an individual who goes through a time of trial so as to reach, at the moment of death, whether that be a physical or mental (egotistical) death, a promised land or paradise lost. The term denotes one who feels like a stranger to the environment through which they pass in search for their ideal city. This is a spiritual journey of inner detachment from the present and attachment to distant, higher ends. An actual physical pilgrimage is a paying homage to the person of a great prophet - be that of Jesus, Muhammad, Osiris, or Buddha. If I set out on a pilgrimage to India’s Northern region to the ancient kingdom of the bank of the River Narrandera, near modern Bihar, where the Bodhi Tree is Siddhattha Gotama found/attained enlightenment, that would be my pilgrimage, and I would go back home afterwards. To forcefully stay and invite all my buddies to join me without the consent of the land’s inhabitants would corrupt my cause and make me a barbaric type of intruder, not a pilgrim. Right?
+
+Why couldn’t we just gather with family and friends on a day set aside just for that occasion? Better yet, family should alway have such feasts and enjoy the sadistic acts of this stolen land. I’ve yet to meet a Native American that approves of this day. The foggy window of the woman’s soul certainly does not seem to be celebrating either. We should just keep it real with ourselves and face the history of this country for what it is. That’s simply my opinion of course.

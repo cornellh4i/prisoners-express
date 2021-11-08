@@ -1,0 +1,13 @@
+# "Facing Fears" by Clarence Whitaker-Jones
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 10 - October
+Original Document (Google Doc): https://docs.google.com/document/d/1-0FurBM79hLL-f2z6RHED-lHOCrUlRYa2ZVng4hAbdM/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2016
+
+**by Clarence Whitaker-Jones**
+
+****Facing fear, it’s not even there. I don’t even complain about scars on my face--I just smile in the mirror. Facing fear, it’s not even there. Once I get done, my couple of plans in a couple of years. I would be satisfied if I died by the twentieth year. Fear broken down as an acronym means False Experiences Appearing Real. I learned that from a motivational speaker named Michael Stewart. He overcame fear by simply sticking to goals and just doing them. He told a story about how he went to a motivational speech and was surprised by a guest host who got on stage and said, “You’re all great. Knowledge is power, and whatever your talent is, just keep pursuing it.” Then the guest speaker just left the stage. People who bought tickets spent gas and money, put on their best clothes, etc., were disappointed by the few seconds of motivational speech. They all were looking for some more provocative, prophetic words. They were all looking for words to overcome their fears. But the message was there. The fear was all just an illusion. If this motivational speaker can go on stage in front of thousands in the crowd and give a simple message, then the reality is that so can you. So can you overcome and triumph your fears. Members in the crowd soon got the message. “I can do that too if that’s all it takes.” Yes, now you have the example well-put about fear. Fear is not even there but is just ingrained in our heads. Your heart may pound, but even the greatest boxer of all time said his heart was pounding. Still, he kept forth and kept trying. Fear didn’t defeat him. These emotions can be controlled just like your happy emotions. We all have this ability inside us. We don’t need no person to do some magical powers. We don’t need no psych. doctor to give us medication so we can go to another alter state of mind and leave the fear behind us. You have the natural ability to ignore and fight fear when the thoughts come to remind you. I went looking for fear, but since I overcame my struggles, I realized that when I opened the door, fear was not there no more.

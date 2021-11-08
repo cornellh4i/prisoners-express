@@ -1,0 +1,25 @@
+# "Lemon" by Maximillan J. Michaels
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 04 - April
+Original Document (Google Doc): https://docs.google.com/document/d/1UMddNr9ByGyb_2_xkYgOk4wthjnmJvxg-h53zBtPVXk/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2016
+
+***Lemon* by Maximillan J. Michaels**
+
+I grew up 2 blocks from the Wabash river in Southern Indiana. When I was 8 years old my parents decided to get the family a dog. They reasoned that I had shown enough maturity and responsibility. They didn’t allow me to go with them to the animal shelter to pick the dog out. But they said I could name it when they brought it home. Well, they brought home a male dog that was half bloodhound and half boxer. I decided to name him Lemon because of the sour look on his face.
+
+He was a good dog. He was friendly. He liked other children. He didn’t try to hurt other animals. He may have been a little too friendly because he loved licking children’s faces.
+
+But he had two bad things going for him. One, he farted all the time. Anything that got him excited and he would cut loose. And it didn’t take much to do it. A washing machine would switch over to rinse? He would fart. A woodpecker pecking a tree? He would match the woodpecker’s cadence with farts. And these were terrible smelly dog farts that would take your breath away. If we were eating at the table and he was inside, and he heard a fork scrape a plate? He would start farting. We kept a plate of onion slices to hold up to our noses just in case of that and to allow us enough time to get him out of the house and ventilate it. The local children would run away screaming whenever I took Lemon for a walk in the neighborhood.
+
+The other thing was if he ever got into the backyard he would run for days and not listen to you at all yelling “Stop Lemon!” “Come here boy.” If you didn’t have a lease on him you better be ready for some exercise because you were sure going to get some!
+
+After we had Lemon for a few months our neighbor, Crazy Frank came over with a theory on why Lemon had such terrible gas. Crazy Frank really was insane. He would say things like, “Even an ant brushes his teeth, Boy!” and if you rode your bicycle by his house he would run up to you holding a shovel and tell you “You’d better take this with you, because you’re going to be running over a lot of animals!” He also paid me a dollar a week to get his mail out of his mailbox and put it on his porch because there was a witch that lived in a potato his ex-wife had throw at the mailbox. He said he could see the witch flying around the mailbox all the time but that she wouldn’t bother me because I was too short for her to get at me yet. Anyway, he said we should take the dog to the vet and have it checked for chlamydia. I didn’t know what the word meant but my parents sure did. My dad clapped his hands around my ears and asked Frank “Why in the world would you think that dog has chlamydia, Frank?” and Frank said “I don’t know, I just heard it was going around.” Needless to say, we didn’t take Lemon to the vet to have him checked for chlamydia and just went on enduring the farts as best we could.
+
+One day I was leaving the backyard and tricky Lemon squeezed between me and the gate and took off like lightning to the river, and I tore off behind him yelling “Lemon’s out! Help!” I could hear my parents run out of the house behind me and the chase was on. I rounded the corner of a building and saw Lemon making a beeline straight to this little kid fishing on the bank of the river. I had just enough time to yell “NO!” right as Lemon leapt on the kid and both of them went over the bank and into the river. I ran up to the edge of the riverbank and saw that they were both okay but Lemon was dog paddling and pushing the kid’s head underwater. I could also see all the fart bubbles popping up around Lemon and the kid so that every time the child came up for breath he was breathing in dog fart. I saw him coughing and was about to jump in the river myself when they both came upon a sandbar in the middle of the river. Lemon started licking the kid’s face like he wasn’t wet enough already and the kid was pushing Lemon away and saying “Somebody please come get this smelly dog away from me.” I swam out and got Lemon and said I was sorry and if he was okay. He said that Lemon tried to murder him and he was going to tell his dad. All three of us got to shore and we went off home soaking wet and minus a fishing rod and I took Lemon home and told my parents what happened We didn’t hear anything more about the incident until about a month later till the kid’s father showed up at the door with a doctor’s bill for his son from the encounter with Lemon. There was an itemized list of charges like X-rays ($25), antiseptic ($5), and bandages ($2). My dad set the bill on the table and went into the kitchen to talk to the kid’s father. So I snuck over to the table and looked at the bill. And at the bottom there was a charge that had been scratched out but you could still barely make it out and it said ($15) chlamydia shot.
+
+So maybe it was going around.

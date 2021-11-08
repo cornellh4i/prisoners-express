@@ -1,0 +1,13 @@
+# “Zepplin’ Picture Theme” by John Naylor
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 05 - May
+Original Document (Google Doc): https://docs.google.com/document/d/18R3cOJpzOWJ5PGbptYg-etFJ0BF-Py64QEeXvB-1lak/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2019
+
+**“Zepplin’ Picture Theme” by John Naylor**
+
+An odd sight. Talk about out of place. Mom, mamau, my brother Andy and I were out running errands. Everyone got excited all of the sudden. So young. I don’t think I was even ten years old. I’m crawlin’ around the ‘83 buick lesabre trying to see what the big deal was. I just don’t get it. Zepplin they said and they rambled on about the Hindenberg being famous. I was drowning from memories. I’m not wanting to seem ignorant in the family. Even before ten it could make me look foolish or stupid in a family with such a focus on education and intelligence. Look though or you’ll miss it! Uh, oh, right. See whatever this thing is. Point it out could you? Of course they all volunteer at once. It seems a little built up. Like excessive. Though I can’t ever have them hold it over me if I miss it for lack of trying. Suddenly through one of the windows I have a better vantage point. You couldn’t get me to remember which one by asking. Still it came into view all at once. Crazy, this big white thing. Then I search my mind. Haven’t I seen something like this on T.V. at some point? I couldn’t crisply see it in my mind. I think this was the one though. So it’s famous. I guess you could say. Across the sky in Anderson Indiana, “Goodyear” on the side. I had so many questions as to why there aren’t more. Why or what they’re designed for. Apparently the main goal seemed to be advertising. It seemed somewhat over the top just for that. Hey bud! Yeah, you, look up! See this? Ok. So, like, buy Goodyear tires ok? Don’t make me hover forever here I’ve gotta be at the game in Indy. Or the race, or whatever. Just buy tires soon if you would. Ok? Appreciate it. Drive safe.’ If the Goodyear blimp was just keeping it real in dialogue to a consumer it’d probably sound like that. Because Indy was at least thirty minutes away in a car. And he moves so slow. Like he’d talk to you casual because his top speed is on a country road at idle speed smoking before he shows up. And he can hot box whenever he wants. That is unless there’s a police chopper around with anti smoking bumper stickers on it. Know what I mean? He’s much faster and stuff. So then rebellion and defiance aren’t a good idea. You can’t outrun the radio. Always remember that.

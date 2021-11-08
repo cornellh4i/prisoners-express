@@ -1,0 +1,13 @@
+# "The Ninth Solitaire" by King Bissemo
+
+Last Updated: February 24, 2021 4:29 PM
+Month: 04 - April
+Original Document (Google Doc): https://docs.google.com/document/d/1Yk07t8IUrr3VBK0cDfb2I9N3JYo_VcJ0RlCgWAp5Z4Q/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2020
+
+**The Ninth Solitaire by King Bissemo**
+
+Born, I was born. In a far and very far country. In a lonely house standing in the very midst of the void. Called the universe. Or maybe. Our universe only. But a friendly house it was. A very friendly home. Keeping me all the time warm. While staying itself alive. Only with the help of my presence in it. In “Bilinguae” we communicated to each other. Silence she only spoke except for a very few words. Coming from the noise made by the movements of doors. Windows. Chairs and other components. And like a lonely child growing up among the beasts. Understanding their language, its language I fully understood too. But speaking, I only spoke words. And my language with time. It too learned to fully understand. However I thought immigrating was smart. Was wisdom. Was the only way to emancipation. The only way to end my solitude. The only way to progressing. Till one day. Years after immigrating. Standing by the sink combined with toilet in a very cold and very dark cell I looked at the mirror that refused to reflect what I was expecting to see. Those tears of loneliness streaming south down my face. That dream of emancipation, breaking loneliness and heading for progress. That like Judas Iscariot in this cold has only ended to hang itself on the void. Of the U.S. prison system. Instead, what I saw in the mirror was a lonely, friendly house dying alone in my far and very far home country. Without anybody in it to keep it alive. To talk to it. Nor to listen to its soundless beautiful tales. Even to those very few words that came down from the noises made by the movements of doors, of windows and other components. Then I realized. By my selfish ambitions, I have destroyed myself. And. I've destroyed a home at the same time. Only to reveal myself to the world. As being more stupid than a crocodile. As the old adage goes in Lingala, “Bozoba esala ngando. Akima mbula, aké kobombana na ébalé.” Similarly, “the stupidity of the crocodile was to run away from rain, only to hide itself in the river.” From what I thought was loneliness I've run away. Only to find myself today and what really is solitude. From what I thought was indigence I have run away. Only to later find myself where the daily stipend is $1. Regardless of the number of hours included overtime I work a day. Worse, by my stupid selfishness, I have caused a friendly home to die slowly now from loneliness. In a lonely house I was...

@@ -1,0 +1,21 @@
+# “Reparations Speak Louder Than Words” by Calvin Westerfield
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 03 - March
+Original Document (Google Doc): https://docs.google.com/document/d/1-StbsvyjTgt-4w4J-KTeMzZ9UqMSu3oZgwdM_lDPNFg/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2018
+
+**“Reparations Speak Louder Than Words” by Mangáakà Ádè**
+
+Apologies are a vocal attempt to right a wrong. Remorse is the germ of all apologies. In the absence of guilt and regret there would be no apologies because a conscience is essential. Doing the “right” thing is the moral expectation of humanity; to live by a general ethical code of society, and when the code is broken, to acknowledge, then correct the error. By definition, an apology is simply those two spoken cliche words, “I’m sorry,” or “I apologize”, maybe “forgive me.” What of the occasions where injury has been done? When the natural course of an event or someone’s life has been offset? Mere lip service will not suffice! Unfortunately, after a century and a half since the abolishment of slavery (except for those convicted of a crime), all the descendants of the kidnapped Africans in America have received is an apology. If I’m not mistaken, it took for this country’s first official black President to give this expression of regret on behalf of America’s sadistic acts against Africans and human decency.
+
+This topic often compels comments like: “Here we go again, that was so long ago,” and “you have to move on and stop dwelling in the past.” My favorite is: “You all now have the ability to have everything anyone else in this country does.” To these comments and those that use them to sweep the barbarism of American history under the rug, I quote Malcolm X: “Don’t stick a knife nine inches in my back then pull it out four inches and tell me I’m making progress!”
+
+It’s a natural expectation of those who have been injured to want the responsible party to be remorseful and regret their actions. Descendants of kidnapped Africans in this country have been left with a grim inheritance of poverty segregation, trauma and all the ill effects of American sadism that we are expected to alter through individual grit and exceptionally good behavior. Nothing could be further from the truth. You cannot cut my legs off at the knees and then look down on me when I lose the race. First, give me a chance to compete with those who have not been injured, then judge my performance. Of course you can’t repair the original damage by reattaching my severed legs, but you can design some good quality prosthetics for me, and while you are presenting them to me, apologize for the injury you have caused me. One would assume this to be a common sense solution- right?
+
+In 1769, the Quaker John Woolman wrote: “A heavy account lies against us as a civil society for oppressions committed against people who did not injure us, and that if the particular case of many individuals were fairly stated, it would appear that there was considerable due to them.” Quakers in New York, New England, and Baltimore demanded that membership was contingent upon compensating their former slaves. This was an apology for their sadism and atonement for their sin.
+
+The practicalities, not the “justice” of reparations, seem to be the problem. Who will be paid? How much will they be paid? Who will pay it? The guilty ones have all died! These are the salient points, as if responsibility and accountability died with the last slaveholders. It’s this country that’s guilty for allowing and participating in such savagery and would now rather pretend it didn’t happen. Yet America openly professes its pride in its history and revels in it. A nation outlives its generations. To proudly claim the World War I veteran and disown the slaveholder is patriotism à la carte. We were not there when Washington crossed the Delaware, or when America fought off the British, but these events still have meaning. We were not there when Wilson took this country into war, but we are still paying out the pensions. So telling me: “I wasn’t there,” does not cut it. “The bleeding does not stop when the knife drops.”

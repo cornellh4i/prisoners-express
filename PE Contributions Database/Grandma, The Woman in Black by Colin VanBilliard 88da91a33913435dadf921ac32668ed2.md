@@ -1,0 +1,13 @@
+# "Grandma, The Woman in Black" by Colin VanBilliard
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 11 - November
+Original Document (Google Doc): https://docs.google.com/document/d/1oqp1ii2-PZaJXL16MKd-TrS9VVj9q7wIfi1wB9awNgg/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2015
+
+**"Grandma, The Woman in Black" by Colin VanBilliard**
+
+As the gang wars raged on between East and West, I was walking out of Midtown and walked up two streets. I saw this old pickup truck, and someone jumped up in the back and boomed, I tried to pivot and run. I felt the blast, and the bullets seemed to hit me. It was moving like in slow motion. The gun was a 12-gauge that hit me high in the chest. The impact sent me on my shoulder blades. I tried to get up. I can’t shift, I can’t move. I look at the sky, thinking, “Damn, I just bought this Boston Red Sox Jersey, and it’s messed up.” As I look up in the sky around 2:30 PM, I saw this lady walking over to me. This woman was dressed in all black and her face was covered. She knelt down beside me, “Colin, it’s Grandma. It’s time,” as my eyes closed and she held my head on her shoulder. I was scared to leave my body. Grandma grabbed my hand and said, “Come on boy.” When I came out of my body, Grandma was in her PJs, but I looked down. She was still there in all black, holding me, crying. I looked at Grandma who was sipping her tea, and I said, “How?” She said, “Come on. We’re going home.” She busted me upside my head. “What’s that for?” “All the bad grades. What did you think? I’ve not been watching you?” I just stopped, face her, hugged her, and cried, “I miss you, Grandma.” She wiped my cheek. Then grandma asked, “Boy, what happened to you? I went to open up my shirt, and I noticed I didn’t have a shirt on. “Sorry, Grandma.” She laughed. I felt my chest. There was no hole there. Then I looked down and saw the police and medics load my dead body in the body bag. Everything seemed new but old; everything on the street was like when I was a kid. As we walked up the porch stairs, she walked through the door without opening it then pulled my hand through, making me go through the door. She laughed, walking to her chair in the kitchen. There were strangers in the house. I tried to swing on the man, but I went right through him, yelling, “Get out of Grandma’s house!” Grandma grabbed me, sat me down, and said, “We are in our next life. We can’t touch loved ones. They probably won’t feel it. You can try to let them know.” Then I saw a big pit bull that chased me up the stairs screaming. Grandma slammed my door and said, “Come on boy! I’m glad my boy is back with me again. I missed you, boy, so much.”

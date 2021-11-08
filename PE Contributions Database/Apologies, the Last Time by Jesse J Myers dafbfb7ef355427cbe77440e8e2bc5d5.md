@@ -1,0 +1,21 @@
+# "Apologies, the Last Time" by Jesse J. Myers
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 03 - March
+Original Document (Google Doc): https://docs.google.com/document/d/1a_Lw4Wf2MOuE4at5OXonsOQr7DyZx0BDGiOP0wrsDPA/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2018
+
+**“Apologies, the Last Time” by Jesse J. Myers**
+
+There I was once again rehearsing my apology, going over it again and again in my head. I was going through a ton of inner turmoil. I was still mad at her and more than anything I was confused. It had all started over a phone call she’d received from my ex-girlfriend. Now she is lying and I am behind bars again, something I am very familiar with. I understand that she was mad at me, I had hit her and now she would have to go through the embarrassment of her co-workers and customers at her job staring and drilling her with questions. She had been on a vindictive war path plotting after those texts from my ex. After a fight earlier that night we both fell asleep highly intoxicated. I woke to her biting me in my private area and I reacted in anger with a defensive manner. I admit I had been doing things behind her back, but this was serious as I am looking at 6-30 years in prison.
+
+I had spent some time thinking about it and decided it was not time to point fingers. I told her I was sorry, which I was and wanted to start over from there. They later used the recording of that apology as evidence in court to prove my guilt. I later discovered this was the only reason she even accepted my phone call from the county jail. But in her testimony she added things that did not take place. So instead of staying in jail for things that actually took place, I am serving 15 years at 85% for acts I did not commit.
+
+I am not guiltless so I was faced with a ton of questions, asking myself what did I do wrong? For starters I had picked up drinking again and more frequently than before, also the pills, marijuana, and just about any other drug I could get my hands on soon followed. I would be with just about any woman who would open herself up to me. I had a great job - the best job of my life. All the money I made was fueling the wild lifestyle I was living. My daughter Kiley had forgiven me and let me back in her life. Once again I had let her down.
+
+Here I was again setting the stage to say how sorry I was. This time I wrote them all down on paper and sent them in the mail. I am good at this apology thing, it’s easy. Tell everyone how sorry you are and state all of the things you did wrong, make some promises but not too many. Usually forgiveness comes in abundance. Tell God how sorry you are and he forgives you, then everything will be good again. This time, however, it did not work out so well. The people I care about so much seem to have their guard up. So I’m forced to finally open my mind to a new way of thinking. How could they be so naive, and most of all, how could I be so manipulative to people I love so much. It seems they know how it works - somebody apologizes, you give them a chance to prove their sincerity. All these years I’ve been taking advantage of that, but I don’t follow through, I just pick up right where I left off.
+
+So here I leave you with the last of my words on apologies. I’ve learned that apologies are expressed through action over the course of time in a manner that suits each victim of the pain caused by our previous actions. We must first realize who we’ve harmed directly and indirectly, then correct that action along with all other offensive actions we’ve committed. Then, we must take measures and set goals to prevent harm in the future. We must know that each time we make such a promise, then one lets us back in, yet then again we break that promise, it becomes much harder for people to trust us. Why would they, if we have not earned it? They certainly are in no way obligated. Finally I leave you with this to be true and be sincere, always remember the age-old saying: “What if the shoe was on the other foot”.

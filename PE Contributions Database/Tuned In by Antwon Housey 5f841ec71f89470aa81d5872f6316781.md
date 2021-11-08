@@ -1,0 +1,13 @@
+# "Tuned In" by Antwon Housey
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 02 - February
+Original Document (Google Doc): https://docs.google.com/document/d/1nVWJNXhGtySWc7gHQjDKy3rcgUgzNaOB6GPgZ4Ayi9I/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2018
+
+**“Tuned In” by Antwon Housey**
+
+As a prisoner with a heart full of compassion, it is dangerously difficult not to be tuned in to other prisoner’s emotional tantrums. I try my hardest to stay out of the lanes of other prisoners. Everyday, I am forced to tune in to somebody else’s emotional currents. Prison is like DirectTV. There are always a lot of channels, however, they all show the same movies. Tune in next week for a sneak peek of what will happen in the next episode of “The Walking Dead.” That is the only time I am able to cease tuning into other people's emotional currents, when the walking dead, become the sitting or standing dead. Tune in to watch “The Walking Dead.” Most prisoners need to tune in to others because they are not ready to deal with themselves. They intentionally tune in to everybody else’s drama weekly, daily and hourly. Amongst the walking dead, I’m fully awake. Tuned in to the “power” within myself to create an “empire,” so that the world can witness the birth of a star. As I make my next “Prison Break” for freedom, I will no longer have to endure the law and order of an institution. No more unexpected lockdowns because rival gangs decided that they wanted to engage in “family feuds.” No longer will I be subjected to the “scare tactics'' of the C.E.R.T. or S.O.R.T. teams. Now, that I know “the Price is Right,” within my business plan, the only thing I want to hear the investors in the “Shark Tank'' say is “Let’s make a Deal.” Living out this “American Horror Story'' of a prison sentence did not make a “Despicable Me.” On the contrary, it allowed me to focus on my “Game Plan,” so when I am released I won’t have to live with the “Fast and the Furious.” My rehabilitation was brought to me, courtesy of “DIY” and even though I still crave a little TLC, I can’t wait until I once again have my OWN!!! Inmates spend the majority of their time turned into these shows, networks, broadcasting and programs. Only a few, a select chosen few, utilize the trick box for what it is worth. The only time I am tuned in is when I am thinking of a master plan on how to beat recidivism, while being a “Survivor,” of the chicanery of “Lucifer.” Even though I may have to complete five more years, I plan on showing “America that I got talent,” while “Wild n’ Out,” “unplugged” and on vacation with my family, staying away from all of the “Ridiculousness” that these concrete walls have to offer.

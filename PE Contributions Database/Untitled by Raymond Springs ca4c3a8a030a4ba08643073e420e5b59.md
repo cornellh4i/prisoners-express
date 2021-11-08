@@ -1,0 +1,35 @@
+# Untitled by Raymond Springs
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 05 - May
+Original Document (Google Doc): https://docs.google.com/document/d/1BgnyZkQfbvns9cd5yTace8WvA4_WzCZUj9MTtgAEoWU/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2016
+
+On May 1st 2016 at 3:35pm NASA launched a new spy device application from the Big Brother Orbital Satellite. The discussion printed below, was the first successful recording using this new technology. The focus of this test is the small California community of Merced, the location is outside a 7 eleven on N. Stockton Ave and 3rd Street. We have taken the liberty of using advanced experimental facial recognition, vocal identification virgin technologies and newly invented spy ware for this test. The identities of these two women has been established as Candy Spirits age 32, she’s on the left in a floral dress with matching jacket, purse hanging on left shoulder blade, Unk medallion on white gold chain worn around the neck, Jamaican flag bracelet on her right wrist, white gold ring on the opposite of her marriage hand and finger. The second woman in Blair McBean age 19, she’s on the right dressing in denim jacket and pants, sports bra, cigarette half smoked held in mouth, right hand placed against wall of side of 7 eleven building, left hand on hip at belt line. We have taken conversation and reviewed plus printed it so that you can read what we have recorded and documented using this newly launched application.
+
+Blair: “Excuse me, ma, you got a light?”
+
+Candy: “Sure Sweety, here you are.” As she lights the camel that's held between the young innocent and beautiful girl’s soft moist lips. Blair takes the initial drag of the camel, filling her lungs with the dense smoke she craved since earlier that morning when she was stuck at home waiting for her juvenile probation officer to come over for the last time. She blows the smoke out and says, “Thanks, what’s your name?”
+
+Candy giggles and says; “I’m Candy Spirits, nice to meet you sweet. What do you call yourself, or better yet what do they call you Baby Girl?” thinking in her mind, “this girl is sure a looker, maybe she’s out here working too. If not maybe I can lace her about her opportunities.”
+
+Blair replies, “They don’t call me, I’m Blair and I live around this corner. Candy, I’ve seen you out here for many years, we just never spoke until now.”
+
+Candy smiles at this young madonna’s boldness, inhaling her youth, imagining living in her delicious skin, vicariously enjoying this youthfulness. She starts what she calls small talk, hoping to become more friendly. She says, “Blair can you tell me why it’s 102 degrees on May 1st, what is causing this heat wave and drought?”
+
+Blair cocks her head towards the heavens, leaning against the 7 eleven wall while placing her other hand on her hip. She blows some more smoke through her lips while still holding her camel, a habit that she’s grown accustomed to over the last two and a half summers smoking camel longs. Speaking in a controlled tone, she says, “Candy, the weathers is being controlled and manipulated by a machine named the Haarp Weather Maker. It was created at Edison Labs in the 1920’s by a German Inventor and scientist named Nikola Tesla, he used gamma rays focused at a portion of the sky to create extreme weather. For many years this device went unused because of its unpredictability and lack of control of extreme weather it caused. Just a few years ago Edison Labs sold the Haarp Weather Maker to a world renowned agricultural firm that specializes in pesticides and creating GMOs, named Monsanto. Their scientists have fine tuned this machine for the purpose of controlling all crop production globally simply by creating droughts in farm areas, this is done through directing rainfall to other areas where they own the land outright along with the underground ancient dry aqueducts which they have been filling completely for the last 9 years. They have created a crisis over water in order to one day soon sell it to all the communities of the Earth, ‘He who controls the water, controls all life on the planet, sadly Candy this isn’t all that they have planned, no, in fact it is only the first step in their global domination scheme. They are power hungry, emotionless global tycoon corporation owners. Just in the case that you believe what I said is farfetched, use google.com and search the facts also check the Panama Papers to see if Monsanto is on its lists of corrupt corporations, firms, and subsidories.”
+
+Candy’s head was spinning from what she just heard this enchanted Goddess say. In her mind, she began thinking this girl is crazy, paranoid, on some deep conspiracy area 51 type shit. But when she replied to Blair’s assertion all she said was, “Wow! You remind me of myself when I was around your age with all those ideas and answers. The more I lived, the less I knew for sure, Baby Girl.”
+
+At that moment two black tinted Suburbans drove up fast, coming to a screeching halt directly at the curb right in front of Candy and Blair. Four men jumped out each SUV, dressed in white button down shirts with tie, black slacks and shoes, each fitted with microphone ear pieces and a pair of digit tech black glasses. When they reached the two ladies one produced a black hood made of silk. They grabbed Blair placing the hood over her head, physically picking her up while one injected something into her arm. Immediately her tiny body went limp. They carried her to one of the Suburbans and placed her inside. Candy was in shock and awe which caused her to freeze up completely, while all this was taking place. In her mind, it was like a nightmare. All eight men jump into the SUVs, one passenger side window rolled down and one of the government looking kidnappers speaks firmly saying, “This is a matter of National Security and The State Department, Ms. Candy Spirits. Don’t tell anyone about this or we will be back to pick you up. Know that we are watching, listening, and, infact, know what each person is thinking.” The window went up and, simultaneously they drove off just as fast as they had appeared.
+
+Candy stood there for a moment registering what just occurred. Confusedly thinking, “How did they know my government name? Is Blair in trouble? Are they going to kill that innocent young girl? Was she telling me the truth?” All this made her very nervous. In that moment a grey pulled up to the curb, in front of her, at once causing her to readjust to reality, that is of her immediate environment. An older white man in a newer Benz 500C class screaming “Are you working, honey?”
+
+Candy ran to the passenger door, opened it and hopped in and she was off on another date as if nothing happened. She told the older client “The names Candy Spirits, my rates are $300 an hour, $200 for half an hour, no negotiations and money up front.”
+
+He said “Sure hon,” while fingering through a large stack of bills, passing Candy six denominations of 100 bills.
+
+Candy says, “Okay,” smiling from ear to ear as they drove away...

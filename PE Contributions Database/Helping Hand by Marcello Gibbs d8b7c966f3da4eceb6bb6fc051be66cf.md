@@ -1,0 +1,21 @@
+# "Helping Hand" by Marcello Gibbs
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 07 - July
+Original Document (Google Doc): https://docs.google.com/document/d/12D51rFdL8R3S3cgbLkNGQtlFIM3hlSSnB6D_gMb4Z-w/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2019
+
+**Helping Hand by Marcello Gibbs**
+
+Everybody needs a helping hand no matter who you are. Whether it’s help with the grocery or help with the kids. When we all grow old we will need a helping hand from time to time, if not all the time. A helping hand shows kindness, passion, concern and caring for others. It says I have a heart for others.
+
+All my life I have been giving a helping hand to others. I remember when I was younger, around 11 or 12 years old. Me and 3 other friends took turns asking people for dollars, quarters and any other loose change they may have; just so we could give it to this homeless guy that was sitting at the store trying to make it to another state. We bought and stole a lot of food for the homeless guy and also gave him extra money that we already had in our pockets. We made sure he was set with everything he needed. We were young, but we knew the meaning of giving someone a helping hand.
+
+There’s been numerous times when I held the door open for people, carried the groceries, laundry and even changed a lot of flat tires. I always had a heart to do stuff like that, and I realize everybody’s not able at times. For some reason I always have encounters with the homeless and each time I always help them out no matter what. I remember In 2006 I was riding with my girlfriend and another friend, when I offered to take him to the next town which was 30 minutes away. I wanted him to get closer to Houston as possible. I gave him some money, a coat and an umbrella. He ended up with my coat which my girlfriend had on and the umbrella, because it just so happen started to rain and you could see a big storm coming from the direction he was heading toward. So I gave him my coat and an umbrella I had In the back seat. I would have taken him all the way to Houston but I didn’t have the time or money to make it there. But I did get him as close as I could. My girlfriend was upset at first, because I told her to give him my coat that she had on. After I explained to her that I would buy another one and how he needed It more than she did. She understood me, but jokes that I was too friendly.
+
+On another occasion I was heading to Dallas and saw a homeless man walking the opposite direction heading toward my hometown Corsicana Texas. I had my mind made up that if he was still walking when I came back through I was gone offer him a ride. When I came back I saw he had made It quite a distance, but he was still walking which he was. As soon as I got In the area where I expected him to be, there he was walking alone along the highway with a big duffle bag and a small bag In hand. I ease the car to the side of the highway and my friend was looking at me crazy. He asked me what are you doing? I’m like I’m ‘bout to give him a ride. He was like you’re tripping just let him walk. I’m like now I can’t do that. Luckily I was the driver, because if it was up to my partner he would still be walking. The man got in and I asked him where he was heading? He said Florida, but he was going to Houston first. He introduced his name and I told him mine. My partner told him a fake name for some reason. I let him know that I was going to Corsicana, he insists that was good enough. When we made it to my hometown I pulled up to a Jack-in-the-box. We all went in and I asked the man did he want anything to eat? Which he did, so I ordered him 4 burgers. I took his jug and filled It up with lemonade and ice. Then I gave him 15 dollars just to make sure he was good on his journey to Houston. I knew a few girls that worked there at Jack-in-the-box and I could have got a discount on the burgers or maybe even free; but I took the initiative In paying for the burgers myself with my own money.
+
+There are many other times when I gave a helping hand, but these are some special moments In my life. To this day I still give a helping hand to those in need! What about you?

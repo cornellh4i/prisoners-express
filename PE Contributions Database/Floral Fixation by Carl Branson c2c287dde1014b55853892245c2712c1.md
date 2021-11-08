@@ -1,0 +1,25 @@
+# "Floral Fixation" by Carl Branson
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 05 - May
+Original Document (Google Doc): https://docs.google.com/document/d/1NlHDj9OStO6vJT-zSsK3GpeJNXU7Vpv8HjhP77tYuYk/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2018
+
+**“Floral Fixation” by Carl Branson**
+
+The care and cultivation of flowers have been part of my life since the time I was able to crawl. Mom was an avid gardener – both indoors and outdoors. This love of plants may well be embedded in my DNA structure. The mainstay of indoor flora at all times was african violets of every variety. Dad custom built glass shelving units gracing windows in the kitchen, dining room, bedrooms, and even bathrooms to accommodate mom’s prized display. Although I never counted the collection, there is no doubt in my mind that it exceeded well over 100 plants. Outdoors, it was a combination of color and function. The vegetable garden was the functional aspect whose colorful and often dainty blooms were either missed or ignored in anticipation of the produce. Color and fragrance were provided on a seasonal basis starting until spring blooming bulbs including tulips, hyacinth, and gladiola followed by a dozen rose bushes flanked by ranks of snapdragons, jack-in-the-pulpit, petunias, pansies, marigolds, and portulaca (moss rose) as ground cover. Although I was exclusively an observer of the indoor greenery, I was an active participant out in the yard – seeding, feeding, weeding, transplanting, re-planting, pruning, and thinning – as the need arose.
+
+As an adult, my first house was a cross between a townhouse and a condominium which allowed me to create a “flower-box” of sorts on either side of the entry door – a swath of ground about 12 inches wide and totaling about 17 feet long. Definitely not enough room for rose bushes but certainly adequate for spring bulbs, certain perennials, and the accepted standby annals of pansies, petunias, marigold and portulaca. Indoor plantings were limited to the seasonal easter lily, poinsettia, and amaryllis due to floor plan and space constraints.
+
+My second house allowed me to cultivate a vegetable garden of a little over a thousand square feet as well as flower accent plots totalling about 300 square feet. The vegetable garden contained my favorite edible flowers – broccoli and cauliflower – as well as the traditional staples of corn, beans, tomatoes (4 varieties), bell peppers, cucumbers, radishes, carrots, beets, kohlrabi, cabbage, pie pumpkins, and strawberries. Production, when properly canned or frozen, provided for my needs from one harvest to the next. The flower beds allowed me to add a dozen rose bushes along with the typical spring bulbs and traditional childhood summer favorites. I added variety and contrast with less common selections like celosia (cock’s comb) and dusty miller. Adding a “garden window” (mini greenhouse) allowed me to explore exotics like orchids and the velvet trumpet gloxinia. Sadly, I was not able to mimic mom’s success with african violets – even with her critiques and advice on my placement, care, and feeding – I could not get these beauties to survive more than a month of two while hers thrived for a decade or more. Since everything else flourished, this was the most irritating failure.
+
+Moving from the upper midwest to the desert southwest required a major revision in plant selection and planting schedules. Additionally, the new house/yard configuration allowed for reasonable floral displays – particularly roses (i had 36 varieties) – but only about 300 square feet for vegetables.
+
+This new locale yielded my first truly foul experience with plant selection: lantana, a bushy shrub which continuously produces thousands of dainty flowers in a spectrum of colors, but emits a scent akin to a decaying corpse! At the nursery this scent was masked by surrounding selections. This is the only healthy plant I ever removed from my garden and destroyed. As a consequence of differences in soil composition and climate, my old favorites for summer color had to be abandoned. Thankfully, the roses would bloom nearly year round.
+
+The vegetable patch proved best suited for melons (cantaloupe and honeydew), carrots, radishes, and zucchini squash. Although short-lived, the zucchini blossom is among the largest and most intriguing flowers to behold.
+
+Life changes – new wife, two stepsons, and arrival of two infants – altered my priorities thereby limiting my time for tending the gardens (the children were a worthy replacement!). Later, prison reared its ugly head terminating all plant care activities. But, sooner or later I will be out again; and with all the children grown and gone, time will again be available to pursue this gratifying activity.

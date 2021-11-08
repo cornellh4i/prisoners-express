@@ -1,0 +1,19 @@
+# "Zoo" by James Bauhaus
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 07 - July
+Original Document (Google Doc): https://docs.google.com/document/d/1Lqm2EBS4JJL9rIqH0se-z9O_pyzWAHbbdBh7XOTViZE/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2017
+
+**Zoo by James Bauhaus**
+
+The Geo prison group is exactly like the zoo. Particularly, it’s like Monkey Island, for all the smallest, most primitive minds to inhabit. I’ve felt my own mind shrinking to marmot-size for 45 years now. The transition will be complete soon. E.G, the flunkies in charge of keeping the cages closed have us all trapped in their tiny, two-ape, toilet-sized sleeping cages. The young monkey that they have put in here for me to babysit, appropriately named “Hood”, has done so many scurrilous deeds to so many victims that he can only sleep facing the door, for fear that it will unexpectedly come open and let his comeuppance pile in. He is paranoid for good reason. He’s a squad who gets a thrill from investigating fights between others while safe behind locked doors, he’s on of the little drag darlings, to, whom the state politicians and the “smart on crime” geniuses are pretending to try so hard to set loose for recycling instead of any of us old, crippled-up seniors, GEO prizm-corp cages are much cheaper than the state’s remaining geriatric facilities. Okie pols are phasing out nursing homes by simply choking off their money and feeding it to their many swarms of different-plumaged cops. They don’t even have to build prisons anymore. The prison corps do this for them for free now, just to get the monkey hordes to fill them.
+
+These monkeys, already tiny-brained, under-achieving, mal-educated, sly and slow-witted, gradually go insane as the sensory deprivation shrinks tiny brains faster. I can hear them screaming at each other in rage through the bean holes. Years ago, the ages were put in long rows, facing each other. After 80 years of this design, they finally decided a better design would be to face the cages away from each other and seal the doors, even at the expense of ventilation. This design change was essential. It stopped monkeys from throwing feces and urine at each other and their keeper-flunkies. Monkeys who are locked up tightly in small cages get enraged if they can see other monkeys in tiny cages across a narrow corridor. It’s safer to scream and throw feces and urine at monkeys across a wall than it is to pick a fight with someone who can kill you in your sleep.
+
+Even though prize corp cage designers finally cracked the code that state cage designers couldn’t, and put monkeys in cages where they could no longer easily see other monkeys and throw feces at them, problems remained. Insane monkeys could still hear other crazy monkeys and scream threats back at them even without seeing them, consequently, we still see beanhole warriors. Everywhere in the prison zoos, even after they took away most of the bean holes.
+
+My investigator-monkey loves to watch TV, and I love for him to watch TV outside, in the monkey playpen room. When the flunkies lock us up for weeks at a time, like now, to ransack our cages and steal our few possessions, I don’t permit him to disturb my work by watching my TV. This makes him go into daydream mode, pretending to sleep 24/7. They obligingly supply him with sleeping drugs. All of the monkeys in the zoo can get free, unlimited sleeping drugs from the prison flunkies, state or corporate. It keeps them pacified, so that they don’t injure each other so much. These drugs cut costs and increase profits, since sleeping, pacified monkeys pay off better than hungry, angry, fighting monkeys do. It’s like these smart monkeys and their flunkies give them partial lethal ingestion for their easier adaptation to life in the zoo.

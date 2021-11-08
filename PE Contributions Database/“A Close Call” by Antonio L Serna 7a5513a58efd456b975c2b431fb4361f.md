@@ -1,0 +1,13 @@
+# “A Close Call” by Antonio L. Serna
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 09 - September
+Original Document (Google Doc): https://docs.google.com/document/d/1gjvB0rmWOouU6RO0AN61n6i2_-qzNOzql4yQdVyS_A4/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2019
+
+**“A Close Call” by Antonio L. Serna**
+
+Many years ago… being strung out.. To the point I didn’t care!!! One night at a bar, close to closing time, I was broke, homeless, and sick. I was contemplating on killing myself. When I noticed this young, beautiful woman dancing with men all around her. I was raised with the belief of curanderos - witch doctors… from my great-grandma who came from Mexico. She would tell how a bruja would change herself into a beautiful woman, finding a bad man to then steal his soul. It was a last call to alcohol. I didn’t have a dime to my name. So, I got up, put my backpack on, and headed for the door when out of nowhere, I hear a woman’s voice, calling me by my name. As I turn to see who’s calling me, I saw that it was that gorgeous lady who had all the men slobbering over her. She walked up to me and asked me if I knew where to score any coke. I told her, “Ya, but we have to walk. I don’t have a car.” Out of her hands, she handed me a set of car keys. She said, “You drive.” Sitting out in the parking lot of a bunch of dented, ghetto cars, it was a shiny black car. We got in and I noticed a case half full of budweiser, a bottle of tequila in the back seat, and a witch on a broom hanging from the rear view mirror. It was about 2:30 am and I was having close calls down every street (cops everywhere). I told her I had no money, and this coke dealer (Dirty Dan) was a mean, crazy bastard. We got to the drug house. It was surrounded by a chain-link fence with a small square cut out for 3 or 4 pit bulls to run loose. Dirty Dan, shot gun in hand, came out and I handed him some bills. He went inside, came back out mad as hell, threw the bills at me, and told me that they were fake. I’m thinking he switched them and I started calling him every name under the dark sky. He stuck the shotgun through the fence until it’s fully inside. I turned around to go back to the car, but I was surprised to find that there was no car and no beautiful woman. As I looked down, I picked up a small wax statue of a bruja on her broom. Talk about close calls!!!

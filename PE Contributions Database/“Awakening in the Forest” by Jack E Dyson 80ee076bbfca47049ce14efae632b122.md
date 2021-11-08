@@ -1,0 +1,13 @@
+# “Awakening in the Forest” by Jack E Dyson
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 08 - August
+Original Document (Google Doc): https://docs.google.com/document/d/1D9gJeG9dSboec5ihfeXTkYolDSlK52Y9DMSOudx0s94/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2019
+
+**“Awakening in the Forest” by Jack E Dyson**
+
+A gust of wind flows around the young druidess. As she plays forgotten notes. Attempting to draw forth the wood nymphs and faeries from her all too lucid dreams. Little does she know that the dreams are atavistic memories, drawn from deep within her subconscious. The blood flowing through her veins, consisting of strong Celtic DNA, imbing her with unrealized potential. Her fingers dance up and down the fife. Her blonde hair is blowing as her bright, green eyes roll behind closed eyelids. Suddenly, she is shocked by her ritualistic summoning, by giggles and sounds of movement in the long grass. She quickly opens her eyes and looks around. Before her is the most fantastic sight her young mind has ever dreamt. A crowd of half-man, half-goat beings, shorter than her 4 foot 1 inch. They stare at her, with jovial faces, awaiting her next melodious notes, desiring above all else to continually be entranced by their young queen. Yet, the young druidess is at a loss for words and thoughts. Her young mind thrashes about, attempting to recall and grasp her prior incarnations. She wants to play and enjoy her newfound friends, but deep down knows that part of her young life has been extinguished, never to be rekindled. Depressed by these ruminations she lifts her instrument to her little mouth and allows her melancholy to ooze forth a deep resonant, yet chilling string of notes. She then opens her verdant, green eyes and beholds the most amusing scene; the crowd of her newfound friends performing amazing gymnastic skills, doing backflips, front flips, somersaults, hand springs, while all working together culminating in one big beautiful ending in which they somehow land in an upside down, half-man/half goat pyramid. The sight and exuberance of their performance erases all her prior feelings of sorrow and instead replaces them with happy ideas, of what she is now able to produce by lifting her flute and playing a tune from her soul. After her minor epiphany she can not control the unbridled emotions rising within her. So once again she raises her flute and closes her beautiful eyes...

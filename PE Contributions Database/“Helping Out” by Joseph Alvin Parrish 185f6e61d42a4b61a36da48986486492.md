@@ -1,0 +1,19 @@
+# “Helping Out” by Joseph Alvin Parrish
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 01 - January
+Original Document (Google Doc): https://docs.google.com/document/d/16r126QvgK2k0STYj7UgSoDdtkatFiNCTZUz8cpRAhGQ/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2019
+
+**“Helping Out” by Joseph Alvin Parrish**
+
+Hello, guys and gals, this is a new year and I’ve committed myself to being a big inspiration to all of my theme-writing pals. I consider all of you a greater part of me. I consider all of us participating in this creative art with the intention of motivating ourselves as well as each other. By doing this, we are helping each other out. You help me, and I’m helping out. Is this not a great thing? There will be many days that you just won’t feel as if you have what it takes to write something awe inspiring and be creative, due to an unlimited number of reasons. This particular day, you may not feel any inspiration to write, maybe because you may be feeling depressed, or you may have received some bad news through the mail. What about receiving a major or minor disciplinary case; does that not put you in a bad mood and make you feel less than inspired and makes you not willing to help anyone out? Just about everyday, we are often caught up in an argument with someone which just saps the meager inspiration you have just right out of you.
+
+At that time, you can just forget about helping anyone out. You are no good for nothing but pure negativity. Nevertheless, some of us have learned how to channel our negative energy into positive energy. I think that that’s a good thing. When we do this, our main objective or reason should be to help each other out. We’re not doing this for ourselves but for each other. Even the worst of us or the most incorrigible has potential that is untapped; we are geared that way. God created us for a reason. Have you figured out what your reason is for living? I have. But, do I always promote myself? No! There are times when I am my own worst enemy, but GOD FORBID. “Dear” all of my theme-writing pals, I think you should know, or should I say, “Remember?” My purpose is… I’m here for you. My desire is to help you out in any way I can as long as it builds you up and not tear you down. And so, my theme-writing pals, what are your plans for the year, 2019? Don’t forget that we’re in this endeavor together facing similar dilemmas, similar mindsets, similar short-comings and character defects, and so, we should be able to understand these different adversities. I laugh when you laugh. I cry when you cry. I feel your pain, as well as you feel my pain. So, let’s keep in mind that our goal is to complement each other.
+
+You know that ole devil is busy seeking someone to devour? Are you going to let him grind you into pieces, or will you stay ready and prepared for his strategies? Remember that this is a spiritual battle that we’re fighting. So, we must use spiritual weapons to defeat our adversary. You can’t afford to let your guard down because he is looking for that foothold or that crack in your armor. Remember, guys and gals, the fervent prayer of a righteous man avails much. Remember, it’s not as bad as you portray it to be. After all, you’re alive, well and breathing. If you are willing, you can create good out of bad and make some glorious music. “So, don’t you worry, be happy.” There is someone who is always in your corner to help you along the way, so don’t despair. Keep hope alive. I’m just helping out to push you over the edge and provide you that extra nudge you need. In closing, KEEP YA HEAD TO THE SKY.
+
+- WACO JOE

@@ -1,0 +1,19 @@
+# "Boys Smoking" by Tommy Hightower
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 12 - December
+Original Document (Google Doc): https://docs.google.com/document/d/10TKleiToo3p6uuNRxKrHqahLyQJUCtv4wjRZ0nYr2pg/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2015
+
+**"Boys Smoking" by Tommy Hightower**
+
+The photo of the three boys, around 12 to 13 years old, reminds me of an exact picture of my buddies and me in 1970. We were together all the time. Every day we were trying to be more adult than our years. Yet, because we were all poor white trash from the wrong side of the tracks quite literally: our neighborhood was divided from lower-middle-class West Sacramento, California. We were Broderick Boys. Not the Broderick Boys of today’s Hispanic street gang either. We were the kids so poor we all had to work after school, weekends, all summer long. This was just to have decent clothes for school, and food to eat. No time for sports for none of us. It was just not available in school. Nor was it a social necessity when not in school.
+
+The one vice we did indulge in was our “cigs.” A throwback expression from the 50’s that matched the state of things in “Old Broderick” California. There were a dozen of us in total. But the main ones I am thinking of from this picture are Dale, Eugene, and me. We did everything together from 1st grade on to 10th grade in continuation High School. The last formal year of schooling for any of us. I returned to school later in life, and college. But as young boys, it was not in the cards or plans of parents or students at our alumni “Washington Elementary” (grades 6 thru 8). “Yolo High Continuation” was our high school. Not many ever graduated.
+
+Life was good though. We lived in a large tract of land where the Sacramento River wrapped around three sides of the community. The Port of Sacramento with deep water channel cut the last side and made it literally an island town. 3,500 souls in total. Old Broderick was about 500 souls. Each one was transplanted from the Dust Bowl midwest. Every homemade of scrap lumber and used nails. Talk about personality in designs. No two homes were alike. New Broderick was about 1960 tract homes for military families at the 5 military bases surrounding Sacramento. We could see the State Capital’s gold dome at night. The center of money and power for the state. Yet, we were not fit company for the inhabitants of Sacramento’s elite. No matter we loved our life of fishing, hunting, camping and shooting guns every single day of childhood. There was a 1 mile wide by many miles long green belt that ran beside the river. Giant Cottonwood trees were everywhere. The smell of the country. The sounds of the uneducated laborers were commonplace. I cannot remember many who were depressed or unhappy about life. We stuck together, all of us, no matter what. The fire burned down a home. No one was homeless or without support. We did not depend on the government. We depended on each other.
+
+Fast track to today. I am the one who stayed out of prison the longest. Got the college education. Made the most money. Yet I am the only one who has a life sentence and a 21-years in custody straight time. Dale and Eugene, both drug addicts. Both have done dozens of short terms. Both died early on in life. Few of us are left alive. Funny how life throws you curve balls. Thank you though, for a nice trip down memory lane. I think I have never been happy as long since the days of childhood that picture brought back to me. God Bless the Country Boys of Old Broderick. May God Bless our souls.

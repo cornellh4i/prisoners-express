@@ -1,0 +1,13 @@
+# "Accomplishments" by Michael Reese
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 06 - June
+Original Document (Google Doc): https://docs.google.com/document/d/11HmowDwAXI12u0GBcC-fLHadmQl3a7HWUXI4h8ik7Ek/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2017
+
+**Accomplishments by Michael Reese**
+
+Accomplishments are a sore spot for me. I don’t spend a lot of time thinking about what I’ve accomplished in my life. Because I don’t feel that I have as of yet. Accomplished anything noteworthy. I have tried and failed at a lot of things or just given up. I spend a lot of time thinking about when I would like to accomplish now and in the future. I have always done this oviding my failures. If I was pressed however to name a few things that I am proud of a few worthy accomplishments. It would start with my artistic skills I set out as a boy to teach myself how to draw and I have accomplished that I have much more to learn but I can draw relatively well now. Also I have accomplished my lifelong goal to not become my parents to remain true to my individuality. And I have done that completely. So much so that people think me strong. Because I always seek the path or ways that are not what other are doing this deep need to be different has caused me a great deal of trouble in my life other than my and my fierce individuality. I can not say I have accomplished anything yet so mostly when I think of such things it is in a future tense not past. Also something that almost always comes to mind for me when I think about accomplishments is that my stunning lack of them is a serious problem for my mom and grandpa they have both accomplished so much in their lives done and seen so much and I have done so little. I can't help but feel incompetent and decidedly un-accomplished and unworthy by comparison. Whenever I need to know if I have accomplished anything or not I simply ask myself how does it compare to the long list of accomplishments of my mom and grandpa and I know my answer. I often wonder. Will I ever be accomplished? Will I ever accomplish anything of worth in my life? Will I ever accomplish anything that will stack up in comparison to my mom and grandpa or the rest of my family for that matter. All of which are what most people would call very accomplished. I don't know to tell the truth. But I desperately hope and pray that before my life comes to an end I will be able to say truthfully I have accomplished much that is worthy and good.

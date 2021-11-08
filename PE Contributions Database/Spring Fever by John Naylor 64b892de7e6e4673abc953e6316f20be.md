@@ -1,0 +1,13 @@
+# "Spring Fever" by John Naylor
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 06 - June
+Original Document (Google Doc): https://docs.google.com/document/d/1c8lJbYZbH2zokj7E1_krLTDMPcGsQFuARD1ripU54bM/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2019
+
+**Spring Fever by John Naylor**
+
+For years, I get these seed catalogues. Some may think it’s weird. I plot favorite types of vegetables. I’ve never been excellent at growing. Learning about starting seeds is really important. That is if it’s not just an excuse to slide off somewhere and smoke. I thought back to being about 13. All over again. Digging up some ground Momma used to plant when I was a toddler. Good dirt. A little more shade than I really wanted. It’s at risk for flooding when the fields run off. A gamble, I knew. I think about the lyrics to R.E.M’s album “Green”. I felt connected to the land, the natural world. Such a pure thing. I feel fulfilled even if there wasn’t a big success in herbal medicine, vegetables or anything else. It’s like the process activates healing for the hurt inside we often overlook or forget about. There was memory. A log Dad shot at a few times with a .45, a board from a bench where I poured my heart out to both God and my brother Andy. Imagining life apart from these times of solitude was unfathomable. Doing things like everyone else never seemed to be a great success in my life. I knew other kids at Linberg Rd., Church of Christ’s youth group in Anderson, Indiana had a garden. Nor the growing knowledge of so many things that are mutually interesting. A pretty involved thought process when hobbies of such a great variety are before a 13 year old young man. My life was different than most around me. This still rings true. We all age. One day, I’ll pass away, and we all do. I think God should look to America’s Heartland for some great things we hold so dear in our hearts. So many beautiful things just for folks to experience or to manage. Even before they make up their minds to believe in who he is. I still plant things. Here and there. In courts. In the hearts of men and women. Some free, others prisoners. Some things of faith, wisdom or outside perspective. One thing is for sure, spring is coming. Plant a seed, something to grow, or something to grow in others. It’s a beautiful thing. You will only get this journey once. And hold who you love close to your heart if you can. The garden of the heart may be all you can grow this year.

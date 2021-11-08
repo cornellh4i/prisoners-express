@@ -1,0 +1,27 @@
+# "Legendary Flora" by Todd Leatherland
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 05 - May
+Original Document (Google Doc): https://docs.google.com/document/d/1q0JuO84OCu69CL8u9SYkPhpJ3-edIYulhxP9YKMa1Lc/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2018
+
+**“Legendary Flora” by Todd Leatherland**
+
+Some flowers are legendary. Spanish missionaries in the 1500s discovered a unique blossom, flourishing along the coastal plains of Texas, near Corpus Christi. The flower possesses a sophisticated regal bearing, with soaring pistils, this is reminiscent of a plant from Pandora. The monks saw elements of the Passion of Jesus Christ in it’s features; they named it the Passa Flora, or the Passion flower. The legend grew, and over the centuries, the thriving vine found its way to my people’s property in Huntsville.
+
+One Summer, years back, I took an Art Survey class at Sam Houston. I was a graphic design major, but really didn’t consider myself an artist Often, on my way to class, the little boy in me would sneak peaks at the nude models in the classroom down the hall; I gawked when they showcased their art pieces on the wall. At the time, I was twenty-eight and already felt like Rodney Dangerfield in *Back to School.* Perhaps that was why the professor had an aversion to my presence in his class. He was way older than I was, and we both had the same thing on our minds… which was art, but specifically the gorgeous co-ed art students who were also attending the class. It really was not as creepy as it sounds; my intentions were good, and I tried hard on my mixed-medium endeavors.
+
+For one of my projects, I decided to design a graphic collage using flowers growing on the property- like the Passa Flora. My Aunt Linda was a master gardener; her fourteen acre patch of magic, nestled in Sam Houston Forest, came alive during different seasons of the year. Her wild, eclectic, order-out-of-chaos style held surprises around every corner. There was a method to her madness, but it was a closely guarded secret. She planted citrus trees and azalea bushes in random places, and although there were designated beds for perennials, time and again, the thriving attractions would spill over, revealing the grandest hibiscus blooms one had ever seen. The strategically placed salvia became a waypoint for wayfaring monarchs returning wistfully from Mexico.
+
+The property also required constant upkeep that I gratefully took on in exchange for room and board. If the fence line was not kept clear with vigilance, the crowding forest was always eager to reclaim its territory. Mowing is my forte. I consider myself rather Gump-like in that respect. Frequently, as I was going about it, I would pretend I was in the Lawnmower World Championships. The crowd would go wild as I stunted around the yard, making hairpin turns and intricate maneuvers around obstacles on my way to another victory.
+
+That Summer I became intimate with flowers. I stopped and smelled the roses, to shamelessly use a cliche. The fragrant spray of the honeysuckles infused my memories with the enchantment of that Summer. Nature’s vivid palette was my muse, the aromatics my inspiration. Life’s vibrant hues became manifest. The pictures taken were imported into my computer to graphically manipulate their flora pixels. It was an impressionable technique conducive to a rich interaction with the bounty of the landscape, by appreciatively exploring the subtle touches of creation. In those moments, the flowers and myself both belonged there together.
+
+“What are you doing picking flowers?” My Uncle Sonny said one day. He was passive aggressive, and was attempting to emasculate me in front of the neighbor. I looked down; I was guilty; I was picking flowers, but I had a good reason. I liked to arrange them artistically in natural-edged wooden bowls that I turned on the lathe. It made me feel connected to the life force of the Summer. Uncle Sonny would never understand. So, I railed into him, full blast, in front of the neighbor.
+
+“Yes, I am picking flowers. Your wife is a master gardener, and we live in a wonderland. Maybe, if you spent time picking flowers instead of being controlling, you wouldn’t be such an asshole.” I stalked off to console my wounded pride, leaving them both speechless.
+
+At the end of the Summer the time came to present my project in art class. I had feathered the edges of the individual blooms, and overlapped the petals in an intricate collage. There were varying degrees of transparency and colors in a complimentary arrangement. I blew it up poster-sized and brought it to the professor. He was not impressed. In fact, he aired me out in front of the shocked class, telling me it was unfinished. The criticism stung. After exchanging words, I stormed out of the class and never came back. The rejection was taken personally. Perhaps I was hyper-sensitive; after all, I had been picking flowers. In the end it was the way he went about it that miffed me. He used his critique as a weapon in our personality conflict. My Aunt Linda, on the other hand, absolutely cherished it. It was the coolest thing ever. She got it. Our connection was evident through the medium. In that sense, beauty truly is in the eye of one who beholds, because that is where the deep, intimate connections are nurtured. There, the subjective perception collides with the creative radiance of the artist and creation itself- sometimes becoming legendary.

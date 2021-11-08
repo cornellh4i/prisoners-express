@@ -1,0 +1,25 @@
+# "Protected" by James Bauhaus
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 09 - September
+Original Document (Google Doc): https://docs.google.com/document/d/1S1Hhw9hU3v64EDfqfhc9EFLk4K5vMmPZhTc6-ld4SBA/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2017
+
+**Protection by James Bauhaus**
+
+For many of the young C.H.U.Ds trying to survive the gov’t’s slow death camps, protection means sucking up a ratpack of other scared cowards like themselves. I’ve been forced to study inmate psychology for almost five decades now, and I’ve seen nothing new for years. Basically, the more scared an inmate is of getting what he deserves, the more he tries to make weapons and join a ratpack. Then they rape and steal with abandon.
+
+Most of the inmates got here by being immoral. They stole something, usually, several times. When the lawcrats finally put them in a real prison, these inmates discover that the state now makes it easy for them to become even more immoral. Since there are no cops in prison, the opportunity for further criminality is nearly limitless. The state throws its inmate victims into its bottomless torture and harassment facilities, to be forgotten until they die, get killed, escape or the law lets them out, more crippled and demented than when they were abducted. Paired with the sudden, vast, increased opportunity for criminality is the need for it. The state created an environment of intellectual sterility much like a sensory deprivation chamber. With nothing to stimulate their minds, the inmates sink even deeper into depravity. This phenomenon is most easily seen in observing the minorities, many of whom walk around, gazing instinctively, with one or both hands clutching their genitals. With nothing to challenge it, the inmates’ minds shrink smaller and smaller, occupied only with sex, artificial stimulants, and kissing-up to the ones who unlock the doors. By depriving inmates of access to the simplest, most mundane things, the system makes its victims become more accomplished thieves and highly skilled connive-artists preying upon each other. This can be seen in one of the games that the “play-yahs” perpetuate.
+
+The most prevalent game that the minorities play is where they carefully sneak around while their victim sleeps to “diss” him. They may move his belongings, such as his shoe, or something may come up missing. This is why no one leaves their toothbrush out anymore. If the disrespected safely get away with this, he will move on to try something worse. ONe favorite is to initiate a conversation, then begin interrupting his victim when it is his turn to talk. Minorities, being very skilled at this, with their small vocabulary, powerful lungs and ability to spew short words like machine gun fire. It also helps that the victims that they choose most often for this treatment are polite, civilized, christians, though they will diss each other commonly enough. Smart people stop responding to this game. Succeeding at this makes them mistake politeness for weakness. Now they are brave enough to begin stealing small items, which they do by “borrowing” them and never managing to bring them back. Also common is “buying” things with a promise, yet never managing to actually pay for them.
+
+Another diss game popular with minorities is to roadblock progress. They do this by lounging in doorways and other pinch-points that they can find acting as human speed bumps to people who have things to do. Minorities derive much pleasure and a sense of importance and self-validation by making busy people ask them to get out of the way.
+
+Among themselves they will account tales of whom they dissed, their reaction to being dissed, and who of their victims has the most potential of being exploited for sex and money. This is the final stage of their diss-game, and they reason why it is at this stage that many of their victims decide that it is time to quit overlooking their incivility, quit feeling sorry for them and become immune to their epithet, “Racist!” The people who like to exploit others and love to call themselves “thugs”, think that hiding inside a gang of cowards gives them protection. Mostly, it does make them safe, but only up to a breaking point. For instance:
+
+I was once forced to live with a Nazi dopie who thought he was hot shit because he had a girlfriend stupid enough to bring him dope. He had all kinds of other dopies on his hook, whom he played unmercifully. I didn’t want his dope, and his inability to make me want something from him rankled. I politely endured his control-freak BS for weeks. He liked to lay up on the top rack, daydreaming and feigning sleep, making me tiptoe around him. Then he mumbled a throat about my quietly crinkling a cheetos bag. I got the powerstrip that the cops had made me buy when they stole my extension cord. I used it to smash his nose and break out his teeth. His “gang” of friends didn’t like him either. They only liked his dope. He realized:
+
+When you’re an asshole, there is no protection.

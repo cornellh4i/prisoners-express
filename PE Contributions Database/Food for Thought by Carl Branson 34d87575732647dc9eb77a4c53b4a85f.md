@@ -1,0 +1,21 @@
+# "Food for Thought" by Carl Branson
+
+Last Updated: February 25, 2021 12:05 PM
+Month: 05 - May
+Original Document (Google Doc): https://docs.google.com/document/d/1DAb3VUS2dbhUnmgetkkNgjSRrIUK9Edz3hkMLLeGf2Q/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2020
+
+**Food for Thought by Carl Branson**
+
+Even the dictionary lists “food” as one of the definitions for the noun nourishment. I prefer using the root nourish to expand the scope of the noun to embrace anything that fosters or promotes growth and life. This allows our investigation and recollections to include more than our physical well being. The spectrum of things that promote growth and life include, at minimum, people and situations that bolster our social and intellectual development.
+
+With three scores and ten years behind me, countless memories of people and situations that championed my physical, social, intellectual growth exist. Naturally, mom and dad were the first to fertilize all areas of my life.
+
+Dad was always in the upper echelon of wage earners allowing mom to be home with me and my four siblings. When it came to meal planning and cooking, only cordon bleu trained chef’s surpassed mom’s kitchen skills. There is no doubt in my mind that this is the source of my meager skills with a skillet. Likewise, mom had a green thumb that was regularly covered in dirt; Another one of my acquired joyful activities. On the social side of the coin, mom always made sure that we spent time with our neighborhood peers. Also, she made sure we attended extracurricular activities like dance lessons to ensure that we learned how to interact properly with girls (ugh! Me and my two left feet ).
+
+Dad was the ultimate eclectic educator. Engaged in the mechanical and electrical engineering disciplines, he was extremely education oriented. A major part of his focus was due to being drafted to fight in WWII which terminated his college career. Living in Chicago made trips to the museum of Science and Industry, Natural History, Shedd Aquarium, Adler Planetarium, and a host of lesser known educational sites and their annual events. A truly memorable excursion to coal city for fossil hunting cannot be repeated thanks to the ecologist's cry to “Restore the Landscape as sections of strip mining were completed. It seemed as if we were finding an intriguing plant or animal fossil with every other step we took over the tailings of overburden. Then there were the camping and fishing trips which exposed us to the flora and fauna of various locales as well as the finger points of surviving without running water, electricity, or central heat.
+
+Shifting gears to high school teachers is appropriate; two in particular. The first was my chemistry teacher. Mrs.A was the first, and only, to give me a failing grade on a report card. I was accustomed to “goofing off” and still being able to get A’s and B’s in all my classes. This lady recognized my arrogance and sent me a no nonsense wake up call: sometimes you have to work to achieve a goal. I got the message and was able to work my way to a “B” by the end of the semester. Then, there was my junior year english Lit teacher: Mrs. D. She was newly minted and doing her “practice year” to finalize state certification. This meant she was only about five or six years older than her students; and lordy, she was a homecoming queen gorgeous. But, and that’s “BUT” in bold caps, those were not the reasons no one missed her class. Mrs. D had a way of making Chaucer, Shakespeare, and other classics authors both interesting and relevant to 16 and 17 year olds. I was able to keep in  touch with Mrs. D and her husband outside of class which led to my first steady girlfriend. It was rather ironic how that worked out. She was one of the school’s hotties and I teased her mercilessly before, during, and after class. As a techno geek, I did not think I had any chance with Sue and I spent a blissful year together because college took us down divergent paths.

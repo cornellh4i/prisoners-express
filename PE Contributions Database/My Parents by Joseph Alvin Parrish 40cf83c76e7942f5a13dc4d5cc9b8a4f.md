@@ -1,0 +1,13 @@
+# "My Parents" by Joseph Alvin Parrish
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 01 - January
+Original Document (Google Doc): https://docs.google.com/document/d/1xV4fqaFfLWjqwvwsU2Xl6fSAVj3IVePM7sIxAoyUd68/edit
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2018
+
+**My Parents By Joseph Alvin Parrish**
+
+I was born February 13, 1963 in Corsicana, TX. My mother’s name was Katie Lee Parrish and my biological father’s name was Joe Ralvin. I really am not sure just exactly what happened, but rumor has it that my father was sent to prison when I was just a newborn. Please do not ask me what he did because I honestly do not know. I don’t even recall what he looked like. I will turn fifty-five years of age on February 13, 2018, and, unfortunately, I was never able to see him, talk to him, or share a laugh, nor a smile. I never got to listen to the sounds of his voice. My mother had a hard time raising us siblings, I don’t see how she pulled it off. Nevertheless, I admired her. My mother sired a bunch of children. Remember I told you that before I was even born, my mother birthed ten kids. And then something happened in a tragedy that claimed the lives of her children, a house fire. Out of her ten kids, only two survived from that tragedy. One of my brothers that survived ran back into the burning house and rescued one of his sisters. She is no longer with us in the land of the living, and neither is my brother. May they rest in peace. That was my biological father that was sentenced to prison. However, I do not know the man. I never saw him, nor talked to him. I don’t know if he’s alive or dead. Ask me if I care, yes I do? Yes I would like to see my father and give him a hug, and talk to him. Who I know today as my father is the man my mother married. He has the same name as my real biological father. Both of their names were Joe. I guess I will call one of them my step-father. My step-father worked the railroad. One thing that I experienced for sure is that I never had wanted him to be my step-father. In 1970 they took us away from our mother and placed us in a delinquent home for neglected children. Before this unfortunate incident I was living in Corsicana, Texas, but then when this incident happened they uprooted us by sending us to a delinquent home for neglected children located in Waco, Texas. I really miss my mother, may she rest in peace. She was such a sweet lady. One thing I can say is that she cared about her children. They separated us. They sent four of us to Waco, Texas, and the rest to Malakoff, Texas.

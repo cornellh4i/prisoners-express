@@ -1,0 +1,31 @@
+# "No Grace" ~ The Second “Green Rent House” Story by Matthew Tomlinson
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 04 - April
+Original Document (Google Doc): https://docs.google.com/document/d/1xxKDUoufA1LCCEELtg_IWHN0SFZq5b9qBpxGIHjEbek/edit
+Program: Picture Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2016
+
+***No Grace ~ The Second “Green Rent House” Story* by Matthew Tomlinson** 
+
+There are many tales to tell about that Green Rent House on the north side of Houston. This flash fiction will greatly amuse those who dabble in communications. This month’s photo of the black dog with the white crest ~ marked as “Evocative Dog Photo” ~ brings to mind a story of how a similar looking dog in Houston was remote controlled directly, and how the dog’s owner was indirectly remote controlled.
+
+The primary reason that green, clapboard, two-bedroom house became my home was because desperation is a servant of greed. Hard circumstances left an old ex-con hard up for an economical residence. The landlord was covetous for hard cash up front. We reached common ground quickly enough. Any tenant of the Green Rent House who paid the rent started, so long as he paid. No questions were asked. No lies need be supplied. The arrangements were a graceful nod to those many indelicacies in our modern society.
+
+After only a week, it became obvious that my neighbor’s dog thought my 48 feet wide by 24 feet long backyard was his personal potty patch. My neighbors never took remedial actions. The old women who actually was my neighbor happened to be my landlord’s mother. Also sharing her two-bedroom house were my landlord’s felonious brother (ah, we sort of shared common ground, you might say), his female associate, and her (though not his) 10 year old son. Shipwreck, Grace and Josh were good enough neighbors. Every boy deserves a dog.Yet there wasn’t enough room in my backyard for both me and those disgraceful doggie logs. There likewise wasn’t enough room in my at-will rental agreement for disgraceful discord with my neighbors.
+
+A secret weapon was needed to persuade Midnight to do poo-poo elsewhere. After a brief brainstorming session, my secret weapon was selected. A tank would quietly, gracefully win the battle. A tank is simple to design. You’re likely to know that an inductor is only a coil of wire, just like the coil of wire you wrap around the diaphragm for you homemade (and illicit) speaker. You might know that a capacitor is merely two pieces of metal with an insulator (air, or cardboard, for example) between them. Let me give you the game. Connect any inductor at all to any capacitor, and they will produce a frequency. That’s a tank circuit. The frequency depends on what size inductor and what size capacitor you use for the tank. Humans can hear frequencies from roughly 20 Hertz to approximately 20000 Hertz. Dogs can hear frequencies as high as 40000 Hertz. My secret weapon would be a Tank to generate about 30000 Hertz, so Midnight would hear the ultrasound squeal but humans would not, Ultrasound would gracefully get the message across to the messy dog.
+
+My secret weapon was only one step more devious than the ultrasound tank. A modulator was added.This allowed me to plug in a microphone to talk to Midnight in an ultrasound voice which would not annoy the neighbors. It was a graceful addition.
+
+Midnight never knew what bit him in his ear. He entered my back yard with disgraceful intent. From the public address speaker above my door emanated around fifty watts of ultrasound RRRRR-ARF! Attack bark. At the same moment my screen door slammed shut. Midnight was back in his own back yard before he even looked back. No snarling pursuits was seen. Sans snow, the “evocative dog photo” is a thought-provoking resemblance to the expression Midnight had on his muzzle.
+
+A television movie that night gave me inspiration. The movies was set in World War 2 London during the blitz. Air raid horns moaned as another V-2 rocket was launched from the continent. Some quick work with my cassette tape recorded was duplicated to produce two minutes of audio. By the fifth replication, my tape had a full half hour of sirens that, gracefully, nobody except Midnight could hear.
+
+At one in the morning ~ such a graceless hour fit for disgraceful deeds! ~ my ultrasound Tank began howling out its false warning of a rocket attack. No human heard the 1942 sirens that my Tank fired towards my neighbor’s house. There was no way for me to know if Midnight heard the ultrasound blasting his direction from my Tank... unless Midnight gave me the message in his own voice. Five silent minutes ticked off. From under the back bedroom window came a tentative: “Uh-uh-uh-roooo! Uh-rooooo!” From out of the window Shipwreck shouted a decision: “Shut up, Midnight!” The dog continues to sign for me. “Ruh-uh-rooooo!” This was the first verse of what could be a lengthy duet. “Uh-rooooo!” “Shut the hell up, Midnight!” “Rooo-ooo-ooo!”
+
+My full revenge upon my neighbor’s dog took place at two fifteen. Shipwreck had yelled: “Shut up, dog!” more than 20 times. The hound obeyed only during intervals when my cassette tape was rewinding. On our third refrain, with my ultrasound tank hitting the high notes while Midnight sang along in key at audio range, there was a bellowing roar of a 39-caliber pistol as Shipwreck played percussion. My neighbor had been indirectly remote controlled to shoot his own dog. What an act of grace!
+
+Midnight had his full revenge on Shipwreck. The cops investigated the 2:15 A.M. gunshot report. Midnight’s body was in plain open sight from the street. Shipwreck was arrested for the misdemeanor of Discharging a Firearm in City Limits, which caused his parole in a prior felony case to be revoked. Shipwreck was then charged with the new felony of Felon in Possession of Firearm. Shipwreck, fool as he proved to be, had shut Midnight up. Thereafter Shipwreck himself would be shut up in a place of no grace, here in Texas Department of Criminal Justice.

@@ -1,0 +1,15 @@
+# "Found" by James Bauhaus
+
+Last Updated: February 21, 2021 4:48 AM
+Month: 01 - January
+Original Document (Google Doc): https://docs.google.com/document/d/1-It34eLrD_fhRXQw10y021LPJv1FWNEqtORfSL26gyE/edit?usp=sharing
+Program: Word Theme Essay
+Suggest for blog: No
+Suggest for program mailing: No
+Year: 2017
+
+**Found by J. Bauhaus**
+
+I found out why no one has an opinion about anything important. It’s because having an opinion makes you the target of people who keep their opinions secret. For example, I’m an innocent man, and they know I’m an innocent man, yet I can’t get a parole. Why? Because as a result of their false conviction of me, I studied cops, lawcrats, bureaucrats, politicians, parolecrats, and the media and publicized my research so that others may learn how to avoid false conviction. I’m the guy who puts the big, orange cones around the open manhole that drops into the sewer so that no one else falls in. The false conviction rate is very high: 16% and climbing every time new data is wrung out of the gov-crats. My steady complaints about this are a constant poke in the eye to all of them who are knee-jerking, convictee-haters which, thanks to the character-assassination media, include (1) about every person who has not yet been forced through the hysterical, anti-crime grinder and (2) all of the many elite, gluttons of privilege who are immune to prisons and jails. The first group thinks I’m exaggerating, until it happens to them. Then they frantically write me and ask, “How do I get them off me?!” The second group regards my research and findings-of-fact as personal attacks. They despise me for exposing them and their methods. They think that I should be like everyone else and kiss the boot that kicks me, pretending that somehow, the lying cops, harmful lawyers, corrupt prosecutors, gullible witnesses, and blind, deaf judges all simply made “mistakes” to orchestrate (1) my conviction and (2) their murder of me by cage.
+
+If I had to pretend to be guilty, pretend that their lies were true, they would have paroled me around 1997 when they paroled their drug snitch who *is* a real murderer and who they glued onto me to get 12 gullible fools to convict. I didn’t pretend to be guilty, and they think I’m crazy for standing up to them for all these years. They mistake my altruism for the type of insane revenge fantasies that each of them have been playing in their heads, night and day. They can’t be blamed: if I spent my whole life screwing dirty, rotten criminals out of their lives, my poor, fearful mind would see a gun in every hand I saw. I’d become a total coward, waiting for my comeuppance to nail me every minute of the day. The more richly deserving the man is of his chickens coming home to roost, the more cowardly he acts. The more cowardly the cop, the more people that they suddenly gun down in their terror of getting what they deserve. It’s no surprise that they have to have their media tools sell this flaw in their character as a virtue. This is what I have found.
