@@ -18,11 +18,12 @@ import pandas as pd
 import os
 from bs4 import BeautifulSoup
 
-directory = '/Users/sohniuthra/Desktop/airtable/notiondb/PE Notion DB'
+directory = '/Users/kassie/Desktop/Hack4Impact/prisoners-express/PE Contributions Database'
 essays = []
 
 for filename in os.listdir(directory):
     if filename.endswith(".md"):
+      #print(filename)
       html = markdown(open(directory + '/' + filename).read())
       text = "".join(BeautifulSoup(html).findAll(text=True))
       essays.append(text)
@@ -32,18 +33,24 @@ for filename in os.listdir(directory):
 csv_input = pd.read_csv('PE Contributions Database.csv')
 csv_input["Text"] = ""
 
-try:
-  for x in range(len(essays)):
-    # title = essays[x][:essays[x].find("\n")]
-    glink = essays[x][essays[x].find('http'):essays[x].find("\n", essays[x].find('http'))]
-    essays[x] = essays[x][essays[x].find('Year')+11:]
-    i = csv_input.index[csv_input['Original Document (Google Doc)'].str.contains(glink)].tolist()
-    if len(i) > 0:
-      csv_input.at[i[0], 'Text'] = essays[x]
-    else:
-      continue
-except:
-  pass
+
+for x in range(len(essays)):
+  # title = essays[x][:essays[x].find("\n")]
+  try:
+    start = essays[x].find('http')
+    end = essays[x].find("\n", start)
+    if start != -1 and end != -1:
+      glink = essays[x][start:end]
+      lines = essays[x].split("\n")
+      res = "\n".join(lines[13:])
+      # print(csv_input['Original Document (Google Doc)'])
+      i = csv_input.index[csv_input['Original Document (Google Doc)'] == glink].tolist()
+      if len(i) > 0:
+        csv_input.at[i[0], 'Text'] = res
+      else:
+        continue
+  except:
+    continue
 
 # try:
 #   for x in range(len(essays)):
@@ -58,7 +65,7 @@ except:
 #   print("here")
 
 
-# csv_input.to_csv('PE Contributions Database Final.csv')
+csv_input.to_csv('attempt2.csv')
 # x = 0
 # header = True
 # with open('essays2.csv', 'r+') as f:
