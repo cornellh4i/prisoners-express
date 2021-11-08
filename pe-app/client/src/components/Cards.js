@@ -1,57 +1,69 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import IconButton from '@material-ui/core/IconButton';
-import InfoIcon from '@material-ui/icons/Info';
-import tileData from './titleData';
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    width: 1000,
-    height: 1000,
-  },
-  titleBar: {
-    background:
-      'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
-  },
-  icon: {
-    color: 'rgba(255, 255, 255, 0.54)',
-  },
-}));
-
-export default function TitlebarGridList() {
-  const classes = useStyles();
-
+import React from "react";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
+import CardActions from "@material-ui/core/CardActions";
+  
+export default function SingleCard() {
   return (
-    <div className={classes.root}>
-      <GridList cellHeight={300}  spacing={30} className={classes.gridList}>
-        <GridListTile key="Subheader" cols={4} style={{ height: 'auto' }}>
-          <ListSubheader component="div"></ListSubheader>
-        </GridListTile>
-        {tileData.map((tile) => (
-          <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
-            <GridListTileBar
-              title={tile.title}
-              actionIcon={
-                <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
-                  <InfoIcon />
-                </IconButton>
-              }
-            />
-          </GridListTile>
-        ))}
-      </GridList>
+    <div style={{}}>
+      <h4>🧢</h4>
+      <Card
+        style={{
+          width: '330px',
+          height: '351px',
+          backgroundColor: 'white',
+          borderRadius: '20px',
+        }}
+      >
+        <CardContent  style={{
+          padding: '0px'
+        }}>
+        <img src={figmaimage1} alt="prisoner art" />
+          <Typography variant="h5" component="h2"
+            style={{
+              fontFamily: '',
+              fontStyle: 'normal',
+              fontWeight: 600,
+              fontSize: '20px',
+            }}
+            color='black'>
+            Title
+          </Typography>
+          
+          <Typography
+            style={{
+              marginBottom: 12,
+              fontFamily: 'open-sans',
+              fontWeight: 400,
+              fontStyle: 'normal',
+              fontSize: '14px',
+            }}
+            color="#000000"
+          >
+            Author
+          </Typography>
+
+          
+          <Typography
+            style={{
+              marginBottom: 12,
+              fontFamily: 'open-sans',
+              fontWeight: 400,
+              fontStyle: 'normal',
+              fontSize: '12px',
+            }}
+            color="#828282"
+          >
+            Date
+          </Typography>
+
+        </CardContent>
+        <CardActions>
+          <Button size="small">button.....</Button>
+        </CardActions>
+      </Card>
     </div>
   );
 }
