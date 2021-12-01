@@ -21,11 +21,11 @@ export default function ArtworkCard(cardData) {
         }
         alt="prisoner art"
         style={{
-          width: "84px",
-          height: "115px",
-          float: "right",
-          marginRight: "14px",
-          marginTop: "15.5px",
+          // width: "84px",
+          height: "200px",
+          display: 'block',
+          margin: 'auto',
+          paddingBottom: "10px",
         }}
       />
     );
@@ -60,8 +60,7 @@ export default function ArtworkCard(cardData) {
     <div className="Card" onClick={() => setShow(true)} style={{}}>
       <Card
         style={{
-          // width: 330,
-          // height: 351,
+          width: 340,
           backgroundColor: "white",
         }}
       >

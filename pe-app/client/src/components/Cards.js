@@ -15,11 +15,13 @@ export default function Cards() {
 
 	return (
 		<div>
-			{artData.map((entry) => {
-				// return <JournalCard cardData={entry} />;
-				return <ArtworkCard cardData={entry} />;
-				//<ChapbookCard cardData={entry} />;
-			})}
+			<Grid container justify="center" spacing={2}>
+				{artData.map((entry) => {
+					// return <JournalCard cardData={entry} />;
+					return (<Grid item xs={4}><ArtworkCard cardData={entry} /></Grid>);
+					//<ChapbookCard cardData={entry} />;
+				})}
+			</Grid>
 			<Grid container justify="center" spacing={4}>
 				<Grid item xs={4}>
 					<EssayCard />
