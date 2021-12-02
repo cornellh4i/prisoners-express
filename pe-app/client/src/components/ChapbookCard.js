@@ -3,8 +3,9 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
+import Modal from '@material-ui/core/Modal';
+import Box from '@material-ui/core/Box';
 import CardActions from "@material-ui/core/CardActions";
-import "../css/index.css";
 
 const dates = [
 	"January",
@@ -45,6 +46,13 @@ export default function ChapbookCard(cardData) {
 		image = <img></img>;
 	}
 
+  let responses;
+	if (cardData.cardData["Responses"]) {
+		responses = cardData.cardData["Responses"].length;
+	} else {
+		responses = 0;
+	}
+
 	return (
 		<div style={{}}>
 			<h4></h4>
@@ -63,6 +71,31 @@ export default function ChapbookCard(cardData) {
 						}}
 					>
 						{image}
+
+            {/* <Card
+            style={{
+              width: '104.64px',
+              height: '148px',
+              color: "white",
+              float: "right",
+              Right: "20.56px",
+              marginTop: "16px",
+            }}
+            >
+            </Card>
+
+            <Card
+            style={{
+              width: '104.64px',
+              height: '148px',
+              color: "white",
+              float: "right",
+              marginRight: "16.79px",
+              marginTop: "16px",
+            }}
+            >
+            </Card> */}
+
 						<Typography
 							style={{
 								fontFamily: "Open Sans",
@@ -119,19 +152,19 @@ export default function ChapbookCard(cardData) {
 									"-"
 								)[0]}
 						</Typography>
+
 						<Typography
 							style={{
 								fontFamily: "Open Sans",
 								fontStyle: "normal",
 								fontWeight: "normal",
 								fontSize: "12px",
-								paddingTop: "10px",
+								paddingTop: "45px",
 								paddingLeft: "16px",
 								color: "#828282",
 							}}
 						>
-							{cardData.cardData["Responses"].length +
-								" Responses"}
+							{responses +" Responses"}
 						</Typography>
 					</CardContent>
 				</Card>

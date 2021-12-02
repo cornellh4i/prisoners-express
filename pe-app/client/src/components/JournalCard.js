@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
-import CardActions from "@material-ui/core/CardActions";
+import CardActions from "@material-ui/core/CardActions"
+import Modal from "./Modal.js"
+import "./modalstyle.css";
 
 const dates = [
 	"January",
@@ -51,8 +53,10 @@ export default function JournalCard(cardData) {
 		responses = 0;
 	}
 
+  const [show, setShow] = useState(false)
+
 	return (
-		<div style={{}}>
+		<div className="Card" onClick={() => setShow(true)} style={{}}>
 			<h4></h4>
 			{
 				<Card
@@ -142,6 +146,7 @@ export default function JournalCard(cardData) {
 							{responses + " Responses"}
 						</Typography>
 					</CardContent>
+          <Modal onClose={() => setShow(false)} show={show} />
 				</Card>
 			}
 		</div>
