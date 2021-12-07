@@ -7,9 +7,9 @@ export default function Cards() {
 	return (
 		<div>
 			{exportedData.map((entry) => {
-				return <JournalCard cardData={entry} />
-        // return <Modal cardData={entry} />;
-				// return <ChapbookCard cardData={entry} />;
+				// return <JournalCard cardData={entry} />
+        		// return <Modal cardData={entry} />;
+				return <ChapbookCard cardData={entry} />;
 			})}
 		</div>
 	);

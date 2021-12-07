@@ -53,7 +53,7 @@ export default function JournalCard(cardData) {
 		responses = 0;
 	}
 
-  const [show, setShow] = useState(false)
+	const [show, setShow] = useState(false)
 
 	return (
 		<div className="Card" onClick={() => setShow(true)} style={{}}>
@@ -146,7 +146,7 @@ export default function JournalCard(cardData) {
 							{responses + " Responses"}
 						</Typography>
 					</CardContent>
-          <Modal onClose={() => setShow(false)} show={show} />
+          			<Modal onClose={() => setShow(false)} show={show} />
 				</Card>
 			}
 		</div>
