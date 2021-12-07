@@ -2,7 +2,7 @@ import exportedData from "../util/records_new.json";
 import JournalCard from "./JournalCard";
 import ChapbookCard from "./ChapbookCard";
 import React, { useState } from "react";
-import { Grid } from "@material-ui/core";
+import { Checkbox, FormGroup, FormControlLabel, Grid } from "@material-ui/core";
 import EssayCard from "./EssayCard.js";
 import ArtworkCard from "./ArtworkCard.js";
 import PoetryCard from "./PoetryCard.js";
@@ -15,6 +15,11 @@ export default function Cards() {
 
 	return (
 		<div>
+			<FormGroup style={{display: "inline-block"}}>
+
+  				<FormControlLabel control={<Checkbox defaultChecked style ={{color: "#DD9933"}}/>} label="0 responses"/>
+  				<FormControlLabel control={<Checkbox defaultChecked style ={{color: "#DD9933"}}/>} label="1+ responses" />
+			</FormGroup>
 			<Grid container justify="center" spacing={2}>
 				{artData.map((entry) => {
 					// return <JournalCard cardData={entry} />;
