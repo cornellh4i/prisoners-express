@@ -1,0 +1,83 @@
+.modal {
+  display: inline-flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  /* width: 500px; */
+  background-color: #fff;
+}
+
+.modal-header,
+.modal-footer {
+  padding: 10px;
+}
+
+.modal-title {
+  /* position: absolute;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  font-size:36px
+  color: #000000; */
+  /* margin: 30px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-size: 36px;
+  font-family: Open Sans;
+  font-style: normal;
+}
+
+.modal-author {
+  /* margin: 10px; */
+  margin-left: 30px;
+  margin-top: 0px;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-style: normal;
+}
+
+.modal-date {
+  margin-left: 30px;
+  margin-top: 0px;
+  font-size: 14px;
+  font-family: Open Sans;
+  font-style: normal;
+  color: #828282;
+}
+
+.modal-address {
+  margin-left: 30px;
+  margin-top: 0px;
+  font-size: 14px;
+  font-family: Open Sans;
+  font-style: normal;
+}
+
+.modal-body {
+  padding: 20px;
+  /* border-top: 1px solid #eee; */
+  /* border-bottom: 1px solid #eee; */
+}
+
+.modal-tags {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  border-radius: 10px;
+  background: #ffdc83;
+  padding: 4px;
+  font-size: 14px;
+  width: 8%;
+}

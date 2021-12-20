@@ -1,57 +1,59 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import IconButton from '@material-ui/core/IconButton';
-import InfoIcon from '@material-ui/icons/Info';
-import tileData from './titleData';
+import exportedData from "../util/records_new.json";
+import JournalCard from "./JournalCard";
+import ChapbookCard from "./ChapbookCard";
+import React, { useState } from "react";
+import { Checkbox, FormGroup, FormControlLabel, Grid } from "@material-ui/core";
+import EssayCard from "./EssayCard.js";
+import ArtworkCard from "./ArtworkCard.js";
+import PoetryCard from "./PoetryCard.js";
+import Modal from "./Modal.js";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    width: 1000,
-    height: 1000,
-  },
-  titleBar: {
-    background:
-      'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
-  },
-  icon: {
-    color: 'rgba(255, 255, 255, 0.54)',
-  },
-}));
+export default function Cards() {
+	const [show, setShow] = useState(false)
+	const artData = exportedData.filter((entry) =>
+		entry["Program (category)"] == "Art")
 
-export default function TitlebarGridList() {
-  const classes = useStyles();
+	return (
+		<div>
+			<FormGroup style={{display: "inline-block"}}>
 
-  return (
-    <div className={classes.root}>
-      <GridList cellHeight={300}  spacing={30} className={classes.gridList}>
-        <GridListTile key="Subheader" cols={4} style={{ height: 'auto' }}>
-          <ListSubheader component="div"></ListSubheader>
-        </GridListTile>
-        {tileData.map((tile) => (
-          <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
-            <GridListTileBar
-              title={tile.title}
-              actionIcon={
-                <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
-                  <InfoIcon />
-                </IconButton>
-              }
-            />
-          </GridListTile>
-        ))}
-      </GridList>
-    </div>
-  );
+  				<FormControlLabel control={<Checkbox defaultChecked style ={{color: "#DD9933"}}/>} label="0 responses"/>
+  				<FormControlLabel control={<Checkbox defaultChecked style ={{color: "#DD9933"}}/>} label="1+ responses" />
+			</FormGroup>
+			<Grid container justify="center" spacing={2}>
+				{artData.map((entry) => {
+					// return <JournalCard cardData={entry} />;
+					return (<Grid item xs={4}><ArtworkCard cardData={entry} /></Grid>);
+					//<ChapbookCard cardData={entry} />;
+				})}
+			</Grid>
+			<Grid container justify="center" spacing={4}>
+				<Grid item xs={4}>
+					<EssayCard />
+				</Grid>
+
+				<Grid item xs={4}>
+					<EssayCard />
+				</Grid>
+
+				<Grid item xs={4}>
+					<EssayCard />
+				</Grid>
+
+				<Grid item xs={4}>
+					<PoetryCard />
+				</Grid>
+
+				<Grid item xs={4}>
+					<PoetryCard />
+				</Grid>
+
+				<Grid item xs={4}>
+					<PoetryCard />
+				</Grid>
+			</Grid>
+			<button onClick={() => setShow(true)}>Show Modal</button>
+			<Modal onClose={() => setShow(false)} show={show} />
+		</div>
+	);
 }
