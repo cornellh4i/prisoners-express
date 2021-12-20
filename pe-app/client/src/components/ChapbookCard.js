@@ -45,6 +45,12 @@ export default function ChapbookCard(cardData) {
 		image = <img></img>;
 	}
 
+	let responses;
+	if (cardData.cardData["Responses"]) {
+		responses = cardData.cardData["Responses"].length;
+	} else {
+		responses = 0;
+	}
 	return (
 		<div style={{}}>
 			<h4></h4>
@@ -130,8 +136,7 @@ export default function ChapbookCard(cardData) {
 								color: "#828282",
 							}}
 						>
-							{cardData.cardData["Responses"].length +
-								" Responses"}
+							{responses + " Responses"}
 						</Typography>
 					</CardContent>
 				</Card>
