@@ -8,16 +8,16 @@ import "../css/ArtworkCard.css";
 export default function ArtworkCard(cardData) {
   const [show, setShow] = useState(false)
   let image;
-
+  let imgSrc;
   let artData = cardData.cardData
-  console.log('artData', artData)
   if (artData["Attachments"][0]["thumbnails"]) {
+    imgSrc = artData["Attachments"][0]["thumbnails"]["large"][
+      "url"
+    ];
     image = (
       <img
         src={
-          artData["Attachments"][0]["thumbnails"]["large"][
-          "url"
-          ]
+          imgSrc
         }
         alt="prisoner art"
         style={{
@@ -31,6 +31,8 @@ export default function ArtworkCard(cardData) {
     );
   } else {
     image = <img></img>;
+    imgSrc = '';
+    //this should be the source of some empty image
   }
 
 
@@ -58,6 +60,8 @@ export default function ArtworkCard(cardData) {
 
   return (
     <div className="Card" onClick={() => setShow(true)} style={{}}>
+      <Modal onClose={() => setShow(false)} show={show}
+        artData={artData} imgSrc={imgSrc} responses={responses} dates={dates} />
       <Card
         style={{
           width: 340,
@@ -98,7 +102,6 @@ export default function ArtworkCard(cardData) {
               artData["Last modified time"].split(
                 "-"
               )[0]}
-            {/* <img src={mailicon} width="20" height="20" align="right" alt="mail icon"></img> */}
           </Typography>
           <Typography
             style={{
@@ -114,7 +117,6 @@ export default function ArtworkCard(cardData) {
             {responses + " Responses"}
           </Typography>
         </CardContent>
-        <Modal onClose={() => setShow(false)} show={show} />
       </Card>
     </div >
   );

@@ -1,23 +1,21 @@
 import React from "react";
 import Carousel from "react-grid-carousel";
-// import artworkimg from "./Rectangle.png";
 
-const Gallery = () => {
+const Gallery = (imgSrc) => {
   return (
     <Carousel cols={2} rows={1} gap={10} loop>
+
+      {<img width="100%" src={imgSrc} />}
+
       <Carousel.Item>
-        {/* <img width="100%" src={artworkimg} /> */}
+        <img width="100%" src={imgSrc} />
       </Carousel.Item>
       <Carousel.Item>
-        {/* <img width="100%" src={artworkimg} /> */}
+        <img width="100%" src={imgSrc} />
       </Carousel.Item>
       <Carousel.Item>
-        {/* <img width="100%" src={artworkimg} /> */}
+        <img width="100%" src={imgSrc} />
       </Carousel.Item>
-      <Carousel.Item>
-        {/* anything you want to show in the grid */}
-      </Carousel.Item>
-      {/* ... */}
     </Carousel>
   )
 }
