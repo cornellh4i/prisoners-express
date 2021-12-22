@@ -24,14 +24,15 @@ const dates = [
 export default function PoetryCard(cardData) {
 	const [show, setShow] = useState(false);
 	const poetryData = cardData.cardData;
-	console.log('poetryData', poetryData)
 	let image;
+	let imgSrc;
 	if (poetryData["Attachments"][0]["thumbnails"]) {
+		imgSrc = poetryData["Attachments"][0]["thumbnails"]["large"][
+			"url"];
 		image = (
 			<img
 				src={
-					poetryData["Attachments"][0]["thumbnails"]["large"][
-					"url"]
+					imgSrc
 				}
 				alt="prisoner art"
 				style={{
@@ -121,7 +122,7 @@ export default function PoetryCard(cardData) {
 				</CardContent>
 			</Card>
 			<Modal onClose={() => setShow(false)} show={show}
-				artData={cardData.cardData} image={image} responses={responses} dates={dates} />
+				artData={cardData.cardData} imgSrc={imgSrc} responses={responses} dates={dates} />
 		</div>
 	);
 }

@@ -9,11 +9,14 @@
   /* display: flex; */
   align-items: center;
   justify-content: center;
+
 }
 
 .modal-content {
-  /* width: 500px; */
+  height: 80%;
+  width: 40%;
   background-color: #fff;
+  position: absolute;
 }
 
 .modal-header,
@@ -58,17 +61,17 @@
 }
 
 .modal-address {
-  margin-left: 30px;
-  margin-top: 0px;
+  margin-right: 30px;
   font-size: 14px;
   font-family: Open Sans;
   font-style: normal;
+  white-space: pre-line;
+  float: right;
 }
 
 .modal-body {
   padding: 20px;
-  /* border-top: 1px solid #eee; */
-  /* border-bottom: 1px solid #eee; */
+  height: 70%;
 }
 
 .modal-tags {

@@ -8,16 +8,16 @@ import "../css/ArtworkCard.css";
 export default function ArtworkCard(cardData) {
   const [show, setShow] = useState(false)
   let image;
-
+  let imgSrc;
   let artData = cardData.cardData
-  console.log('artData', artData)
   if (artData["Attachments"][0]["thumbnails"]) {
+    imgSrc = artData["Attachments"][0]["thumbnails"]["large"][
+      "url"
+    ];
     image = (
       <img
         src={
-          artData["Attachments"][0]["thumbnails"]["large"][
-          "url"
-          ]
+          imgSrc
         }
         alt="prisoner art"
         style={{
@@ -31,6 +31,8 @@ export default function ArtworkCard(cardData) {
     );
   } else {
     image = <img></img>;
+    imgSrc = '';
+    //this should be the source of some empty image
   }
 
 
@@ -59,7 +61,7 @@ export default function ArtworkCard(cardData) {
   return (
     <div className="Card" onClick={() => setShow(true)} style={{}}>
       <Modal onClose={() => setShow(false)} show={show}
-        artData={artData} image={image} responses={responses} dates={dates} />
+        artData={artData} imgSrc={imgSrc} responses={responses} dates={dates} />
       <Card
         style={{
           width: 340,
