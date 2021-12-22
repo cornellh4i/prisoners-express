@@ -58,6 +58,8 @@ export default function ArtworkCard(cardData) {
 
   return (
     <div className="Card" onClick={() => setShow(true)} style={{}}>
+      <Modal onClose={() => setShow(false)} show={show}
+        artData={artData} image={image} responses={responses} dates={dates} />
       <Card
         style={{
           width: 340,
@@ -98,7 +100,6 @@ export default function ArtworkCard(cardData) {
               artData["Last modified time"].split(
                 "-"
               )[0]}
-            {/* <img src={mailicon} width="20" height="20" align="right" alt="mail icon"></img> */}
           </Typography>
           <Typography
             style={{
@@ -114,7 +115,6 @@ export default function ArtworkCard(cardData) {
             {responses + " Responses"}
           </Typography>
         </CardContent>
-        <Modal onClose={() => setShow(false)} show={show} />
       </Card>
     </div >
   );

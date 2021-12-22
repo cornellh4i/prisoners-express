@@ -4,7 +4,10 @@ import "../css/Modal.css";
 import { Card, CardContent, Typography } from "@material-ui/core";
 import Gallery from "./Carousel.js";
 
-const Modal = props => {
+const Modal = (props) => {
+  const { image, responses, dates } = props;
+  const data = props.artData;
+
   if (!props.show) {
     return null;
   }
@@ -13,29 +16,39 @@ const Modal = props => {
       <div className="modal-content" onClick={e => e.stopPropagation()}>
 
         <div className="modal-body">
-
-          {/* <img src={artworkimg} align="center" alt="artwork"></img> */}
-
-
-
+          {image}
         </div>
-        <div className="modal-tags">
-          tag
-        </div>
+
         <div className="modal-title">
-          Title!
+          {data["Title"]}
         </div>
         <div className="modal-author">
-          author
+          {data["Author Name"] +
+            " " +
+            data["Last Name"]}
         </div>
         <div className="modal-date">
-          date, responses
+          {dates[
+            parseInt(
+              data[
+                "Last modified time"
+              ].split("-")[1]
+            ) - 1
+          ] +
+            " " +
+            data["Last modified time"].split(
+              "-"
+            )[0]}
+
+        </div>
+        <div className="modal-date">
+          {responses + " Responses"}
         </div>
         <div className="modal-footer">
           <button onClick={props.onClose} className="button">Close</button>
         </div>
       </div>
-      {/* <Gallery/> */}
+      {/* <Gallery /> */}
     </div>
   )
 }

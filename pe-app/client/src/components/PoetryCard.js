@@ -19,8 +19,40 @@ const dates = [
 	"December",
 ];
 
+
+
 export default function PoetryCard(cardData) {
 	const [show, setShow] = useState(false);
+	const poetryData = cardData.cardData;
+	console.log('poetryData', poetryData)
+	let image;
+	if (poetryData["Attachments"][0]["thumbnails"]) {
+		image = (
+			<img
+				src={
+					poetryData["Attachments"][0]["thumbnails"]["large"][
+					"url"]
+				}
+				alt="prisoner art"
+				style={{
+					// width: "84px",
+					height: "200px",
+					display: 'block',
+					margin: 'auto',
+					paddingBottom: "10px",
+				}}
+			/>
+		);
+	} else {
+		image = <img></img>;
+	}
+
+	let responses;
+	if (poetryData["Responses"]) {
+		responses = poetryData["Responses"].length;
+	} else {
+		responses = 0;
+	}
 	return (
 		<div onClick={() => setShow(true)} style={{}}>
 			<Card
@@ -30,13 +62,13 @@ export default function PoetryCard(cardData) {
 				}}
 			>
 				<CardContent>
+					{image}
 					<Typography
 						style={{ fontSize: 20, fontWeight: "bold" }}
 						variant="h4"
 						component="h2"
 					>
 						{cardData.cardData["Title"]}
-						{/* <img src={greyrectangle} width="140" height="130" align="right" alt="poem"></img> */}
 					</Typography>
 
 					<Typography
@@ -71,14 +103,25 @@ export default function PoetryCard(cardData) {
 
 					<br></br>
 					<br></br>
-					<Typography variant="body2" component="p">
-						Tag #1, Tag #2
+					<Typography
+						style={{
+							fontFamily: "Open Sans",
+							fontStyle: "normal",
+							fontWeight: "normal",
+							fontSize: "11.3494px",
+							paddingTop: "20px",
+							paddingLeft: "16px",
+							color: "#828282",
+						}}
+					>
+						{responses + " Responses"}
 					</Typography>
 
 					{/* <img src={mailicon} width="20" height="20" align="left" alt="mail icon"></img> */}
 				</CardContent>
 			</Card>
-			<Modal onClose={() => setShow(false)} show={show} />
+			<Modal onClose={() => setShow(false)} show={show}
+				artData={cardData.cardData} image={image} responses={responses} dates={dates} />
 		</div>
 	);
 }
