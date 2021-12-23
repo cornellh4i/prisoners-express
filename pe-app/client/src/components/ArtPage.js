@@ -15,10 +15,11 @@ const data = exportedData.filter(
 );
 const authors = data.map((entry) =>
 	(entry["Author Name"] + " " + entry["Last Name"]));
-const uniqueAuthors = [... new Set(authors)].map((entry) => ({ label: entry }));
+const uniqueAuthors = [... new Set(authors)];
 
 export default function ArtPage() {
 	const [show, setShow] = useState(false);
+	const [selectedAuthors, setAuthors] = React.useState(uniqueAuthors);
 
 	return (
 		<div>
@@ -29,8 +30,13 @@ export default function ArtPage() {
 						multiple
 						limitTags={2}
 						options={uniqueAuthors}
-						getOptionLabel={(option) => option.label}
+						getOptionLabel={(option) => option}
 						sx={{ width: 250 }}
+						size="small"
+						defaultValue={uniqueAuthors}
+						onChange={(event, newValue) => {
+							setAuthors(newValue);
+						}}
 						renderOption={(props, option, { selected }) => (
 							<li {...props}>
 								<Checkbox
@@ -38,9 +44,8 @@ export default function ArtPage() {
 									checkedIcon={checkedIcon}
 									style={{ marginRight: 8, color: "#DD9933" }}
 									checked={selected}
-									defaultChecked
 								/>
-								{option.label}
+								{option}
 							</li>
 						)}
 						renderInput={(params) => <TextField {...params} label="Selected Artists" />} />
@@ -62,11 +67,17 @@ export default function ArtPage() {
 			<Grid container justify="center" spacing={2}>
 				{data.map((entry) => {
 					// return <JournalCard cardData={entry} />;
-					return (
-						<Grid item xs={4}>
-							<ArtworkCard cardData={entry} show={show} />
-						</Grid>
-					);
+
+					const author = entry["Author Name"] + " " + entry["Last Name"];
+					console.log('author', author);
+					console.log(selectedAuthors);
+					if (selectedAuthors.includes(author)) {
+						return (
+							<Grid item xs={4}>
+								<ArtworkCard cardData={entry} show={show} />
+							</Grid>
+						);
+					}
 					//<ChapbookCard cardData={entry} />;
 				})}
 			</Grid>
