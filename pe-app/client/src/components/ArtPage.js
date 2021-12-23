@@ -20,6 +20,17 @@ const uniqueAuthors = [... new Set(authors)];
 export default function ArtPage() {
 	const [show, setShow] = useState(false);
 	const [selectedAuthors, setAuthors] = React.useState(uniqueAuthors);
+	const [showNoResponse, setNoResponse] = React.useState(true);
+	const [showResponses, setResponses] = React.useState(true);
+
+	const handleNoResponseChange = (event) => {
+		setNoResponse(!showNoResponse);
+	}
+
+	const handleResponseChange = (event) => {
+		setResponses(!showResponses);
+	}
+
 
 	return (
 		<div>
@@ -53,28 +64,33 @@ export default function ArtPage() {
 				/>
 				<FormControlLabel
 					control={
-						<Checkbox defaultChecked style={{ color: "#DD9933" }} />
+						<Checkbox defaultChecked style={{ color: "#DD9933" }}
+							onChange={handleNoResponseChange} />
 					}
 					label="0 responses"
 				/>
 				<FormControlLabel
 					control={
-						<Checkbox defaultChecked style={{ color: "#DD9933" }} />
+						<Checkbox defaultChecked style={{ color: "#DD9933" }}
+							onChange={handleResponseChange} />
 					}
 					label="1+ responses"
 				/>
 			</FormGroup>
 			<Grid container justify="center" spacing={2}>
 				{data.map((entry) => {
-					// return <JournalCard cardData={entry} />;
-
 					const author = entry["Author Name"] + " " + entry["Last Name"];
-					console.log('author', author);
-					console.log(selectedAuthors);
-					if (selectedAuthors.includes(author)) {
+					let responses;
+					if (entry["Responses"]) {
+						responses = entry["Responses"].length;
+					} else {
+						responses = 0;
+					}
+					if (selectedAuthors.includes(author) &&
+						((showNoResponse && responses == 0) || (showResponses && responses > 0))) {
 						return (
 							<Grid item xs={4}>
-								<ArtworkCard cardData={entry} show={show} />
+								<ArtworkCard cardData={entry} show={show} responses={responses} />
 							</Grid>
 						);
 					}
