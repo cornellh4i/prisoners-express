@@ -7,6 +7,7 @@ import ArtPage from "./components/ArtPage.js";
 import ChapbookPage from "./components/ChapbookPage.js";
 import PoetryPage from "./components/PoetryPage.js";
 import JournalPage from "./components/JournalPage.js";
+import FeaturedPage from "./components/FeaturedPage.js";
 import EssayPage from "./components/EssayPage.js";
 
 const font = "'Open Sans', sans-serif";
@@ -23,6 +24,7 @@ export default function App() {
 				<div>
 					<Switch>
 						<Route exact path="/" />
+						<Route path="/featured" component={FeaturedPage} />
 						<Route path="/art" component={ArtPage} />
 						<Route path="/chapbook" component={ChapbookPage} />
 						<Route path="/poetry" component={PoetryPage} />
