@@ -10,6 +10,7 @@ import JournalCard from "./JournalCard.js";
 import PoetryCard from "./PoetryCard.js";
 import ChapbookCard from "./ChapbookCard.js";
 import Navbar from "./Navbar.js";
+import Masonry from '@mui/lab/Masonry';
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
@@ -62,7 +63,37 @@ export default function FeaturedPage() {
           label="1+ responses"
         />
       </FormGroup>
-      <Grid container spacing={2} justifyContent="space-evenly" alignItems="stretch">
+
+      <div className="featured-container">
+        <Masonry columns="auto" spacing={1} defaultColumns={4} defaultSpacing={1}>
+          {data.map((entry) => {
+            const type = entry["Program (category)"]
+            switch (type) {
+              case "Art": return (
+
+                <ArtworkCard cardData={entry} show={show} />
+
+              );
+              case "Journal": return (
+
+                <JournalCard cardData={entry} show={show} />
+
+              );
+              case "Poetry": return (
+
+                <PoetryCard cardData={entry} show={show} />
+
+              );
+              case "Chapbook": return (
+
+                <ChapbookCard cardData={entry} show={show} />
+
+              );
+            }
+          })}
+        </Masonry>
+      </div>
+      {/* <Grid container spacing={2} verticalAlign="middle" justifyContent="space-evenly" alignItems="stretch">
         {data.map((entry) => {
           const type = entry["Program (category)"]
           switch (type) {
@@ -88,7 +119,7 @@ export default function FeaturedPage() {
             );
           }
         })}
-      </Grid>
+      </Grid> */}
       <button onClick={() => setShow(true)}>Show Modal</button>
     </div>
   );
