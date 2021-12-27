@@ -94,7 +94,6 @@ export default function ArtPage() {
 							</Grid>
 						);
 					}
-					//<ChapbookCard cardData={entry} />;
 				})}
 			</Grid>
 			<button onClick={() => setShow(true)}>Show Modal</button>
