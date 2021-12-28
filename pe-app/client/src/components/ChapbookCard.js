@@ -116,10 +116,10 @@ export default function ChapbookCard(props) {
 					<CardContent className={classes.cardcontent}>
 						{image}
 						<Typography className={classes.title}>
-							{cardData.cardData["Title"]}
+							{cardData["Title"]}
 						</Typography>
 						<Typography className={classes.author}>
-							{cardData.cardData["Author Name"] +
+							{cardData["Author Name"] +
 								" " +
 								cardData["Last Name"]}
 						</Typography>
