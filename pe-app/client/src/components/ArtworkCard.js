@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Card, CardContent, Typography } from "@material-ui/core";
-// import mailicon from "./mail.png";
-// import artworkimg from "./Rectangle.png";
+
 import Modal from "./Modal.js";
 import "../css/ArtworkCard.css";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
@@ -123,3 +122,4 @@ export default function ArtworkCard(cardData) {
 		</div>
 	);
 }
+

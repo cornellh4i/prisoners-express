@@ -13,72 +13,88 @@ const checkedIcon = <CheckBoxIcon fontSize="small" />;
 const data = exportedData.filter(
 	(entry) => entry["Program (category)"] == "Art"
 );
-const authors = data.map(
-	(entry) => entry["Author Name"] + " " + entry["Last Name"]
-);
-const uniqueAuthors = [...new Set(authors)].map((entry) => ({ label: entry }));
+
+const authors = data.map((entry) =>
+	(entry["Author Name"] + " " + entry["Last Name"]));
+const uniqueAuthors = [... new Set(authors)];
 
 export default function ArtPage() {
 	const [show, setShow] = useState(false);
+	const [selectedAuthors, setAuthors] = React.useState(uniqueAuthors);
+	const [showNoResponse, setNoResponse] = React.useState(true);
+	const [showResponses, setResponses] = React.useState(true);
+
+	const handleNoResponseChange = (event) => {
+		setNoResponse(!showNoResponse);
+	}
+
+	const handleResponseChange = (event) => {
+		setResponses(!showResponses);
+	}
+
 
 	return (
 		<div>
 			<Navbar />
 			<FormGroup style={{ display: "inline-block" }}>
-				<FormControlLabel
-					control={
-						<Autocomplete
-							multiple
-							limitTags={2}
-							options={uniqueAuthors}
-							getOptionLabel={(option) => option.label}
-							sx={{ width: 250 }}
-							renderOption={(props, option, { selected }) => (
-								<li {...props}>
-									<Checkbox
-										icon={icon}
-										checkedIcon={checkedIcon}
-										style={{
-											marginRight: 8,
-											color: "#DD9933",
-										}}
-										checked={selected}
-										defaultChecked
-									/>
-									{option.label}
-								</li>
-							)}
-							renderInput={(params) => (
-								<TextField
-									{...params}
-									label="Selected Artists"
+				<FormControlLabel control={
+					<Autocomplete
+						multiple
+						limitTags={2}
+						options={uniqueAuthors}
+						getOptionLabel={(option) => option}
+						sx={{ width: 250 }}
+						size="small"
+						defaultValue={uniqueAuthors}
+						onChange={(event, newValue) => {
+							setAuthors(newValue);
+						}}
+						renderOption={(props, option, { selected }) => (
+							<li {...props}>
+								<Checkbox
+									icon={icon}
+									checkedIcon={checkedIcon}
+									style={{ marginRight: 8, color: "#DD9933" }}
+									checked={selected}
 								/>
-							)}
-						/>
-					}
+								{option}
+							</li>
+						)}
+						renderInput={(params) => <TextField {...params} label="Selected Artists" />} />
+				}
 				/>
 				<FormControlLabel
 					control={
-						<Checkbox defaultChecked style={{ color: "#DD9933" }} />
+						<Checkbox defaultChecked style={{ color: "#DD9933" }}
+							onChange={handleNoResponseChange} />
 					}
 					label="0 responses"
 				/>
 				<FormControlLabel
 					control={
-						<Checkbox defaultChecked style={{ color: "#DD9933" }} />
+						<Checkbox defaultChecked style={{ color: "#DD9933" }}
+							onChange={handleResponseChange} />
 					}
 					label="1+ responses"
 				/>
 			</FormGroup>
 			<Grid container justify="center" spacing={2}>
 				{data.map((entry) => {
-					// return <JournalCard cardData={entry} />;
-					return (
-						<Grid item xs={4}>
-							<ArtworkCard cardData={entry} show={show} />
-						</Grid>
-					);
-					//<ChapbookCard cardData={entry} />;
+					const author = entry["Author Name"] + " " + entry["Last Name"];
+					let responses;
+					if (entry["Responses"]) {
+						responses = entry["Responses"].length;
+					} else {
+						responses = 0;
+					}
+					if (selectedAuthors.includes(author) &&
+						((showNoResponse && responses == 0) || (showResponses && responses > 0))) {
+						return (
+							<Grid item xs={4}>
+								<ArtworkCard cardData={entry} show={show} responses={responses} />
+							</Grid>
+						);
+					}
 				})}
 			</Grid>
 			<button onClick={() => setShow(true)}>Show Modal</button>

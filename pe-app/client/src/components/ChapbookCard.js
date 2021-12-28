@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+
 import Button from "@material-ui/core/Button";
 import CardActions from "@material-ui/core/CardActions";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
+import Modal from "./Modal.js";
 
 const dates = [
 	"January",
@@ -85,16 +87,18 @@ const useStyles = makeStyles({
 export default function ChapbookCard(cardData) {
 	const classes = useStyles();
 	let image;
-	if (cardData.cardData["Attachments"][0]["thumbnails"]) {
+	let imgSrc;
+	if (cardData["Attachments"][0]["thumbnails"]) {
+		imgSrc = cardData["Attachments"][0]["thumbnails"]["large"][
+			"url"];
 		image = (
 			<img
 				src={
-					cardData.cardData["Attachments"][0]["thumbnails"]["large"][
-						"url"
-					]
+					imgSrc
 				}
-				alt="prisoner art"
 				className={classes.image}
+				alt="prisoner chapbook cover"
+				
 			/>
 		);
 	} else {
@@ -102,13 +106,14 @@ export default function ChapbookCard(cardData) {
 	}
 
 	let responses;
-	if (cardData.cardData["Responses"]) {
-		responses = cardData.cardData["Responses"].length;
+	if (cardData["Responses"]) {
+		responses = cardData["Responses"].length;
 	} else {
 		responses = 0;
 	}
 	return (
-		<div>
+		<div onClick={() => setShow(true)}>
+
 			{
 				<Card className={classes.card}>
 					<CardContent className={classes.cardcontent}>
@@ -119,18 +124,18 @@ export default function ChapbookCard(cardData) {
 						<Typography className={classes.author}>
 							{cardData.cardData["Author Name"] +
 								" " +
-								cardData.cardData["Last Name"]}
+								cardData["Last Name"]}
 						</Typography>
 						<Typography className={classes.date}>
 							{dates[
 								parseInt(
-									cardData.cardData[
+									cardData[
 										"Last modified time"
 									].split("-")[1]
 								) - 1
 							] +
 								" " +
-								cardData.cardData["Last modified time"].split(
+								cardData["Last modified time"].split(
 									"-"
 								)[0]}
 						</Typography>
@@ -140,6 +145,8 @@ export default function ChapbookCard(cardData) {
 					</CardContent>
 				</Card>
 			}
+			<Modal onClose={() => setShow(false)} show={show}
+				artData={cardData} imgSrc={imgSrc} responses={responses} dates={dates} />
 		</div>
 	);
 }

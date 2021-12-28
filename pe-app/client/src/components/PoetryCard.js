@@ -90,7 +90,7 @@ export default function PoetryCard(cardData) {
 	if (poetryData["Attachments"][0]["thumbnails"]) {
 		imgSrc = poetryData["Attachments"][0]["thumbnails"]["large"]["url"];
 		image = (
-			<img src={imgSrc} alt="prisoner art" className={classes.image} />
+			<img src={imgSrc} alt="prisoner poetry" className={classes.image} />
 		);
 	} else {
 		image = <img></img>;
@@ -134,18 +134,10 @@ export default function PoetryCard(cardData) {
 					<Typography className={classes.response}>
 						{responses + " Responses"}
 					</Typography>
-
-					{/* <img src={mailicon} width="20" height="20" align="left" alt="mail icon"></img> */}
 				</CardContent>
 			</Card>
-			<Modal
-				onClose={() => setShow(false)}
-				show={show}
-				artData={cardData.cardData}
-				imgSrc={imgSrc}
-				responses={responses}
-				dates={dates}
-			/>
+			<Modal onClose={() => setShow(false)} show={show}
+				artData={poetryData} imgSrc={imgSrc} responses={responses} dates={dates} />
 		</div>
 	);
 }
