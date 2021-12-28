@@ -3,6 +3,7 @@ import { Card, CardContent, Typography } from "@material-ui/core";
 // import mailicon from "./mail.png";
 // import greyrectangle from "./grey_rectangle.jpeg"
 import Modal from "./Modal.js";
+import { withStyles, makeStyles } from "@material-ui/core/styles";
 
 const dates = [
 	"January",
@@ -19,30 +20,77 @@ const dates = [
 	"December",
 ];
 
-
+const useStyles = makeStyles({
+	card: {
+		boxShadow: "0px 0px 10px 5px rgba(0, 0, 0, 0.1)",
+		borderRadius: "20px",
+		width: "314px",
+		height: "185px",
+	},
+	cardcontent: {
+		padding: "0px",
+	},
+	image: {
+		width: "104.64px",
+		height: "148px",
+		float: "right",
+		marginRight: "25.36px",
+		marginTop: "16px",
+	},
+	title: {
+		fontFamily: "'Open Sans', sans-serif",
+		fontStyle: "normal",
+		fontWeight: "bold",
+		fontSize: "20px",
+		paddingTop: "16px",
+		paddingLeft: "16px",
+	},
+	author: {
+		fontFamily: "'Open Sans', sans-serif",
+		fontStyle: "normal",
+		fontWeight: "normal",
+		fontSize: "14px",
+		paddingLeft: "16px",
+	},
+	location: {
+		fontFamily: "'Open Sans', sans-serif",
+		fontStyle: "normal",
+		fontWeight: "normal",
+		fontSize: "14px",
+		paddingTop: "3.83px",
+		paddingLeft: "16px",
+	},
+	date: {
+		marginBottom: 12,
+		fontFamily: "'Open Sans', sans-serif",
+		fontWeight: 400,
+		fontStyle: "normal",
+		fontSize: "12px",
+		paddingTop: "4px",
+		paddingLeft: "16px",
+		color: "#828282",
+	},
+	response: {
+		fontFamily: "'Open Sans', sans-serif",
+		fontStyle: "normal",
+		fontWeight: "normal",
+		fontSize: "12px",
+		paddingTop: "10px",
+		paddingLeft: "16px",
+		color: "#828282",
+	},
+});
 
 export default function PoetryCard(cardData) {
+	const classes = useStyles();
 	const [show, setShow] = useState(false);
 	const poetryData = cardData.cardData;
 	let image;
 	let imgSrc;
 	if (poetryData["Attachments"][0]["thumbnails"]) {
-		imgSrc = poetryData["Attachments"][0]["thumbnails"]["large"][
-			"url"];
+		imgSrc = poetryData["Attachments"][0]["thumbnails"]["large"]["url"];
 		image = (
-			<img
-				src={
-					imgSrc
-				}
-				alt="prisoner art"
-				style={{
-					// width: "84px",
-					height: "200px",
-					display: 'block',
-					margin: 'auto',
-					paddingBottom: "10px",
-				}}
-			/>
+			<img src={imgSrc} alt="prisoner art" className={classes.image} />
 		);
 	} else {
 		image = <img></img>;
@@ -55,40 +103,21 @@ export default function PoetryCard(cardData) {
 		responses = 0;
 	}
 	return (
-		<div onClick={() => setShow(true)} style={{}}>
-			<Card
-				style={{
-					width: 332,
-					backgroundColor: "white",
-				}}
-			>
-				<CardContent>
+		<div onClick={() => setShow(true)}>
+			<Card className={classes.card}>
+				<CardContent className={classes.cardcontent}>
 					{image}
-					<Typography
-						style={{ fontSize: 20, fontWeight: "bold" }}
-						variant="h4"
-						component="h2"
-					>
+					<Typography className={classes.title}>
 						{cardData.cardData["Title"]}
 					</Typography>
 
-					<Typography
-						style={{ fontSize: 14 }}
-						color="textSecondary"
-						gutterBottom
-						variant="h3"
-					>
+					<Typography className={classes.author}>
 						{cardData.cardData["Author Name"] +
 							" " +
 							cardData.cardData["Last Name"]}
 					</Typography>
 
-					<Typography
-						style={{ fontSize: 14 }}
-						color="textSecondary"
-						gutterBottom
-						variant="h3"
-					>
+					<Typography className={classes.date}>
 						{dates[
 							parseInt(
 								cardData.cardData["Last modified time"].split(
@@ -102,27 +131,21 @@ export default function PoetryCard(cardData) {
 							)[0]}
 					</Typography>
 
-					<br></br>
-					<br></br>
-					<Typography
-						style={{
-							fontFamily: "Open Sans",
-							fontStyle: "normal",
-							fontWeight: "normal",
-							fontSize: "11.3494px",
-							paddingTop: "20px",
-							paddingLeft: "16px",
-							color: "#828282",
-						}}
-					>
+					<Typography className={classes.response}>
 						{responses + " Responses"}
 					</Typography>
 
 					{/* <img src={mailicon} width="20" height="20" align="left" alt="mail icon"></img> */}
 				</CardContent>
 			</Card>
-			<Modal onClose={() => setShow(false)} show={show}
-				artData={cardData.cardData} imgSrc={imgSrc} responses={responses} dates={dates} />
+			<Modal
+				onClose={() => setShow(false)}
+				show={show}
+				artData={cardData.cardData}
+				imgSrc={imgSrc}
+				responses={responses}
+				dates={dates}
+			/>
 		</div>
 	);
 }
