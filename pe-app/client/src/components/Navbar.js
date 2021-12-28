@@ -28,6 +28,9 @@ function Navbar() {
 		>
 			<Toolbar>
 				<div className={classes.navlinks}>
+					<Link to="/" className={classes.link}>
+						Featured
+					</Link>
 					<Link to="/art" className={classes.link}>
 						Art
 					</Link>
