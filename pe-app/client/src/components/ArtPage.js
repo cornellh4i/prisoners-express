@@ -1,10 +1,10 @@
 import exportedData from "../util/records_new.json";
 import React, { useState } from "react";
 import { Checkbox, FormGroup, FormControlLabel, Grid } from "@material-ui/core";
-import TextField from '@mui/material/TextField';
-import Autocomplete from '@mui/material/Autocomplete';
-import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
-import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import TextField from "@mui/material/TextField";
+import Autocomplete from "@mui/material/Autocomplete";
+import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
+import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import ArtworkCard from "./ArtworkCard.js";
 import Navbar from "./Navbar.js";
 
@@ -13,6 +13,7 @@ const checkedIcon = <CheckBoxIcon fontSize="small" />;
 const data = exportedData.filter(
 	(entry) => entry["Program (category)"] == "Art"
 );
+
 const authors = data.map((entry) =>
 	(entry["Author Name"] + " " + entry["Last Name"]));
 const uniqueAuthors = [... new Set(authors)];
