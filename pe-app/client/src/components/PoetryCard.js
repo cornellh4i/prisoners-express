@@ -19,8 +19,6 @@ const dates = [
 	"December",
 ];
 
-
-
 export default function PoetryCard(cardData) {
 	const [show, setShow] = useState(false);
 	const poetryData = cardData.cardData;
@@ -34,7 +32,7 @@ export default function PoetryCard(cardData) {
 				src={
 					imgSrc
 				}
-				alt="prisoner art"
+				alt="prisoner poetry"
 				style={{
 					// width: "84px",
 					height: "200px",
@@ -117,12 +115,10 @@ export default function PoetryCard(cardData) {
 					>
 						{responses + " Responses"}
 					</Typography>
-
-					{/* <img src={mailicon} width="20" height="20" align="left" alt="mail icon"></img> */}
 				</CardContent>
 			</Card>
 			<Modal onClose={() => setShow(false)} show={show}
-				artData={cardData.cardData} imgSrc={imgSrc} responses={responses} dates={dates} />
+				artData={poetryData} imgSrc={imgSrc} responses={responses} dates={dates} />
 		</div>
 	);
 }

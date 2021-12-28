@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import { Card, CardContent, Typography } from "@material-ui/core";
-// import mailicon from "./mail.png";
-// import artworkimg from "./Rectangle.png";
+
 import Modal from "./Modal.js";
 import "../css/ArtworkCard.css";
 
-export default function ArtworkCard(cardData) {
+export default function ArtworkCard(props) {
+  const { cardData, responses } = props;
   const [show, setShow] = useState(false)
   let image;
   let imgSrc;
-  let artData = cardData.cardData
-  if (artData["Attachments"][0]["thumbnails"]) {
-    imgSrc = artData["Attachments"][0]["thumbnails"]["large"][
+
+  if (cardData["Attachments"][0]["thumbnails"]) {
+    imgSrc = cardData["Attachments"][0]["thumbnails"]["large"][
       "url"
     ];
     image = (
@@ -35,14 +35,6 @@ export default function ArtworkCard(cardData) {
     //this should be the source of some empty image
   }
 
-
-  let responses;
-  if (artData["Responses"]) {
-    responses = artData["Responses"].length;
-  } else {
-    responses = 0;
-  }
-
   const dates = [
     "January",
     "Feburary",
@@ -61,7 +53,7 @@ export default function ArtworkCard(cardData) {
   return (
     <div className="Card" onClick={() => setShow(true)} style={{}}>
       <Modal onClose={() => setShow(false)} show={show}
-        artData={artData} imgSrc={imgSrc} responses={responses} dates={dates} />
+        cardData={cardData} imgSrc={imgSrc} responses={responses} dates={dates} />
       <Card
         style={{
           width: 340,
@@ -70,13 +62,13 @@ export default function ArtworkCard(cardData) {
       >
         <CardContent>
           {image}
-          {/* <img src={artworkimg} width="330" height="255" align="center" alt="artwork"></img> */}
+          {/* <img src={cardworkimg} width="330" height="255" align="center" alt="cardwork"></img> */}
           <Typography
             style={{ fontSize: 20, fontWeight: "bold" }}
             variant="h4"
             component="h2"
           >
-            {artData["Title"]}
+            {cardData["Title"]}
           </Typography>
 
           <Typography
@@ -85,21 +77,21 @@ export default function ArtworkCard(cardData) {
             gutterBottom
             variant="h3"
           >
-            {artData["Author Name"] +
+            {cardData["Author Name"] +
               " " +
-              artData["Last Name"]}
+              cardData["Last Name"]}
           </Typography>
           <br></br>
           <Typography variant="body2" component="p">
             {dates[
               parseInt(
-                artData[
+                cardData[
                   "Last modified time"
                 ].split("-")[1]
               ) - 1
             ] +
               " " +
-              artData["Last modified time"].split(
+              cardData["Last modified time"].split(
                 "-"
               )[0]}
           </Typography>
