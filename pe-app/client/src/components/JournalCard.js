@@ -4,6 +4,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import CardActions from "@material-ui/core/CardActions";
+import { withStyles, makeStyles } from "@material-ui/core/styles";
 
 const dates = [
 	"January",
@@ -20,7 +21,62 @@ const dates = [
 	"December",
 ];
 
+const useStyles = makeStyles({
+	card: {
+		boxShadow: "0px 0px 10px 5px rgba(0, 0, 0, 0.1)",
+		borderRadius: "20px",
+		width: "314px",
+		height: "146px",
+	},
+	cardcontent: {
+		padding: "0px",
+	},
+	image: {
+		width: "84px",
+		height: "115px",
+		float: "right",
+		marginRight: "14px",
+		marginTop: "15.5px",
+	},
+	author: {
+		fontFamily: "'Open Sans', sans-serif",
+		fontStyle: "normal",
+		fontWeight: "bold",
+		fontSize: "20px",
+		paddingTop: "16px",
+		paddingLeft: "16px",
+	},
+	location: {
+		fontFamily: "'Open Sans', sans-serif",
+		fontStyle: "normal",
+		fontWeight: "normal",
+		fontSize: "14px",
+		paddingTop: "3.83px",
+		paddingLeft: "16px",
+	},
+	date: {
+		marginBottom: 12,
+		fontFamily: "'Open Sans', sans-serif",
+		fontWeight: 400,
+		fontStyle: "normal",
+		fontSize: "11.35px",
+		paddingTop: "5px",
+		paddingLeft: "16px",
+		color: "#828282",
+	},
+	response: {
+		fontFamily: "'Open Sans', sans-serif",
+		fontStyle: "normal",
+		fontWeight: "normal",
+		fontSize: "11.3494px",
+		paddingTop: "20px",
+		paddingLeft: "16px",
+		color: "#828282",
+	},
+});
+
 export default function JournalCard(cardData) {
+	const classes = useStyles();
 	let image;
 	if (cardData.cardData["Attachments"][0]["thumbnails"]) {
 		image = (
@@ -31,17 +87,11 @@ export default function JournalCard(cardData) {
 					]
 				}
 				alt="prisoner art"
-				style={{
-					width: "84px",
-					height: "115px",
-					float: "right",
-					marginRight: "14px",
-					marginTop: "15.5px",
-				}}
+				className={classes.image}
 			/>
 		);
 	} else {
-		image = <img></img>;
+		image = <img className={classes.image}></img>;
 	}
 
 	let responses;
@@ -52,34 +102,13 @@ export default function JournalCard(cardData) {
 	}
 
 	return (
-		<div style={{}}>
+		<div>
 			<h4></h4>
 			{
-				<Card
-					style={{
-						boxShadow: "0px 0px 10px 5px rgba(0, 0, 0, 0.1)",
-						borderRadius: "20px",
-						width: "314px",
-						height: "146px",
-					}}
-				>
-					<CardContent
-						style={{
-							padding: "0px",
-						}}
-					>
+				<Card className={classes.card}>
+					<CardContent className={classes.cardcontent}>
 						{image}
-						<Typography
-							style={{
-								fontFamily: "Open Sans",
-								fontStyle: "normal",
-								fontWeight: "bold",
-								fontSize: "20px",
-								paddingTop: "16px",
-								paddingLeft: "16px",
-							}}
-							color="#000000"
-						>
+						<Typography className={classes.author} color="#000000">
 							{cardData.cardData["Author Name"] +
 								" " +
 								cardData.cardData["Last Name"]}
@@ -88,14 +117,7 @@ export default function JournalCard(cardData) {
 						<Typography
 							variant="h5"
 							component="h2"
-							style={{
-								fontFamily: "Open Sans",
-								fontStyle: "normal",
-								fontWeight: "normal",
-								fontSize: "14px",
-								paddingTop: "3.83px",
-								paddingLeft: "16px",
-							}}
+							className={classes.location}
 							color="black"
 						>
 							{cardData.cardData["City"] +
@@ -103,18 +125,7 @@ export default function JournalCard(cardData) {
 								cardData.cardData["State"]}
 						</Typography>
 
-						<Typography
-							style={{
-								marginBottom: 12,
-								fontFamily: "Open Sans",
-								fontWeight: 400,
-								fontStyle: "normal",
-								fontSize: "11.35px",
-								paddingTop: "5px",
-								paddingLeft: "16px",
-								color: "#828282",
-							}}
-						>
+						<Typography className={classes.date}>
 							{dates[
 								parseInt(
 									cardData.cardData[
@@ -128,17 +139,7 @@ export default function JournalCard(cardData) {
 								)[0]}
 						</Typography>
 
-						<Typography
-							style={{
-								fontFamily: "Open Sans",
-								fontStyle: "normal",
-								fontWeight: "normal",
-								fontSize: "11.3494px",
-								paddingTop: "20px",
-								paddingLeft: "16px",
-								color: "#828282",
-							}}
-						>
+						<Typography className={classes.response}>
 							{responses + " Responses"}
 						</Typography>
 					</CardContent>
