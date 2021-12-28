@@ -6,7 +6,7 @@ import Gallery from "./Carousel.js";
 
 const Modal = (props) => {
   const { imgSrc, responses, dates } = props;
-  const data = props.artData;
+  const data = props.cardData;
 
   if (!props.show) {
     return null;
