@@ -75,6 +75,25 @@ const useStyles = makeStyles({
 	},
 });
 
+function check(data) {
+	return typeof data !== 'undefined' ? data : ""
+}
+
+function checkLoc(data1, data2) {
+	if (typeof data1 == 'undefined' && typeof data2 == 'undefined') {
+		return ""
+	}
+	else if (typeof data1 == 'undefined') {
+		return data2
+	}
+	else if (typeof data2 == 'undefined') {
+		return data1
+	}
+	else {
+		return data1 + ", " + data2
+	}
+}
+
 export default function JournalCard(cardData) {
 	const classes = useStyles();
 	let image;
@@ -83,7 +102,7 @@ export default function JournalCard(cardData) {
 			<img
 				src={
 					cardData.cardData["Attachments"][0]["thumbnails"]["large"][
-						"url"
+					"url"
 					]
 				}
 				alt="prisoner art"
@@ -109,9 +128,9 @@ export default function JournalCard(cardData) {
 					<CardContent className={classes.cardcontent}>
 						{image}
 						<Typography className={classes.author} color="#000000">
-							{cardData.cardData["Author Name"] +
+							{check(cardData.cardData["Author Name"]) +
 								" " +
-								cardData.cardData["Last Name"]}
+								check(cardData.cardData["Last Name"])}
 						</Typography>
 
 						<Typography
@@ -120,21 +139,19 @@ export default function JournalCard(cardData) {
 							className={classes.location}
 							color="black"
 						>
-							{cardData.cardData["City"] +
-								", " +
-								cardData.cardData["State"]}
+							{checkLoc(cardData.cardData["City"], cardData.cardData["State"])}
 						</Typography>
 
 						<Typography className={classes.date}>
 							{dates[
-								parseInt(
-									cardData.cardData[
+								parseInt((
+									check(cardData.cardData[
 										"Last modified time"
-									].split("-")[1]
+									])).split("-")[1]
 								) - 1
 							] +
 								" " +
-								cardData.cardData["Last modified time"].split(
+								check(cardData.cardData["Last modified time"]).split(
 									"-"
 								)[0]}
 						</Typography>

@@ -84,6 +84,10 @@ const useStyles = makeStyles({
 	},
 });
 
+function check(data) {
+	return typeof data !== 'undefined' ? data : ""
+}
+
 export default function ChapbookCard(props) {
 	const [show, setShow] = useState(false);
 	const { cardData } = props;
@@ -116,21 +120,21 @@ export default function ChapbookCard(props) {
 					<CardContent className={classes.cardcontent}>
 						{image}
 						<Typography className={classes.title}>
-							{cardData["Title"]}
+							{check(cardData["Title"])}
 						</Typography>
 						<Typography className={classes.author}>
-							{cardData["Author Name"] +
+							{check(cardData["Author Name"]) +
 								" " +
-								cardData["Last Name"]}
+								check(cardData["Last Name"])}
 						</Typography>
 						<Typography className={classes.date}>
 							{dates[
-								parseInt(
-									cardData["Last modified time"].split("-")[1]
+								parseInt((check(
+									cardData["Last modified time"])).split("-")[1]
 								) - 1
 							] +
 								" " +
-								cardData["Last modified time"].split("-")[0]}
+								check(cardData["Last modified time"]).split("-")[0]}
 						</Typography>
 						<Typography className={classes.response}>
 							{responses + " Responses"}

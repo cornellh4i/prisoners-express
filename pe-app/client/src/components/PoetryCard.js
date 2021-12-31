@@ -81,6 +81,10 @@ const useStyles = makeStyles({
 	},
 });
 
+function check(data) {
+	return typeof data !== 'undefined' ? data : ""
+}
+
 export default function PoetryCard(cardData) {
 	const classes = useStyles();
 	const [show, setShow] = useState(false);
@@ -108,25 +112,25 @@ export default function PoetryCard(cardData) {
 				<CardContent className={classes.cardcontent}>
 					{image}
 					<Typography className={classes.title}>
-						{cardData.cardData["Title"]}
+						{check(cardData.cardData["Title"])}
 					</Typography>
 
 					<Typography className={classes.author}>
-						{cardData.cardData["Author Name"] +
+						{check(cardData.cardData["Author Name"]) +
 							" " +
-							cardData.cardData["Last Name"]}
+							check(cardData.cardData["Last Name"])}
 					</Typography>
 
 					<Typography className={classes.date}>
 						{dates[
-							parseInt(
-								cardData.cardData["Last modified time"].split(
+							parseInt((check(
+								cardData.cardData["Last modified time"])).split(
 									"-"
 								)[1]
 							) - 1
 						] +
 							" " +
-							cardData.cardData["Last modified time"].split(
+							check(cardData.cardData["Last modified time"]).split(
 								"-"
 							)[0]}
 					</Typography>
