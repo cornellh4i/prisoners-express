@@ -25,8 +25,8 @@ export default function FeaturedPage() {
 
 	return (
 		<div>
-			<Navbar />
-			<FormGroup style={{ display: "inline-block" }}>
+			<Navbar category="Featured" />
+			<FormGroup style={{ display: "inline-block", paddingLeft: "3%" }}>
 				<FormControlLabel
 					control={
 						<Autocomplete
@@ -73,7 +73,7 @@ export default function FeaturedPage() {
 				/>
 			</FormGroup>
 
-			<div className="featured-container">
+			<div style={{ padding: '3%' }}>
 				<Masonry
 					columns="auto"
 					spacing={1}
@@ -110,6 +110,6 @@ export default function FeaturedPage() {
 			</div>
 
 			<button onClick={() => setShow(true)}>Show Modal</button>
-		</div>
+		</div >
 	);
 }

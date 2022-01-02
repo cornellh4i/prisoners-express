@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Card, CardContent, Typography } from "@material-ui/core";
-// import mailicon from "./mail.png";
-// import greyrectangle from "./grey_rectangle.jpeg"
+import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 import Modal from "./Modal.js";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 
@@ -24,50 +22,49 @@ const useStyles = makeStyles({
 	card: {
 		boxShadow: "0px 0px 10px 5px rgba(0, 0, 0, 0.1)",
 		borderRadius: "20px",
-		width: "314px",
-		height: "185px",
+		height: "30vh",
+		width: "20vw",
+		minHeight: "116px",
+		minWidth: "330px",
 	},
 	cardcontent: {
-		padding: "0px",
+		padding: "1.5vw",
+	},
+	imgBox: {
+		margin: "auto",
+		display: "block",
 	},
 	image: {
-		width: "104.64px",
-		height: "148px",
-		float: "right",
-		marginRight: "25.36px",
-		marginTop: "16px",
+		height: "22vh",
+		maxHeight: "100%",
 	},
 	title: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "bold",
 		fontSize: "20px",
-		paddingTop: "16px",
-		paddingLeft: "16px",
+
 	},
 	author: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "14px",
-		paddingLeft: "16px",
+
 	},
 	location: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "14px",
-		paddingTop: "3.83px",
-		paddingLeft: "16px",
+
 	},
 	date: {
-		marginBottom: 12,
 		fontFamily: "'Open Sans', sans-serif",
 		fontWeight: 400,
 		fontStyle: "normal",
 		fontSize: "12px",
-		paddingTop: "4px",
-		paddingLeft: "16px",
+
 		color: "#828282",
 	},
 	response: {
@@ -75,20 +72,28 @@ const useStyles = makeStyles({
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "12px",
-		paddingTop: "10px",
-		paddingLeft: "16px",
+
 		color: "#828282",
 	},
+	info: {
+		position: "relative",
+		width: "50%",
+	},
+	responseDiv: {
+		bottom: 0,
+		margin: "auto",
+		position: "absolute",
+	}
 });
 
-export default function PoetryCard(cardData) {
+export default function PoetryCard(props) {
 	const classes = useStyles();
 	const [show, setShow] = useState(false);
-	const poetryData = cardData.cardData;
+	const cardData = props.cardData;
 	let image;
 	let imgSrc;
-	if (poetryData["Attachments"][0]["thumbnails"]) {
-		imgSrc = poetryData["Attachments"][0]["thumbnails"]["large"]["url"];
+	if (cardData["Attachments"][0]["thumbnails"]) {
+		imgSrc = cardData["Attachments"][0]["thumbnails"]["large"]["url"];
 		image = (
 			<img src={imgSrc} alt="prisoner poetry" className={classes.image} />
 		);
@@ -97,47 +102,51 @@ export default function PoetryCard(cardData) {
 	}
 
 	let responses;
-	if (poetryData["Responses"]) {
-		responses = poetryData["Responses"].length;
+	if (cardData["Responses"]) {
+		responses = cardData["Responses"].length;
 	} else {
 		responses = 0;
 	}
+	let title = cardData["Title"];
+	title = title.length > 22 ? (title.slice(0, 20) + "... ") : title;
 	return (
 		<div onClick={() => setShow(true)}>
 			<Card className={classes.card}>
 				<CardContent className={classes.cardcontent}>
-					{image}
-					<Typography className={classes.title}>
-						{cardData.cardData["Title"]}
-					</Typography>
+					<Grid container columns={16} >
+						<Grid item className={classes.info} xs>
+							<Typography className={classes.title}>
+								{title}
+							</Typography>
+							<Typography className={classes.author}>
+								{cardData["Author Name"] +
+									" " +
+									cardData["Last Name"]}
+							</Typography>
+							<Typography className={classes.date}>
+								{dates[
+									parseInt(
+										cardData["Last modified time"].split("-")[1]
+									) - 1
+								] +
+									" " +
+									cardData["Last modified time"].split("-")[0]}
+							</Typography>
+							<div className={classes.responseDiv}>
+								<Typography className={classes.response}>
+									{responses + " Responses"}
+								</Typography>
+							</div>
+						</Grid>
 
-					<Typography className={classes.author}>
-						{cardData.cardData["Author Name"] +
-							" " +
-							cardData.cardData["Last Name"]}
-					</Typography>
-
-					<Typography className={classes.date}>
-						{dates[
-							parseInt(
-								cardData.cardData["Last modified time"].split(
-									"-"
-								)[1]
-							) - 1
-						] +
-							" " +
-							cardData.cardData["Last modified time"].split(
-								"-"
-							)[0]}
-					</Typography>
-
-					<Typography className={classes.response}>
-						{responses + " Responses"}
-					</Typography>
+						<Grid item className={classes.imgBox} xs="auto" >
+							{image}
+						</Grid>
+					</Grid>
 				</CardContent>
 			</Card>
 			<Modal onClose={() => setShow(false)} show={show}
-				artData={poetryData} imgSrc={imgSrc} responses={responses} dates={dates} />
+				artData={cardData} imgSrc={imgSrc} responses={responses} dates={dates} />
 		</div>
 	);
 }
