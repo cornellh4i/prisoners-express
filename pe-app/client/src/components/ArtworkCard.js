@@ -53,6 +53,7 @@ function check(data) {
 export default function ArtworkCard(cardData) {
   const classes = useStyles();
 
+<<<<<<< HEAD
   const [show, setShow] = useState(false);
   const handleClickAway = () => {
     setShow(false);
@@ -75,6 +76,26 @@ export default function ArtworkCard(cardData) {
       ;
     //this should be the source of some empty image
   }
+=======
+	const [show, setShow] = useState(false);
+	let image;
+	let imgSrc;
+	let artData = cardData.cardData;
+	if (
+		artData["Attachments"] &&
+		artData["Attachments"][0] &&
+		artData["Attachments"][0]["thumbnails"]
+	) {
+		imgSrc = artData["Attachments"][0]["thumbnails"]["large"]["url"];
+		image = (
+			<img src={imgSrc} alt="prisoner art" className={classes.image} />
+		);
+	} else {
+		image = <img></img>;
+		imgSrc = "";
+		//this should be the source of some empty image
+	}
+>>>>>>> main
 
   let responses;
   if (artData["Responses"]) {
@@ -141,4 +162,3 @@ export default function ArtworkCard(cardData) {
     </div>
   );
 }
-
