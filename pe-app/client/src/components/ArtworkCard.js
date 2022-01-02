@@ -52,7 +52,11 @@ export default function ArtworkCard(cardData) {
 	let image;
 	let imgSrc;
 	let artData = cardData.cardData;
-	if (artData["Attachments"][0]["thumbnails"]) {
+	if (
+		artData["Attachments"] &&
+		artData["Attachments"][0] &&
+		artData["Attachments"][0]["thumbnails"]
+	) {
 		imgSrc = artData["Attachments"][0]["thumbnails"]["large"]["url"];
 		image = (
 			<img src={imgSrc} alt="prisoner art" className={classes.image} />
@@ -122,4 +126,3 @@ export default function ArtworkCard(cardData) {
 		</div>
 	);
 }
-
