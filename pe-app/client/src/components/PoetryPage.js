@@ -7,6 +7,7 @@ import Autocomplete from "@mui/material/Autocomplete";
 import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import Navbar from "./Navbar.js";
+import Filters from "./Filters.js";
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
@@ -17,8 +18,8 @@ export default function Cards() {
 	const [uniqueAuthors, setUniqueAuthors] = useState([]);
 	const [showNoResponse, setNoResponse] = useState(true);
 	const [showResponses, setResponses] = useState(true);
-
 	const [data, setData] = useState([]);
+
 	useEffect(() => {
 		fetch(process.env.REACT_APP_API)
 			.then((response) => response.json())
@@ -36,103 +37,38 @@ export default function Cards() {
 				setUniqueAuthors(authorSet);
 			});
 	}, []);
-	const handleNoResponseChange = (event) => {
-		setNoResponse(!showNoResponse);
-	};
-
-	const handleResponseChange = (event) => {
-		setResponses(!showResponses);
-	};
-
 	return (
-		<div>
-			<Navbar />
-			<FormGroup style={{ display: "inline-block" }}>
-				<FormControlLabel
-					control={
-						<Autocomplete
-							multiple
-							limitTags={2}
-							options={uniqueAuthors}
-							getOptionLabel={(option) => option}
-							sx={{ width: 250 }}
-							size="small"
-							defaultValue={uniqueAuthors}
-							onChange={(event, newValue) => {
-								setSelectedAuthors(newValue);
-							}}
-							renderOption={(props, option, { selected }) => (
-								<li {...props}>
-									<Checkbox
-										icon={icon}
-										checkedIcon={checkedIcon}
-										style={{
-											marginRight: 8,
-											color: "#DD9933",
-										}}
-										checked={selected}
-									/>
-									{option}
-								</li>
-							)}
-							renderInput={(params) => (
-								<TextField
-									{...params}
-									label="Selected Authors"
-								/>
-							)}
-						/>
-					}
-				/>
-				<FormControlLabel
-					control={
-						<Checkbox
-							defaultChecked
-							style={{ color: "#DD9933" }}
-							onChange={handleNoResponseChange}
-						/>
-					}
-					label="0 responses"
-				/>
-				<FormControlLabel
-					control={
-						<Checkbox
-							defaultChecked
-							style={{ color: "#DD9933" }}
-							onChange={handleResponseChange}
-						/>
-					}
-					label="1+ responses"
-				/>
-			</FormGroup>
-			<Grid container justify="center" spacing={2}>
-				{data.map((entry) => {
-					const author =
-						entry["Author Name"] + " " + entry["Last Name"];
-					let responses;
-					if (entry["Responses"]) {
-						responses = entry["Responses"].length;
-					} else {
-						responses = 0;
-					}
-					if (
-						selectedAuthors.includes(author) &&
-						((showNoResponse && responses === 0) ||
-							(showResponses && responses > 0))
-					) {
-						return (
-							<Grid item xs={4}>
-								<PoetryCard
-									cardData={entry}
-									show={show}
-									responses={responses}
-								/>
-							</Grid>
-						);
-					}
-				})}
-			</Grid>
 
+		<div>
+			<Navbar category="Poetry" />
+			<Filters uniqueData={uniqueAuthors}
+				setNoResponse={setNoResponse}
+				setResponses={setResponses}
+				setAuthors={setSelectedAuthors}
+				showNoResponse={showNoResponse}
+				showResponses={showResponses}
+				category="Poetry" />
+			<div style={{ padding: '3%' }}>
+				<Grid container justify="center" spacing={3} alignItems="center">
+					{data.map((entry) => {
+						const author = entry["Author Name"] + " " + entry["Last Name"];
+						let responses;
+						if (entry["Responses"]) {
+							responses = entry["Responses"].length;
+						} else {
+							responses = 0;
+						}
+						if (selectedAuthors.includes(author) &&
+							((showNoResponse && responses == 0) || (showResponses && responses > 0))) {
+							return (
+								<Grid item>
+									<PoetryCard cardData={entry} show={show} responses={responses} />
+								</Grid>
+							);
+						}
+					})}
+				</Grid>
+			</div>
 			<button onClick={() => setShow(true)}>Show Modal</button>
 		</div>
 	);
