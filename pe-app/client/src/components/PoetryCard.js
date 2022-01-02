@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Card, CardContent, Typography } from "@material-ui/core";
-// import mailicon from "./mail.png";
-// import greyrectangle from "./grey_rectangle.jpeg"
+import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 import Modal from "./Modal.js";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 
@@ -24,50 +22,47 @@ const useStyles = makeStyles({
 	card: {
 		boxShadow: "0px 0px 10px 5px rgba(0, 0, 0, 0.1)",
 		borderRadius: "20px",
-		width: "314px",
-		height: "185px",
+		height: "30vh",
+		width: "20vw",
+		minHeight: "116px",
+		minWidth: "330px",
 	},
 	cardcontent: {
-		padding: "0px",
+		padding: "1.5vw",
+	},
+	imgBox: {
+		margin: "auto",
+		display: "block",
 	},
 	image: {
-		width: "104.64px",
-		height: "148px",
-		float: "right",
-		marginRight: "25.36px",
-		marginTop: "16px",
+		height: "22vh",
+		maxHeight: "100%",
+		maxWidth: "10vw",
 	},
 	title: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "bold",
 		fontSize: "20px",
-		paddingTop: "16px",
-		paddingLeft: "16px",
 	},
 	author: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "14px",
-		paddingLeft: "16px",
 	},
 	location: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "14px",
-		paddingTop: "3.83px",
-		paddingLeft: "16px",
 	},
 	date: {
-		marginBottom: 12,
 		fontFamily: "'Open Sans', sans-serif",
 		fontWeight: 400,
 		fontStyle: "normal",
 		fontSize: "12px",
-		paddingTop: "4px",
-		paddingLeft: "16px",
+
 		color: "#828282",
 	},
 	response: {
@@ -75,76 +70,102 @@ const useStyles = makeStyles({
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "12px",
-		paddingTop: "10px",
-		paddingLeft: "16px",
+
 		color: "#828282",
+	},
+	info: {
+		position: "relative",
+		width: "50%",
+	},
+	responseDiv: {
+		bottom: 0,
+		margin: "auto",
+		position: "absolute",
 	},
 });
 
 function check(data) {
-	return typeof data !== 'undefined' ? data : ""
+	return typeof data !== "undefined" ? data : "";
 }
 
-export default function PoetryCard(cardData) {
+export default function PoetryCard(props) {
 	const classes = useStyles();
 	const [show, setShow] = useState(false);
-	const poetryData = cardData.cardData;
+	const cardData = props.cardData;
 	let image;
 	let imgSrc;
-	if (check(poetryData["Attachments"][0]["thumbnails"])) {
-		imgSrc = poetryData["Attachments"][0]["thumbnails"]["large"]["url"];
+	if (check(cardData["Attachments"][0]["thumbnails"])) {
+		imgSrc = cardData["Attachments"][0]["thumbnails"]["large"]["url"];
 		image = (
 			<img src={imgSrc} alt="prisoner poetry" className={classes.image} />
 		);
 	} else {
-		imgSrc = "https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+		imgSrc =
+			"https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
 		image = (
-			<img src={imgSrc} alt="grey recentangle" className={classes.image} />)
-			;
+			<img
+				src={imgSrc}
+				alt="grey recentangle"
+				className={classes.image}
+			/>
+		);
 	}
 
 	let responses;
-	if (poetryData["Responses"]) {
-		responses = poetryData["Responses"].length;
+	if (cardData["Responses"]) {
+		responses = cardData["Responses"].length;
 	} else {
 		responses = 0;
 	}
+	let title = cardData["Title"];
+	title = title.length > 22 ? title.slice(0, 20) + "... " : title;
 	return (
 		<div onClick={() => setShow(true)}>
 			<Card className={classes.card}>
 				<CardContent className={classes.cardcontent}>
-					{image}
-					<Typography className={classes.title}>
-						{check(cardData.cardData["Title"])}
-					</Typography>
-
-					<Typography className={classes.author}>
-						{check(cardData.cardData["Author Name"]) +
-							" " +
-							check(cardData.cardData["Last Name"])}
-					</Typography>
-
-					<Typography className={classes.date}>
-						{dates[
-							parseInt((check(
-								cardData.cardData["Last modified time"])).split(
-									"-"
-								)[1]
-							) - 1
-						] +
-							" " +
-							check(cardData.cardData["Last modified time"]).split(
-								"-"
-							)[0]}
-					</Typography>
-
-					<Typography className={classes.response}>
-						{responses + " Responses"}
-					</Typography>
+					<Grid container columns={16}>
+						<Grid item className={classes.info} xs>
+							<Typography className={classes.title}>
+								{check(title)}
+							</Typography>
+							<Typography className={classes.author}>
+								{check(cardData["Author Name"]) +
+									" " +
+									check(cardData["Last Name"])}
+							</Typography>
+							<Typography className={classes.date}>
+								{dates[
+									parseInt(
+										check(
+											cardData["Last modified time"].split
+										)("-")[1]
+									) - 1
+								] +
+									" " +
+									check(cardData["Last modified time"]).split(
+										"-"
+									)[0]}
+							</Typography>
+							<div className={classes.responseDiv}>
+								<Typography className={classes.response}>
+									{responses + " Responses"}
+								</Typography>
+							</div>
+						</Grid>
+						<Grid item className={classes.imgBox} xs="auto">
+							{image}
+						</Grid>
+					</Grid>
 				</CardContent>
 			</Card>
-			<Modal onClose={() => setShow(false)} show={show}
-				artData={poetryData} imgSrc={imgSrc} responses={responses} dates={dates} />
+			<Modal
+				onClose={() => setShow(false)}
+				show={show}
+				artData={cardData}
+				imgSrc={imgSrc}
+				responses={responses}
+				dates={dates}
+			/>
 		</div>
 	);
 }

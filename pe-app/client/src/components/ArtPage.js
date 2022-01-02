@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Checkbox, FormGroup, FormControlLabel, Grid } from "@material-ui/core";
-import TextField from "@mui/material/TextField";
-import Autocomplete from "@mui/material/Autocomplete";
+import { Grid } from "@material-ui/core";
 import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
 import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import ArtworkCard from "./ArtworkCard.js";
 import Navbar from "./Navbar.js";
+import Filters from "./Filters.js";
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
@@ -35,102 +34,37 @@ export default function ArtPage() {
 			});
 	}, []);
 
-	const handleNoResponseChange = (event) => {
-		setNoResponse(!showNoResponse);
-	};
-
-	const handleResponseChange = (event) => {
-		setResponses(!showResponses);
-	};
-	console.log(selectedAuthors);
 	return (
 		<div>
-			<Navbar />
-			<FormGroup style={{ display: "inline-block" }}>
-				<FormControlLabel
-					control={
-						<Autocomplete
-							multiple
-							limitTags={2}
-							options={uniqueAuthors}
-							getOptionLabel={(option) => option}
-							sx={{ width: 250 }}
-							size="small"
-							defaultValue={uniqueAuthors}
-							onChange={(event, newValue) => {
-								setSelectedAuthors(newValue);
-							}}
-							renderOption={(props, option, { selected }) => (
-								<li {...props}>
-									<Checkbox
-										icon={icon}
-										checkedIcon={checkedIcon}
-										style={{
-											marginRight: 8,
-											color: "#DD9933",
-										}}
-										checked={selected}
-									/>
-									{option}
-								</li>
-							)}
-							renderInput={(params) => (
-								<TextField
-									{...params}
-									label="Selected Artists"
-								/>
-							)}
-						/>
-					}
-				/>
-				<FormControlLabel
-					control={
-						<Checkbox
-							defaultChecked
-							style={{ color: "#DD9933" }}
-							onChange={handleNoResponseChange}
-						/>
-					}
-					label="0 responses"
-				/>
-				<FormControlLabel
-					control={
-						<Checkbox
-							defaultChecked
-							style={{ color: "#DD9933" }}
-							onChange={handleResponseChange}
-						/>
-					}
-					label="1+ responses"
-				/>
-			</FormGroup>
-			<Grid container justify="center" spacing={2}>
-				{data.map((entry) => {
-					const author =
-						entry["Author Name"] + " " + entry["Last Name"];
-					let responses;
-					if (entry["Responses"]) {
-						responses = entry["Responses"].length;
-					} else {
-						responses = 0;
-					}
-					if (
-						selectedAuthors.includes(author) &&
-						((showNoResponse && responses === 0) ||
-							(showResponses && responses > 0))
-					) {
-						return (
-							<Grid item xs={4}>
-								<ArtworkCard
-									cardData={entry}
-									show={show}
-									responses={responses}
-								/>
-							</Grid>
-						);
-					}
-				})}
-			</Grid>
+			<Navbar category="Art" />
+			<Filters uniqueData={uniqueAuthors}
+				setNoResponse={setNoResponse}
+				setResponses={setResponses}
+				setAuthors={setSelectedAuthors}
+				showNoResponse={showNoResponse}
+				showResponses={showResponses}
+				category="Art" />
+			<div style={{ padding: '3%' }}>
+				<Grid container justify="center" spacing={3} alignItems="center">
+					{data.map((entry) => {
+						const author = entry["Author Name"] + " " + entry["Last Name"];
+						let responses;
+						if (entry["Responses"]) {
+							responses = entry["Responses"].length;
+						} else {
+							responses = 0;
+						}
+						if (selectedAuthors.includes(author) &&
+							((showNoResponse && responses == 0) || (showResponses && responses > 0))) {
+							return (
+								<Grid item>
+									<ArtworkCard cardData={entry} show={show} responses={responses} />
+								</Grid>
+							);
+						}
+					})}
+				</Grid>
+			</div>
 			<button onClick={() => setShow(true)}>Show Modal</button>
 		</div>
 	);
