@@ -1,5 +1,4 @@
-import exportedData from "../util/records_new.json";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Checkbox, FormGroup, FormControlLabel, Grid } from "@material-ui/core";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
@@ -14,14 +13,25 @@ import Masonry from "@mui/lab/Masonry";
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
-const data = exportedData.filter((entry) => entry["Display"] == true);
-const authors = data.map(
-	(entry) => entry["Author Name"] + " " + entry["Last Name"]
-);
-const uniqueAuthors = [...new Set(authors)].map((entry) => ({ label: entry }));
 
 export default function FeaturedPage() {
 	const [show, setShow] = useState(false);
+	const [uniqueAuthors, setUniqueAuthors] = useState([]);
+	const [data, setData] = useState([]);
+	useEffect(() => {
+		fetch(process.env.REACT_APP_API)
+			.then((response) => response.json())
+			.then((d) => d.filter((entry) => entry["Display"] === true))
+			.then((d) => {
+				console.log(d);
+				setData(d);
+				const authors = d.map(
+					(entry) => entry["Author Name"] + " " + entry["Last Name"]
+				);
+				const authorSet = [...new Set(authors)];
+				setUniqueAuthors(authorSet);
+			});
+	}, []);
 
 	return (
 		<div>

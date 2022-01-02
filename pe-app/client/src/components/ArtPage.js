@@ -1,23 +1,38 @@
-import exportedData from "../util/records_new.json";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Grid } from "@material-ui/core";
-import Filters from "./Filters.js";
+import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
+import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import ArtworkCard from "./ArtworkCard.js";
 import Navbar from "./Navbar.js";
+import Filters from "./Filters.js";
 
-const data = exportedData.filter(
-	(entry) => entry["Program (category)"] == "Art"
-);
-
-const authors = data.map((entry) =>
-	(entry["Author Name"] + " " + entry["Last Name"]));
-const uniqueAuthors = [... new Set(authors)];
+const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
+const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
 export default function ArtPage() {
 	const [show, setShow] = useState(false);
-	const [selectedAuthors, setAuthors] = React.useState(uniqueAuthors);
-	const [showNoResponse, setNoResponse] = React.useState(true);
-	const [showResponses, setResponses] = React.useState(true);
+	const [selectedAuthors, setSelectedAuthors] = useState([]);
+	const [uniqueAuthors, setUniqueAuthors] = useState([]);
+	const [showNoResponse, setNoResponse] = useState(true);
+	const [showResponses, setResponses] = useState(true);
+
+	const [data, setData] = useState([]);
+	useEffect(() => {
+		fetch(process.env.REACT_APP_API)
+			.then((response) => response.json())
+			.then((d) =>
+				d.filter((entry) => entry["Program (category)"] === "Art")
+			)
+			.then((d) => {
+				setData(d);
+				const authors = d.map(
+					(entry) => entry["Author Name"] + " " + entry["Last Name"]
+				);
+				const authorSet = [...new Set(authors)];
+				setSelectedAuthors(authorSet);
+				setUniqueAuthors(authorSet);
+			});
+	}, []);
 
 	return (
 		<div>
@@ -25,7 +40,7 @@ export default function ArtPage() {
 			<Filters uniqueData={uniqueAuthors}
 				setNoResponse={setNoResponse}
 				setResponses={setResponses}
-				setAuthors={setAuthors}
+				setAuthors={setSelectedAuthors}
 				showNoResponse={showNoResponse}
 				showResponses={showResponses}
 				category="Art" />

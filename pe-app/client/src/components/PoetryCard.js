@@ -37,6 +37,7 @@ const useStyles = makeStyles({
 	image: {
 		height: "22vh",
 		maxHeight: "100%",
+		maxWidth: "10vw",
 	},
 	title: {
 		fontFamily: "'Open Sans', sans-serif",

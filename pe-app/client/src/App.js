@@ -1,5 +1,4 @@
-import React from "react";
-import Cards from "./components/Cards";
+import React, { useEffect, useState } from "react";
 import { createTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -8,7 +7,6 @@ import ChapbookPage from "./components/ChapbookPage.js";
 import PoetryPage from "./components/PoetryPage.js";
 import JournalPage from "./components/JournalPage.js";
 import FeaturedPage from "./components/FeaturedPage.js";
-
 import EssayPage from "./components/EssayPage.js";
 
 const font = "'Open Sans', sans-serif";

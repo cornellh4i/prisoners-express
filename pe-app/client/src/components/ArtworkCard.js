@@ -51,7 +51,7 @@ const useStyles = makeStyles({
   }
 });
 
-export default function ArtworkCard(cardData) {
+export default function ArtworkCard(props) {
   const classes = useStyles();
 
   const [show, setShow] = useState(false);
@@ -61,28 +61,30 @@ export default function ArtworkCard(cardData) {
     setImgWidth(img.offsetWidth);
   }
 
-  console.log(imgWidth)
+  const { cardData } = props;
+
+  let responses;
+  if (cardData["Responses"]) {
+    responses = cardData["Responses"].length;
+  } else {
+    responses = 0;
+  }
 
   let image;
   let imgSrc;
-  let artData = cardData.cardData;
-  if (artData["Attachments"][0]["thumbnails"]) {
-    imgSrc = artData["Attachments"][0]["thumbnails"]["large"]["url"];
+  if (
+    cardData["Attachments"] &&
+    cardData["Attachments"][0] &&
+    cardData["Attachments"][0]["thumbnails"]
+  ) {
+    imgSrc = cardData["Attachments"][0]["thumbnails"]["large"]["url"];
     image = (
-      <img src={imgSrc} onLoad={onImgLoad} alt="prisoner art"
-        className={classes.image} />
+      <img src={imgSrc} alt="prisoner art" className={classes.image} />
     );
   } else {
     image = <img></img>;
     imgSrc = "";
     //this should be the source of some empty image
-  }
-
-  let responses;
-  if (artData["Responses"]) {
-    responses = artData["Responses"].length;
-  } else {
-    responses = 0;
   }
 
   const dates = [
@@ -105,7 +107,7 @@ export default function ArtworkCard(cardData) {
       <Modal
         onClose={() => setShow(false)}
         show={show}
-        artData={artData}
+        artData={cardData}
         imgSrc={imgSrc}
         responses={responses}
         dates={dates}
@@ -116,20 +118,20 @@ export default function ArtworkCard(cardData) {
 
           <div className={classes.info}>
             <Typography className={classes.title}>
-              {artData["Title"]}
+              {cardData["Title"]}
             </Typography>
 
             <Typography className={classes.author}>
-              {artData["Author Name"] + " " + artData["Last Name"]}
+              {cardData["Author Name"] + " " + cardData["Last Name"]}
             </Typography>
             <Typography className={classes.date}>
               {dates[
                 parseInt(
-                  artData["Last modified time"].split("-")[1]
+                  cardData["Last modified time"].split("-")[1]
                 ) - 1
               ] +
                 " " +
-                artData["Last modified time"].split("-")[0]}
+                cardData["Last modified time"].split("-")[0]}
             </Typography>
             <Typography className={classes.response}>
               {responses + " Responses"}
@@ -140,4 +142,3 @@ export default function ArtworkCard(cardData) {
     </div>
   );
 }
-

@@ -1,6 +1,5 @@
-import exportedData from "../util/records_new.json";
 import ChapbookCard from "./ChapbookCard.js";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Checkbox, FormGroup, FormControlLabel, Grid } from "@material-ui/core";
 import Navbar from "./Navbar.js";
 import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
@@ -11,18 +10,31 @@ import Filters from "./Filters.js";
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
-const data = exportedData.filter(
-	(entry) => entry["Program (category)"] == "Chapbook"
-);
-const authors = data.map((entry) =>
-	(entry["Author Name"] + " " + entry["Last Name"]));
-const uniqueAuthors = [... new Set(authors)];
 
 export default function ChapbookPage() {
 	const [show, setShow] = useState(false);
-	const [selectedAuthors, setAuthors] = React.useState(uniqueAuthors);
-	const [showNoResponse, setNoResponse] = React.useState(true);
-	const [showResponses, setResponses] = React.useState(true);
+	const [selectedAuthors, setSelectedAuthors] = useState([]);
+	const [uniqueAuthors, setUniqueAuthors] = useState([]);
+	const [showNoResponse, setNoResponse] = useState(true);
+	const [showResponses, setResponses] = useState(true);
+	const [data, setData] = useState([]);
+	useEffect(() => {
+		fetch(process.env.REACT_APP_API)
+			.then((response) => response.json())
+			.then((d) =>
+				d.filter((entry) => entry["Program (category)"] === "Chapbook")
+			)
+			.then((d) => {
+				console.log(d);
+				setData(d);
+				const authors = d.map(
+					(entry) => entry["Author Name"] + " " + entry["Last Name"]
+				);
+				const authorSet = [...new Set(authors)];
+				setSelectedAuthors(authorSet);
+				setUniqueAuthors(authorSet);
+			});
+	}, []);
 
 	return (
 		<div>
@@ -30,7 +42,7 @@ export default function ChapbookPage() {
 			<Filters uniqueData={uniqueAuthors}
 				setNoResponse={setNoResponse}
 				setResponses={setResponses}
-				setAuthors={setAuthors}
+				setAuthors={setSelectedAuthors}
 				showNoResponse={showNoResponse}
 				showResponses={showResponses}
 				category="Chapbook" />
@@ -56,7 +68,6 @@ export default function ChapbookPage() {
 				</Grid>
 			</div>
 			<button onClick={() => setShow(true)}>Show Modal</button>
-
 		</div>
 	);
 }
