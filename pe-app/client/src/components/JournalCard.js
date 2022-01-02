@@ -97,7 +97,7 @@ function checkLoc(data1, data2) {
 export default function JournalCard(cardData) {
 	const classes = useStyles();
 	let image;
-	if (cardData.cardData["Attachments"][0]["thumbnails"]) {
+	if (check(cardData.cardData["Attachments"][0]["thumbnails"])) {
 		image = (
 			<img
 				src={
@@ -110,7 +110,10 @@ export default function JournalCard(cardData) {
 			/>
 		);
 	} else {
-		image = <img className={classes.image}></img>;
+		let imgSrc = "https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+		image = (
+			<img src={imgSrc} alt="grey recentangle" className={classes.image} />)
+			;
 	}
 
 	let responses;

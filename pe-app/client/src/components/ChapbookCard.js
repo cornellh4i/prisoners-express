@@ -94,7 +94,7 @@ export default function ChapbookCard(props) {
 	const classes = useStyles();
 	let image;
 	let imgSrc;
-	if (cardData["Attachments"][0]["thumbnails"]) {
+	if (check(cardData["Attachments"][0]["thumbnails"])) {
 		imgSrc = cardData["Attachments"][0]["thumbnails"]["large"]["url"];
 		image = (
 			<img
@@ -104,7 +104,10 @@ export default function ChapbookCard(props) {
 			/>
 		);
 	} else {
-		image = <img></img>;
+		imgSrc = "https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+		image = (
+			<img src={imgSrc} alt="grey recentangle" className={classes.image} />)
+			;
 	}
 
 	let responses;

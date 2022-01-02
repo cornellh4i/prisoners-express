@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Card, CardContent, Typography } from "@material-ui/core";
+import ClickAwayListener from '@mui/material/ClickAwayListener';
 
 import Modal from "./Modal.js";
 import "../css/ArtworkCard.css";
@@ -53,17 +54,25 @@ export default function ArtworkCard(cardData) {
   const classes = useStyles();
 
   const [show, setShow] = useState(false);
+  const handleClickAway = () => {
+    setShow(false);
+  };
+  const handleClick = () => {
+    setShow((prev) => !prev);
+  };
   let image;
   let imgSrc;
   let artData = cardData.cardData;
-  if (artData["Attachments"][0]["thumbnails"]) {
+  if (check(artData["Attachments"][0]["thumbnails"])) {
     imgSrc = artData["Attachments"][0]["thumbnails"]["large"]["url"];
     image = (
       <img src={imgSrc} alt="prisoner art" className={classes.image} />
     );
   } else {
-    image = <img></img>;
-    imgSrc = "";
+    imgSrc = "https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+    image = (
+      <img src={imgSrc} alt="grey recentangle" className={classes.image} />)
+      ;
     //this should be the source of some empty image
   }
 
@@ -90,15 +99,21 @@ export default function ArtworkCard(cardData) {
   ];
 
   return (
-    <div className="Card" onClick={() => setShow(true)} style={{}}>
-      <Modal
-        onClose={() => setShow(false)}
-        show={show}
-        artData={artData}
-        imgSrc={imgSrc}
-        responses={responses}
-        dates={dates}
-      />
+    <div>
+      <ClickAwayListener onClickAway={handleClickAway}>
+        <div>
+          <div className="Card" onClick={handleClick} style={{}}></div>
+          {show ? (
+            <Modal
+              // show={show}
+              // onClose={() => setShow(false)}
+              artData={artData}
+              imgSrc={imgSrc}
+              responses={responses}
+              dates={dates}
+            />) : null}
+        </div>
+      </ClickAwayListener>
       <Card className={classes.card}>
         <CardContent>
           {image}

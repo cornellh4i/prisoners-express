@@ -91,13 +91,16 @@ export default function PoetryCard(cardData) {
 	const poetryData = cardData.cardData;
 	let image;
 	let imgSrc;
-	if (poetryData["Attachments"][0]["thumbnails"]) {
+	if (check(poetryData["Attachments"][0]["thumbnails"])) {
 		imgSrc = poetryData["Attachments"][0]["thumbnails"]["large"]["url"];
 		image = (
 			<img src={imgSrc} alt="prisoner poetry" className={classes.image} />
 		);
 	} else {
-		image = <img></img>;
+		imgSrc = "https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+		image = (
+			<img src={imgSrc} alt="grey recentangle" className={classes.image} />)
+			;
 	}
 
 	let responses;
