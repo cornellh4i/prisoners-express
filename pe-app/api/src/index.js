@@ -12,7 +12,6 @@ app.options("*", cors());
 require("dotenv").config();
 
 const url = `https://api.airtable.com/v0/${process.env.BASE_ID}/${process.env.TABLE_NAME}`;
-console.log(url);
 
 const cache = new AirtableCache(url, process.env.API_KEY);
 cache.triggerUpdate();

@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Grid } from "@material-ui/core";
-import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
-import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import ArtworkCard from "./ArtworkCard.js";
 import Navbar from "./Navbar.js";
 import Filters from "./Filters.js";
-
-const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
-const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
 export default function ArtPage() {
 	const [show, setShow] = useState(false);
@@ -37,28 +32,43 @@ export default function ArtPage() {
 	return (
 		<div>
 			<Navbar category="Art" />
-			<Filters uniqueData={uniqueAuthors}
+			<Filters
+				uniqueData={uniqueAuthors}
 				setNoResponse={setNoResponse}
 				setResponses={setResponses}
 				setAuthors={setSelectedAuthors}
 				showNoResponse={showNoResponse}
 				showResponses={showResponses}
-				category="Art" />
-			<div style={{ padding: '3%' }}>
-				<Grid container justify="center" spacing={3} alignItems="center">
+				category="Art"
+			/>
+			<div style={{ padding: "3%" }}>
+				<Grid
+					container
+					justify="center"
+					spacing={3}
+					alignItems="center"
+				>
 					{data.map((entry) => {
-						const author = entry["Author Name"] + " " + entry["Last Name"];
+						const author =
+							entry["Author Name"] + " " + entry["Last Name"];
 						let responses;
 						if (entry["Responses"]) {
 							responses = entry["Responses"].length;
 						} else {
 							responses = 0;
 						}
-						if (selectedAuthors.includes(author) &&
-							((showNoResponse && responses == 0) || (showResponses && responses > 0))) {
+						if (
+							selectedAuthors.includes(author) &&
+							((showNoResponse && responses == 0) ||
+								(showResponses && responses > 0))
+						) {
 							return (
 								<Grid item>
-									<ArtworkCard cardData={entry} show={show} responses={responses} />
+									<ArtworkCard
+										cardData={entry}
+										show={show}
+										responses={responses}
+									/>
 								</Grid>
 							);
 						}

@@ -1,15 +1,8 @@
 import ChapbookCard from "./ChapbookCard.js";
 import React, { useEffect, useState } from "react";
-import { Checkbox, FormGroup, FormControlLabel, Grid } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import Navbar from "./Navbar.js";
-import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
-import CheckBoxIcon from '@mui/icons-material/CheckBox';
-import TextField from '@mui/material/TextField';
-import Autocomplete from '@mui/material/Autocomplete';
 import Filters from "./Filters.js";
-
-const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
-const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
 export default function ChapbookPage() {
 	const [show, setShow] = useState(false);
@@ -39,28 +32,43 @@ export default function ChapbookPage() {
 	return (
 		<div>
 			<Navbar category="Chapbook" />
-			<Filters uniqueData={uniqueAuthors}
+			<Filters
+				uniqueData={uniqueAuthors}
 				setNoResponse={setNoResponse}
 				setResponses={setResponses}
 				setAuthors={setSelectedAuthors}
 				showNoResponse={showNoResponse}
 				showResponses={showResponses}
-				category="Chapbook" />
-			<div style={{ padding: '3%' }}>
-				<Grid container justify="center" spacing={3} alignItems="center">
+				category="Chapbook"
+			/>
+			<div style={{ padding: "3%" }}>
+				<Grid
+					container
+					justify="center"
+					spacing={3}
+					alignItems="center"
+				>
 					{data.map((entry) => {
-						const author = entry["Author Name"] + " " + entry["Last Name"];
+						const author =
+							entry["Author Name"] + " " + entry["Last Name"];
 						let responses;
 						if (entry["Responses"]) {
 							responses = entry["Responses"].length;
 						} else {
 							responses = 0;
 						}
-						if (selectedAuthors.includes(author) &&
-							((showNoResponse && responses == 0) || (showResponses && responses > 0))) {
+						if (
+							selectedAuthors.includes(author) &&
+							((showNoResponse && responses === 0) ||
+								(showResponses && responses > 0))
+						) {
 							return (
 								<Grid item>
-									<ChapbookCard cardData={entry} show={show} responses={responses} />
+									<ChapbookCard
+										cardData={entry}
+										show={show}
+										responses={responses}
+									/>
 								</Grid>
 							);
 						}

@@ -2,9 +2,7 @@ import React from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
-import CardActions from "@material-ui/core/CardActions";
-import { withStyles, makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
 const dates = [
 	"January",
@@ -75,10 +73,26 @@ const useStyles = makeStyles({
 	},
 });
 
+function check(data) {
+	return data !== undefined ? data : "";
+}
+
+function checkLoc(data1, data2) {
+	if (data1 === undefined && data2 === undefined) {
+		return "";
+	} else if (data1 === undefined) {
+		return data2;
+	} else if (data2 === undefined) {
+		return data1;
+	} else {
+		return data1 + ", " + data2;
+	}
+}
+
 export default function JournalCard(cardData) {
 	const classes = useStyles();
 	let image;
-	if (cardData.cardData["Attachments"][0]["thumbnails"]) {
+	if (check(cardData.cardData["Attachments"][0]["thumbnails"])) {
 		image = (
 			<img
 				src={
@@ -91,7 +105,15 @@ export default function JournalCard(cardData) {
 			/>
 		);
 	} else {
-		image = <img className={classes.image}></img>;
+		let imgSrc =
+			"https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+		image = (
+			<img
+				src={imgSrc}
+				alt="grey recentangle"
+				className={classes.image}
+			/>
+		);
 	}
 
 	let responses;
@@ -103,48 +125,46 @@ export default function JournalCard(cardData) {
 
 	return (
 		<div>
-			<h4></h4>
-			{
-				<Card className={classes.card}>
-					<CardContent className={classes.cardcontent}>
-						{image}
-						<Typography className={classes.author} color="#000000">
-							{cardData.cardData["Author Name"] +
-								" " +
-								cardData.cardData["Last Name"]}
-						</Typography>
+			<Card className={classes.card}>
+				<CardContent className={classes.cardcontent}>
+					{image}
+					<Typography className={classes.author} color="#000000">
+						{check(cardData.cardData["Author Name"]) +
+							" " +
+							check(cardData.cardData["Last Name"])}
+					</Typography>
 
-						<Typography
-							variant="h5"
-							component="h2"
-							className={classes.location}
-							color="black"
-						>
-							{cardData.cardData["City"] +
-								", " +
-								cardData.cardData["State"]}
-						</Typography>
+					<Typography
+						variant="h5"
+						component="h2"
+						className={classes.location}
+						color="black"
+					>
+						{checkLoc(
+							cardData.cardData["City"],
+							cardData.cardData["State"]
+						)}
+					</Typography>
 
-						<Typography className={classes.date}>
-							{dates[
-								parseInt(
-									cardData.cardData[
-										"Last modified time"
-									].split("-")[1]
-								) - 1
-							] +
-								" " +
-								cardData.cardData["Last modified time"].split(
-									"-"
-								)[0]}
-						</Typography>
+					<Typography className={classes.date}>
+						{dates[
+							parseInt(
+								check(
+									cardData.cardData["Last modified time"]
+								).split("-")[1]
+							) - 1
+						] +
+							" " +
+							check(
+								cardData.cardData["Last modified time"]
+							).split("-")[0]}
+					</Typography>
 
-						<Typography className={classes.response}>
-							{responses + " Responses"}
-						</Typography>
-					</CardContent>
-				</Card>
-			}
+					<Typography className={classes.response}>
+						{responses + " Responses"}
+					</Typography>
+				</CardContent>
+			</Card>
 		</div>
 	);
 }

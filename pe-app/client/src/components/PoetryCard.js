@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 import Modal from "./Modal.js";
-import { withStyles, makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
 const dates = [
 	"January",
@@ -44,21 +44,18 @@ const useStyles = makeStyles({
 		fontStyle: "normal",
 		fontWeight: "bold",
 		fontSize: "20px",
-
 	},
 	author: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "14px",
-
 	},
 	location: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "14px",
-
 	},
 	date: {
 		fontFamily: "'Open Sans', sans-serif",
@@ -84,8 +81,12 @@ const useStyles = makeStyles({
 		bottom: 0,
 		margin: "auto",
 		position: "absolute",
-	}
+	},
 });
+
+function check(data) {
+	return typeof data !== "undefined" ? data : "";
+}
 
 export default function PoetryCard(props) {
 	const classes = useStyles();
@@ -93,13 +94,21 @@ export default function PoetryCard(props) {
 	const cardData = props.cardData;
 	let image;
 	let imgSrc;
-	if (cardData["Attachments"][0]["thumbnails"]) {
+	if (check(cardData["Attachments"][0]["thumbnails"])) {
 		imgSrc = cardData["Attachments"][0]["thumbnails"]["large"]["url"];
 		image = (
 			<img src={imgSrc} alt="prisoner poetry" className={classes.image} />
 		);
 	} else {
-		image = <img></img>;
+		imgSrc =
+			"https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+		image = (
+			<img
+				src={imgSrc}
+				alt="grey recentangle"
+				className={classes.image}
+			/>
+		);
 	}
 
 	let responses;
@@ -109,29 +118,33 @@ export default function PoetryCard(props) {
 		responses = 0;
 	}
 	let title = cardData["Title"];
-	title = title.length > 22 ? (title.slice(0, 20) + "... ") : title;
+	title = title.length > 22 ? title.slice(0, 20) + "... " : title;
 	return (
 		<div onClick={() => setShow(true)}>
 			<Card className={classes.card}>
 				<CardContent className={classes.cardcontent}>
-					<Grid container columns={16} >
+					<Grid container columns={16}>
 						<Grid item className={classes.info} xs>
 							<Typography className={classes.title}>
-								{title}
+								{check(title)}
 							</Typography>
 							<Typography className={classes.author}>
-								{cardData["Author Name"] +
+								{check(cardData["Author Name"]) +
 									" " +
-									cardData["Last Name"]}
+									check(cardData["Last Name"])}
 							</Typography>
 							<Typography className={classes.date}>
-								{dates[
+								{/* {dates[
 									parseInt(
-										cardData["Last modified time"].split("-")[1]
+										check(
+											cardData["Last modified time"].split
+										)("-")[1]
 									) - 1
 								] +
 									" " +
-									cardData["Last modified time"].split("-")[0]}
+									check(cardData["Last modified time"]).split(
+										"-"
+									)[0]} */}
 							</Typography>
 							<div className={classes.responseDiv}>
 								<Typography className={classes.response}>
@@ -139,15 +152,20 @@ export default function PoetryCard(props) {
 								</Typography>
 							</div>
 						</Grid>
-
-						<Grid item className={classes.imgBox} xs="auto" >
+						<Grid item className={classes.imgBox} xs="auto">
 							{image}
 						</Grid>
 					</Grid>
 				</CardContent>
 			</Card>
-			<Modal onClose={() => setShow(false)} show={show}
-				artData={cardData} imgSrc={imgSrc} responses={responses} dates={dates} />
+			<Modal
+				onClose={() => setShow(false)}
+				show={show}
+				artData={cardData}
+				imgSrc={imgSrc}
+				responses={responses}
+				dates={dates}
+			/>
 		</div>
 	);
 }

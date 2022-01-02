@@ -8,7 +8,7 @@ import Modal from "./Modal.js";
 export default function JournalPage() {
 	const [show, setShow] = useState(false);
 	const data = exportedData.filter(
-		(entry) => entry["Program (category)"] == "Journal"
+		(entry) => entry["Program (category)"] === "Journal"
 	);
 
 	return (

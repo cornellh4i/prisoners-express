@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Checkbox, FormGroup, FormControlLabel, Grid } from "@material-ui/core";
+import { Checkbox, FormGroup, FormControlLabel } from "@material-ui/core";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
@@ -83,7 +83,7 @@ export default function FeaturedPage() {
 				/>
 			</FormGroup>
 
-			<div style={{ padding: '3%' }}>
+			<div style={{ padding: "3%" }}>
 				<Masonry
 					columns="auto"
 					spacing={1}
@@ -120,6 +120,6 @@ export default function FeaturedPage() {
 			</div>
 
 			<button onClick={() => setShow(true)}>Show Modal</button>
-		</div >
+		</div>
 	);
 }
