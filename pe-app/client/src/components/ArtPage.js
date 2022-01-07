@@ -29,6 +29,8 @@ export default function ArtPage() {
 			});
 	}, []);
 
+	console.log('unique authors', uniqueAuthors);
+
 	return (
 		<div>
 			<Navbar category="Art" />
