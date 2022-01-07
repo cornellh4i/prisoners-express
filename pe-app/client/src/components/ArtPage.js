@@ -53,6 +53,8 @@ export default function ArtPage() {
 					{data.map((entry) => {
 						const author =
 							entry["Author Name"] + " " + entry["Last Name"];
+						const worksByAuthor = data.filter(function (value) { return value["Author Name"] === entry["Author Name"] && value["Last Name"] === entry["Last Name"] && value["Title"] !== entry["Title"] });
+						console.log("ARRAY" + worksByAuthor);
 						let responses;
 						if (entry["Responses"]) {
 							responses = entry["Responses"].length;
@@ -68,6 +70,7 @@ export default function ArtPage() {
 								<Grid item>
 									<ArtworkCard
 										cardData={entry}
+										worksByAuthor={worksByAuthor}
 										show={show}
 										responses={responses}
 									/>

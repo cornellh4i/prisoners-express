@@ -19,7 +19,7 @@ export default function Cards() {
 				d.filter((entry) => entry["Program (category)"] === "Poetry")
 			)
 			.then((d) => {
-				console.log(d);
+				// console.log(d);
 				setData(d);
 				const authors = d.map(
 					(entry) => entry["Author Name"] + " " + entry["Last Name"]
