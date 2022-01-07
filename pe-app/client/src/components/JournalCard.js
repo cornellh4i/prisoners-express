@@ -3,6 +3,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
+import rectangle from "./greyrectangle.jpeg";
 
 const dates = [
 	"January",
@@ -77,6 +78,10 @@ function check(data) {
 	return data !== undefined ? data : "";
 }
 
+function checkDate(data) {
+	return data !== undefined ? dates[parseInt(data.split("-")[1]) - 1] + " " + data.split("-")[0] : "";
+}
+
 function checkLoc(data1, data2) {
 	if (data1 === undefined && data2 === undefined) {
 		return "";
@@ -97,7 +102,7 @@ export default function JournalCard(cardData) {
 			<img
 				src={
 					cardData.cardData["Attachments"][0]["thumbnails"]["large"][
-						"url"
+					"url"
 					]
 				}
 				alt="prisoner art"
@@ -105,12 +110,11 @@ export default function JournalCard(cardData) {
 			/>
 		);
 	} else {
-		let imgSrc =
-			"https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+		let imgSrc = rectangle;
 		image = (
 			<img
 				src={imgSrc}
-				alt="grey recentangle"
+				alt="grey rectangle"
 				className={classes.image}
 			/>
 		);
@@ -147,17 +151,7 @@ export default function JournalCard(cardData) {
 					</Typography>
 
 					<Typography className={classes.date}>
-						{dates[
-							parseInt(
-								check(
-									cardData.cardData["Last modified time"]
-								).split("-")[1]
-							) - 1
-						] +
-							" " +
-							check(
-								cardData.cardData["Last modified time"]
-							).split("-")[0]}
+						{checkDate(cardData.cardData["Last modified time"])}
 					</Typography>
 
 					<Typography className={classes.response}>
