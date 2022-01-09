@@ -28,9 +28,6 @@ export default function ArtPage() {
 				setUniqueAuthors(authorSet);
 			});
 	}, []);
-
-	console.log('unique authors', uniqueAuthors);
-
 	return (
 		<div>
 			<Navbar category="Art" />
@@ -80,7 +77,6 @@ export default function ArtPage() {
 					})}
 				</Grid>
 			</div>
-			<button onClick={() => setShow(true)}>Show Modal</button>
 		</div>
 	);
 }

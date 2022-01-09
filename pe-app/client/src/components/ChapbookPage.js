@@ -75,7 +75,7 @@ export default function ChapbookPage() {
 					})}
 				</Grid>
 			</div>
-			<button onClick={() => setShow(true)}>Show Modal</button>
+
 		</div>
 	);
 }

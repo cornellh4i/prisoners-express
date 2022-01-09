@@ -72,7 +72,6 @@ export default function Filters(props) {
           }}
           value={selectedAuthors}
           renderTags={(value, getTagProps) => {
-            const numTags = value.length;
             if (authorsScroll) {
               return (
                 <div className="d-flex" style={{ maxHeight: '20vh', overflow: 'auto' }}>
@@ -101,18 +100,17 @@ export default function Filters(props) {
           onFocus={() => setAuthorsScroll(true)}
           onBlur={() => setAuthorsScroll(false)}
           renderOption={(props, option, { selected }) => (
-            <div style={{ maxHeight: '100px', overFlowY: "auto" }}>
-              <li {...props} >
-                <Checkbox
-                  icon={icon}
-                  checkedIcon={checkedIcon}
-                  className={classes.checkbox}
-                  checked={selected}
-                  style={{ color: "#DD9933" }}
-                />
-                {option}
-              </li>
-            </div>
+            <li {...props} >
+              <Checkbox
+                icon={icon}
+                checkedIcon={checkedIcon}
+                className={classes.checkbox}
+                checked={selected}
+                style={{ color: "#DD9933" }}
+              />
+              {option}
+            </li>
+
           )}
 
           renderInput={(params) => <TextField {...params}

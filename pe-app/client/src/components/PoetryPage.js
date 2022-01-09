@@ -75,7 +75,6 @@ export default function Cards() {
 					})}
 				</Grid>
 			</div>
-			<button onClick={() => setShow(true)}>Show Modal</button>
 		</div>
 	);
 }
