@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
+import Modal from "./JournalModal.js"
+
 
 const dates = [
 	"January",
@@ -77,6 +79,10 @@ function check(data) {
 	return data !== undefined ? data : "";
 }
 
+function checkDate(data) {
+	return data !== undefined ? dates[parseInt(data.split("-")[1]) - 1] + " " + data.split("-")[0] : "";
+}
+
 function checkLoc(data1, data2) {
 	if (data1 === undefined && data2 === undefined) {
 		return "";
@@ -89,14 +95,22 @@ function checkLoc(data1, data2) {
 	}
 }
 
-export default function JournalCard(cardData) {
+export default function JournalCard(props) {
+	const [show, setShow] = useState(false);
+	const worksBySameAuthor = props.worksBySameAuthor
+	console.log(worksBySameAuthor)
+	const author = props.author
 	const classes = useStyles();
+	let mostRecentDate = checkDate(worksBySameAuthor[0]["Last modified time"])
+	let modalData = []
+	let responses = 0;
 	let image;
-	if (check(cardData.cardData["Attachments"][0]["thumbnails"])) {
+	worksBySameAuthor.map((entry) => {
+	if (check(entry["Attachments"][0]["thumbnails"])) {
 		image = (
 			<img
 				src={
-					cardData.cardData["Attachments"][0]["thumbnails"]["large"][
+					entry["Attachments"][0]["thumbnails"]["large"][
 						"url"
 					]
 				}
@@ -115,23 +129,34 @@ export default function JournalCard(cardData) {
 			/>
 		);
 	}
-
-	let responses;
-	if (cardData.cardData["Responses"]) {
-		responses = cardData.cardData["Responses"].length;
-	} else {
-		responses = 0;
+		if (entry["Responses"]) {
+			responses = entry["Responses"].length;
 	}
+		const date = checkDate(entry["Last modified time"])
+		const obj = {img: image, date: date}
+		modalData.push(obj);
+
+		let recent = mostRecentDate.split(" ");
+		let dateArr = date.split(" ")
+
+		if (parseInt(dateArr[1]) >  parseInt(recent[1]))
+		{
+			mostRecentDate = date
+		}
+		else if (dates.indexOf(dateArr[0]) > dates.indexOf(recent[0]))
+		{
+			mostRecentDate = date
+		}
+
+
+	} )
 
 	return (
-		<div>
+		<div onClick={() => setShow(true)}>
 			<Card className={classes.card}>
 				<CardContent className={classes.cardcontent}>
-					{image}
 					<Typography className={classes.author} color="#000000">
-						{check(cardData.cardData["Author Name"]) +
-							" " +
-							check(cardData.cardData["Last Name"])}
+						{author}
 					</Typography>
 
 					<Typography
@@ -141,29 +166,26 @@ export default function JournalCard(cardData) {
 						color="black"
 					>
 						{checkLoc(
-							cardData.cardData["City"],
-							cardData.cardData["State"]
+							worksBySameAuthor[0]["City"],
+							worksBySameAuthor[0]["State"]
 						)}
 					</Typography>
 
 					<Typography className={classes.date}>
-						{dates[
-							parseInt(
-								check(
-									cardData.cardData["Last modified time"]
-								).split("-")[1]
-							) - 1
-						] +
-							" " +
-							check(
-								cardData.cardData["Last modified time"]
-							).split("-")[0]}
-					</Typography>
+						{mostRecentDate} 
+					 </Typography>
 
 					<Typography className={classes.response}>
 						{responses + " Responses"}
 					</Typography>
 				</CardContent>
+				<Modal
+				onClose={() => setShow(false)}
+				show={show}
+				modalData = {modalData}
+				responses={responses}
+				dates={dates}
+			/>
 			</Card>
 		</div>
 	);
