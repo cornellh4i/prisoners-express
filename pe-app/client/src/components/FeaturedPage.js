@@ -97,10 +97,10 @@ export default function FeaturedPage() {
 								return (
 									<ArtworkCard cardData={entry} show={show} />
 								);
-							case "Journal":
-								return (
-									<JournalCard cardData={entry} show={show} />
-								);
+							// case "Journal":
+							// 	return (
+							// 		<JournalCard cardData={entry} show={show} />
+							// 	);
 							case "Poetry":
 								return (
 									<PoetryCard cardData={entry} show={show} />

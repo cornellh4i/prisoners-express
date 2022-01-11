@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Checkbox, FormGroup, FormControlLabel, Grid } from "@material-ui/core";
 import Navbar from "./Navbar.js";
 import Modal from "./Modal.js";
+import Filters from "./Filters.js";
 
 export default function JournalPage() {
 	const [show, setShow] = useState(false);
@@ -11,8 +12,8 @@ export default function JournalPage() {
 	const [uniqueAuthors, setUniqueAuthors] = useState([]);
 	const [showNoResponse, setNoResponse] = useState(true);
 	const [showResponses, setResponses] = useState(true);
-
 	const [data, setData] = useState([]);
+
 	useEffect(() => {
 		fetch(process.env.REACT_APP_API)
 			.then((response) => response.json())
@@ -32,36 +33,38 @@ export default function JournalPage() {
 
 	return (
 		<div>
-			<Navbar />
-			<FormGroup style={{ display: "inline-block" }}>
-				<FormControlLabel
-					control={
-						<Checkbox defaultChecked style={{ color: "#DD9933" }} />
+			<Navbar category="Journal" />
+			<Filters
+				uniqueData={uniqueAuthors}
+				setNoResponse={setNoResponse}
+				setResponses={setResponses}
+				setAuthors={setSelectedAuthors}
+				showNoResponse={showNoResponse}
+				showResponses={showResponses}
+				category="Poetry"
+			/>
+			<div style={{ padding: "3%" }}>
+				<Grid
+					container
+					justify="center"
+					spacing={3}
+					alignItems="center"
+				>
+					{
+						uniqueAuthors.map((author) => {
+							const worksByAuthor = data.filter((entry) =>
+								entry["Author Name"] + " " + entry["Last Name"] == author);
+							console.log('worksByAuthor', worksByAuthor);
+							return (
+								<Grid item >
+									<JournalCard worksBySameAuthor={worksByAuthor} author={author} />
+								</Grid>
+							);
+						})
 					}
-					label="0 responses"
-				/>
-				<FormControlLabel
-					control={
-						<Checkbox defaultChecked style={{ color: "#DD9933" }} />
-					}
-					label="1+ responses"
-				/>
-			</FormGroup>
-			<Grid container justify="center" spacing={2}>
-			{
-          		uniqueAuthors.map((author) => {
-            		const worksByAuthor = data.filter((entry) => entry["Author Name"] + " " + entry["Last Name"] == author);
-				console.log(worksByAuthor)
-            	return (
-             	 <Grid item xs={4}>
-                		<JournalCard worksBySameAuthor = {worksByAuthor} author = {author} />
-              	</Grid>
-            );
-          })
-        }
-			</Grid>
-			<button onClick={() => setShow(true)}>Show Modal</button>
-			<Modal onClose={() => setShow(false)} show={show} />
+				</Grid>
+			</div>
+
 		</div>
 	);
 }

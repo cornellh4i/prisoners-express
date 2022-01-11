@@ -70,7 +70,6 @@ const useStyles = makeStyles({
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "12px",
-
 		color: "#828282",
 	},
 	info: {
@@ -86,6 +85,10 @@ const useStyles = makeStyles({
 
 function check(data) {
 	return typeof data !== "undefined" ? data : "";
+}
+
+function checkDate(data) {
+	return data !== undefined ? dates[parseInt(data.split("-")[1]) - 1] + " " + data.split("-")[0] : "";
 }
 
 export default function PoetryCard(props) {
@@ -134,17 +137,7 @@ export default function PoetryCard(props) {
 									check(cardData["Last Name"])}
 							</Typography>
 							<Typography className={classes.date}>
-								{/* {dates[
-									parseInt(
-										check(
-											cardData["Last modified time"].split
-										)("-")[1]
-									) - 1
-								] +
-									" " +
-									check(cardData["Last modified time"]).split(
-										"-"
-									)[0]} */}
+								{checkDate(cardData["Last modified time"])}
 							</Typography>
 							<div className={classes.responseDiv}>
 								<Typography className={classes.response}>

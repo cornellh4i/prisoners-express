@@ -25,54 +25,47 @@ const useStyles = makeStyles({
 	card: {
 		boxShadow: "0px 0px 10px 5px rgba(0, 0, 0, 0.1)",
 		borderRadius: "20px",
-		width: "314px",
-		height: "146px",
+		height: "25vh",
+		width: "20vw",
 	},
 	cardcontent: {
-		padding: "0px",
-	},
-	image: {
-		width: "84px",
-		height: "115px",
-		float: "right",
-		marginRight: "14px",
-		marginTop: "15.5px",
+		margin: "1.5vw",
+		padding: 0,
+		position: "relative",
+		height: "60%"
 	},
 	author: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "bold",
 		fontSize: "20px",
-		paddingTop: "16px",
-		paddingLeft: "16px",
 	},
 	location: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "14px",
-		paddingTop: "3.83px",
-		paddingLeft: "16px",
 	},
 	date: {
-		marginBottom: 12,
 		fontFamily: "'Open Sans', sans-serif",
 		fontWeight: 400,
 		fontStyle: "normal",
-		fontSize: "11.35px",
-		paddingTop: "5px",
-		paddingLeft: "16px",
+		fontSize: "12px",
+
 		color: "#828282",
 	},
 	response: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
 		fontWeight: "normal",
-		fontSize: "11.3494px",
-		paddingTop: "20px",
-		paddingLeft: "16px",
+		fontSize: "12px",
 		color: "#828282",
 	},
+	responseDiv: {
+		bottom: 0,
+		margin: "auto",
+		position: "absolute",
+	}
 });
 
 function check(data) {
@@ -97,59 +90,83 @@ function checkLoc(data1, data2) {
 
 export default function JournalCard(props) {
 	const [show, setShow] = useState(false);
-	const worksBySameAuthor = props.worksBySameAuthor
-	console.log(worksBySameAuthor)
-	const author = props.author
+	const { worksBySameAuthor, author } = props
+
 	const classes = useStyles();
-	let mostRecentDate = checkDate(worksBySameAuthor[0]["Last modified time"])
-	let modalData = []
+	let mostRecentDate = worksBySameAuthor == null ? "" :
+		checkDate(worksBySameAuthor[0]["Last modified time"]);
+	let modalData = [];
 	let responses = 0;
-	let image;
-	worksBySameAuthor.map((entry) => {
-	if (check(entry["Attachments"][0]["thumbnails"])) {
-		image = (
-			<img
-				src={
-					entry["Attachments"][0]["thumbnails"]["large"][
-						"url"
-					]
-				}
-				alt="prisoner art"
-				className={classes.image}
-			/>
+	let imgSrc =
+		"https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+	let image = (
+		<img
+			src={imgSrc}
+			alt="grey recentangle"
+			className={classes.image}
+		/>
+	);
+	let location = "";
+	let mailingAddr = "";
+
+	if (worksBySameAuthor !== null) {
+		location = checkLoc(
+			worksBySameAuthor[0]["City"],
+			worksBySameAuthor[0]["State"]
 		);
-	} else {
-		let imgSrc =
-			"https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
-		image = (
-			<img
-				src={imgSrc}
-				alt="grey recentangle"
-				className={classes.image}
-			/>
-		);
+		mailingAddr = "\n" +
+			check(worksBySameAuthor[0]["Author Name"]) +
+			" " +
+			check(worksBySameAuthor[0]["Last Name"]) +
+			", ID:" +
+			"\n" +
+			check(worksBySameAuthor[0]["Room Number"]) +
+			" " +
+			check(worksBySameAuthor[0]["Pre-Address"]) +
+			"\n" +
+			check(worksBySameAuthor[0]["Address"]) +
+			" " +
+			check(worksBySameAuthor[0]["City"]) +
+			", " +
+			check(worksBySameAuthor[0]["State"]) +
+			" " +
+			check(worksBySameAuthor[0]["Zip"])
+		worksBySameAuthor.map((entry) => {
+			if (check(entry["Attachments"][0]["thumbnails"])) {
+				image = (
+					<img
+						src={
+							entry["Attachments"][0]["thumbnails"]["large"]["url"]
+						}
+						alt="prisoner journal entry"
+						style={{
+							height: "30vh",
+							margin: "auto",
+							position: "relative",
+							padding: "1vw",
+						}}
+					/>
+				);
+			}
+			if (entry["Responses"]) {
+				responses = entry["Responses"].length;
+			}
+			const date = checkDate(entry["Last modified time"])
+			const obj = { image: image, date: date }
+			modalData.push(obj);
+
+			let recent = mostRecentDate.split(" ");
+			let dateArr = date.split(" ")
+
+			if (parseInt(dateArr[1]) > parseInt(recent[1])) {
+				mostRecentDate = date
+			}
+			else if (dates.indexOf(dateArr[0]) > dates.indexOf(recent[0])) {
+				mostRecentDate = date
+			}
+		})
+
 	}
-		if (entry["Responses"]) {
-			responses = entry["Responses"].length;
-	}
-		const date = checkDate(entry["Last modified time"])
-		const obj = {img: image, date: date}
-		modalData.push(obj);
-
-		let recent = mostRecentDate.split(" ");
-		let dateArr = date.split(" ")
-
-		if (parseInt(dateArr[1]) >  parseInt(recent[1]))
-		{
-			mostRecentDate = date
-		}
-		else if (dates.indexOf(dateArr[0]) > dates.indexOf(recent[0]))
-		{
-			mostRecentDate = date
-		}
-
-
-	} )
 
 	return (
 		<div onClick={() => setShow(true)}>
@@ -165,27 +182,28 @@ export default function JournalCard(props) {
 						className={classes.location}
 						color="black"
 					>
-						{checkLoc(
-							worksBySameAuthor[0]["City"],
-							worksBySameAuthor[0]["State"]
-						)}
+						{location}
 					</Typography>
 
 					<Typography className={classes.date}>
-						{mostRecentDate} 
-					 </Typography>
-
-					<Typography className={classes.response}>
-						{responses + " Responses"}
+						{mostRecentDate}
 					</Typography>
+
+					<div className={classes.responseDiv}>
+						<Typography className={classes.response}>
+							{responses + " Responses"}
+						</Typography>
+					</div>
 				</CardContent>
 				<Modal
-				onClose={() => setShow(false)}
-				show={show}
-				modalData = {modalData}
-				responses={responses}
-				dates={dates}
-			/>
+					onClose={() => setShow(false)}
+					show={show}
+					modalData={modalData}
+					responses={responses}
+					mostRecentDate={mostRecentDate}
+					author={author}
+					mailingAddr={mailingAddr}
+				/>
 			</Card>
 		</div>
 	);

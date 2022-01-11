@@ -1,6 +1,5 @@
 import React from "react";
-import "../css/Modal.css";
-import Gallery from "./Carousel.js";
+import "../css/JournalModal.css";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 
 function check(data) {
@@ -8,7 +7,7 @@ function check(data) {
 }
 
 const Modal = (props) => {
-	const { modalData, responses } = props;
+	const { modalData, responses, mostRecentDate, author, mailingAddr } = props;
 
 	if (!props.show) {
 		return null;
@@ -28,46 +27,32 @@ const Modal = (props) => {
 					</button>
 				</div>
 				<div className="modal-body">
-					<img
-						src={imgSrc}
-						alt="prisoner art"
-						style={{
-							height: "70%",
-							display: "block",
-							margin: "auto",
-							position: "relative",
-							padding: "1vw",
-						}}
-					/>
-					<div className="modal-title">{check(data["Title"])}</div>
 					<div className="modal-author">
-						{check(data["Author Name"]) +
-							" " +
-							check(data["Last Name"])}
+						{author}
 					</div>
 					<div className="modal-address">
-						{"Mailing Address:"
+						{"Mailing Address:" + mailingAddr}
 					</div>
 					<div className="modal-date">
-						{dates[
-							parseInt(
-								check(data["Last modified time"]).split("-")[1]
-							) - 1
-						] +
-							" " +
-							check(data["Last modified time"]).split("-")[0]}
+						{mostRecentDate}
 
 						{" " + responses + " Responses"}
 					</div>
-				</div>
+					<div className="images">
+						{modalData.map((entry) => {
+							return (
+								<div>
+									<div className="modal-image">
+										{entry.image}
+									</div>
+									<div className="image-caption">
+										{entry.date}
+									</div>
+								</div>
+							)
+						})}
+					</div>
 
-				<div>
-					<Gallery imgSrc={imgSrc} />
-				</div>
-				<div className="modal-footer">
-					<button onClick={props.onClose} className="button">
-						Close
-					</button>
 				</div>
 			</div>
 		</div>
