@@ -11,6 +11,7 @@ const Modal = (props) => {
   const { imgSrc, responses, dates, worksByAuthor } = props;
   const data = props.artData;
   // const [data, setData] = useState([]);
+  const authorName = check(data["Author Name"]) + " " + check(data["Last Name"]);
 
   if (!props.show) {
     return null;
@@ -80,8 +81,11 @@ const Modal = (props) => {
           </div>
         </div>
 
+
+        {console.log("modal" + authorName)}
+        {console.log("modal" + worksByAuthor)}
         <div>
-          <Gallery imgSrc={imgSrc} worksByAuthor={worksByAuthor} />
+          <Gallery imgSrc={imgSrc} authorName={authorName} worksByAuthor={worksByAuthor} />
         </div>
         <div className="modal-footer">
           <button onClick={props.onClose} className="button">

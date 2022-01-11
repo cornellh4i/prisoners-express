@@ -10,6 +10,7 @@ export default function ArtPage() {
 	const [uniqueAuthors, setUniqueAuthors] = useState([]);
 	const [showNoResponse, setNoResponse] = useState(true);
 	const [showResponses, setResponses] = useState(true);
+	const [worksByAuthor, setWorksByAuthor] = useState([]);
 
 	const [data, setData] = useState([]);
 	useEffect(() => {
@@ -29,7 +30,7 @@ export default function ArtPage() {
 			});
 	}, []);
 
-	console.log('unique authors', uniqueAuthors);
+	// console.log('unique authors', uniqueAuthors);
 
 	return (
 		<div>
@@ -50,11 +51,14 @@ export default function ArtPage() {
 					spacing={3}
 					alignItems="center"
 				>
+					{uniqueAuthors.map((entry) => {
+						const works = data.filter(function (value) { return value["Author Name"] + " " + value["Last Name"] === entry })
+						setWorksByAuthor(works);
+					})}
+					{/* {console.log(worksByAuthor)} */}
 					{data.map((entry) => {
 						const author =
 							entry["Author Name"] + " " + entry["Last Name"];
-						const worksByAuthor = data.filter(function (value) { return value["Author Name"] === entry["Author Name"] && value["Last Name"] === entry["Last Name"] && value["Title"] !== entry["Title"] });
-						console.log("ARRAY" + worksByAuthor);
 						let responses;
 						if (entry["Responses"]) {
 							responses = entry["Responses"].length;

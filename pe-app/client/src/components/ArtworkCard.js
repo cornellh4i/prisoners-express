@@ -148,6 +148,7 @@ export default function ArtworkCard(props) {
     //   </div>
     // </ClickAwayListener>
     <div className="Card" onClick={() => setShow(true)} style={{}}>
+      {/* {console.log(worksByAuthor)} */}
       <Modal onClose={() => setShow(false)} show={show}
         artData={cardData} imgSrc={imgSrc} responses={responses} dates={dates} worksByAuthor={worksByAuthor} />
       <Card
