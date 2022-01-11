@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 import Modal from "./Modal.js";
 import { makeStyles } from "@material-ui/core/styles";
+import rectangle from "./greyrectangle.jpeg";
 
 const dates = [
 	"January",
@@ -103,12 +104,11 @@ export default function PoetryCard(props) {
 			<img src={imgSrc} alt="prisoner poetry" className={classes.image} />
 		);
 	} else {
-		imgSrc =
-			"https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+		imgSrc = rectangle;
 		image = (
 			<img
 				src={imgSrc}
-				alt="grey recentangle"
+				alt="grey rectangle"
 				className={classes.image}
 			/>
 		);

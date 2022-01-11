@@ -5,6 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "./JournalModal.js"
 
+import rectangle from "./greyrectangle.jpeg";
 
 const dates = [
 	"January",
@@ -97,8 +98,7 @@ export default function JournalCard(props) {
 		checkDate(worksBySameAuthor[0]["Last modified time"]);
 	let modalData = [];
 	let responses = 0;
-	let imgSrc =
-		"https://28.cdn.ekm.net/ekmps/shops/simplycoatings2/images/axalta-ral-7040-window-grey-polyester-80-gloss-powder-coating-20kg-box--1759-p.jpg?v=1";
+	let imgSrc = rectangle;
 	let image = (
 		<img
 			src={imgSrc}
@@ -187,14 +187,14 @@ export default function JournalCard(props) {
 
 					<Typography className={classes.date}>
 						{mostRecentDate}
-					</Typography>
+					</Typography >
 
 					<div className={classes.responseDiv}>
 						<Typography className={classes.response}>
 							{responses + " Responses"}
 						</Typography>
 					</div>
-				</CardContent>
+				</CardContent >
 				<Modal
 					onClose={() => setShow(false)}
 					show={show}
@@ -204,7 +204,7 @@ export default function JournalCard(props) {
 					author={author}
 					mailingAddr={mailingAddr}
 				/>
-			</Card>
-		</div>
+			</Card >
+		</div >
 	);
 }

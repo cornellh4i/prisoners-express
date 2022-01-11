@@ -23,7 +23,7 @@ export default function FeaturedPage() {
 			.then((response) => response.json())
 			.then((d) => d.filter((entry) => entry["Display"] === true))
 			.then((d) => {
-				console.log(d);
+				// console.log(d);
 				setData(d);
 				const authors = d.map(
 					(entry) => entry["Author Name"] + " " + entry["Last Name"]
