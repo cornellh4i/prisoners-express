@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../css/Modal.css";
 import Gallery from "./Carousel.js";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";

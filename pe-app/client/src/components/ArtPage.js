@@ -10,7 +10,7 @@ export default function ArtPage() {
 	const [uniqueAuthors, setUniqueAuthors] = useState([]);
 	const [showNoResponse, setNoResponse] = useState(true);
 	const [showResponses, setResponses] = useState(true);
-	const [worksByAuthor, setWorksByAuthor] = useState([]);
+	const [worksByAuthor, setWorksByAuthor] = useState({});
 
 	const [data, setData] = useState([]);
 	useEffect(() => {
@@ -25,12 +25,20 @@ export default function ArtPage() {
 					(entry) => entry["Author Name"] + " " + entry["Last Name"]
 				);
 				const authorSet = [...new Set(authors)];
+
 				setSelectedAuthors(authorSet);
 				setUniqueAuthors(authorSet);
+
+				let temp = {};
+				authorSet.map((author) => {
+					const works = data.filter(function (value) {
+						return value["Author Name"] + " " + value["Last Name"] === author
+					});
+					temp[author] = works;
+				});
+				setWorksByAuthor(temp);
 			});
 	}, []);
-
-	// console.log('unique authors', uniqueAuthors);
 
 	return (
 		<div>
@@ -51,14 +59,10 @@ export default function ArtPage() {
 					spacing={3}
 					alignItems="center"
 				>
-					{uniqueAuthors.map((entry) => {
-						const works = data.filter(function (value) { return value["Author Name"] + " " + value["Last Name"] === entry })
-						setWorksByAuthor(works);
-					})}
-					{/* {console.log(worksByAuthor)} */}
 					{data.map((entry) => {
 						const author =
 							entry["Author Name"] + " " + entry["Last Name"];
+						console.log(author, worksByAuthor[author]);
 						let responses;
 						if (entry["Responses"]) {
 							responses = entry["Responses"].length;
@@ -74,7 +78,7 @@ export default function ArtPage() {
 								<Grid item>
 									<ArtworkCard
 										cardData={entry}
-										worksByAuthor={worksByAuthor}
+										worksByAuthor={worksByAuthor[author]}
 										show={show}
 										responses={responses}
 									/>
@@ -84,7 +88,6 @@ export default function ArtPage() {
 					})}
 				</Grid>
 			</div>
-			<button onClick={() => setShow(true)}>Show Modal</button>
 		</div>
 	);
 }
