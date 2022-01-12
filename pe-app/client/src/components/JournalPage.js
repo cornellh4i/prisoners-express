@@ -56,9 +56,9 @@ export default function JournalPage() {
 								entry["Author Name"] + " " + entry["Last Name"] == author);
 							console.log('worksByAuthor', worksByAuthor);
 							return (
-								<Grid item >
-									<JournalCard worksBySameAuthor={worksByAuthor} author={author} />
-								</Grid>
+								<JournalCard worksBySameAuthor={worksByAuthor} author={author}
+									showNoResponse={showNoResponse} showResponses={showResponses}
+									selectedAuthors={selectedAuthors} />
 							);
 						})
 					}

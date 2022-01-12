@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
+import { Grid, Card, CardContent, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import Modal from "./JournalModal.js"
+import JournalModal from "./JournalModal.js"
 
 import rectangle from "./greyrectangle.jpeg";
 
@@ -91,7 +89,11 @@ function checkLoc(data1, data2) {
 
 export default function JournalCard(props) {
 	const [show, setShow] = useState(false);
-	const { worksBySameAuthor, author } = props
+	const { worksBySameAuthor,
+		author,
+		showNoResponse,
+		showResponses,
+		selectedAuthors } = props
 
 	const classes = useStyles();
 	let mostRecentDate = worksBySameAuthor == null ? "" :
@@ -141,10 +143,16 @@ export default function JournalCard(props) {
 						alt="prisoner journal entry"
 						style={{
 							height: "30vh",
-							margin: "auto",
-							position: "relative",
 							padding: "1vw",
 						}}
+					/>
+				);
+			} else {
+				image = (
+					<img
+						src={imgSrc}
+						alt="grey recentangle"
+						className={classes.image}
 					/>
 				);
 			}
@@ -168,43 +176,52 @@ export default function JournalCard(props) {
 
 	}
 
-	return (
-		<div onClick={() => setShow(true)}>
-			<Card className={classes.card}>
-				<CardContent className={classes.cardcontent}>
-					<Typography className={classes.author} color="#000000">
-						{author}
-					</Typography>
+	if (selectedAuthors.includes(author) &&
+		((showNoResponse && responses === 0) ||
+			(showResponses && responses > 0))) {
+		return (
+			<Grid item>
+				<div onClick={() => setShow(true)}>
+					<Card className={classes.card}>
+						<CardContent className={classes.cardcontent}>
+							<Typography className={classes.author} color="#000000">
+								{author}
+							</Typography>
 
-					<Typography
-						variant="h5"
-						component="h2"
-						className={classes.location}
-						color="black"
-					>
-						{location}
-					</Typography>
+							<Typography
+								variant="h5"
+								component="h2"
+								className={classes.location}
+								color="black"
+							>
+								{location}
+							</Typography>
 
-					<Typography className={classes.date}>
-						{mostRecentDate}
-					</Typography >
+							<Typography className={classes.date}>
+								{mostRecentDate}
+							</Typography >
 
-					<div className={classes.responseDiv}>
-						<Typography className={classes.response}>
-							{responses + " Responses"}
-						</Typography>
-					</div>
-				</CardContent >
-				<Modal
-					onClose={() => setShow(false)}
-					show={show}
-					modalData={modalData}
-					responses={responses}
-					mostRecentDate={mostRecentDate}
-					author={author}
-					mailingAddr={mailingAddr}
-				/>
-			</Card >
-		</div >
-	);
+							<div className={classes.responseDiv}>
+								<Typography className={classes.response}>
+									{responses + " Responses"}
+								</Typography>
+							</div>
+						</CardContent >
+					</Card >
+					<JournalModal
+						onClose={() => setShow(false)}
+						show={show}
+						modalData={modalData}
+						responses={responses}
+						mostRecentDate={mostRecentDate}
+						author={author}
+						mailingAddr={mailingAddr}
+					/>
+				</div>
+			</Grid>
+		)
+	}
+	else {
+		return null;
+	}
 }
