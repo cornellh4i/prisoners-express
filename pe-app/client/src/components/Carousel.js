@@ -38,15 +38,6 @@ const Gallery = (props) => {
 	};
 
 	function getImage(cardData) {
-		// if (
-		// 	cardData["Attachments"] &&
-		// 	cardData["Attachments"][0] &&
-		// 	cardData["Attachments"][0]["thumbnails"]
-		// ) {
-		// 	return cardData["Attachments"][0]["thumbnails"]["large"]["url"];
-		// } else {
-		// 	return rectangle;
-		// }
 		let image;
 		let imgSrc;
 		if (
@@ -76,6 +67,18 @@ const Gallery = (props) => {
 		return image;
 	}
 
+	function getImgSrc(cardData) {
+		if (
+			cardData["Attachments"] &&
+			cardData["Attachments"][0] &&
+			cardData["Attachments"][0]["thumbnails"]
+		) {
+			return cardData["Attachments"][0]["thumbnails"]["large"]["url"];
+		} else {
+			return rectangle;
+		}
+	}
+
 	function getTitle(cardData) {
 		return cardData["Title"] !== undefined ? cardData["Title"] : "";
 	}
@@ -93,7 +96,7 @@ const Gallery = (props) => {
 
 					{
 						worksByAuthor.map((entry) => {
-							if (imgSrc == getImage(entry)) return null;
+							if (imgSrc == getImgSrc(entry)) return null;
 							else {
 								return (
 									<Carousel.Item>
