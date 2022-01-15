@@ -13,8 +13,8 @@
 }
 
 .modal-content {
-  height: 80%;
-  width: 40%;
+  height: 100%;
+  width: 45%;
   background-color: #fff;
   position: absolute;
 }
@@ -67,7 +67,8 @@
 }
 
 .modal-address {
-  margin-right: 30px;
+  margin-right: 20px;
+  margin-top: -70px;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;

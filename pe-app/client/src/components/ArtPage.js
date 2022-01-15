@@ -31,7 +31,7 @@ export default function ArtPage() {
 
 				let temp = {};
 				authorSet.map((author) => {
-					const works = data.filter(function (value) {
+					const works = d.filter(function (value) {
 						return value["Author Name"] + " " + value["Last Name"] === author
 					});
 					temp[author] = works;

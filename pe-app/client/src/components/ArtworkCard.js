@@ -126,6 +126,8 @@ export default function ArtworkCard(props) {
     );
   }
 
+  { console.log(worksByAuthor) }
+
   return (
     // <div>
     // <ClickAwayListener onClickAway={handleClickAway}>
@@ -147,8 +149,8 @@ export default function ArtworkCard(props) {
     //     ) : null}
     //   </div>
     // </ClickAwayListener>
-    <div className="Card" onClick={() => setShow(true)} style={{}}>
-      {/* {console.log(worksByAuthor)} */}
+    < div className="Card" onClick={() => setShow(true)
+    } style={{}}>
       <Modal onClose={() => setShow(false)} show={show}
         artData={cardData} imgSrc={imgSrc} responses={responses} dates={dates} worksByAuthor={worksByAuthor} />
       <Card
@@ -177,6 +179,6 @@ export default function ArtworkCard(props) {
           </div>
         </CardContent>
       </Card>
-    </div>
+    </div >
   );
 }
