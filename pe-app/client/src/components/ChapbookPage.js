@@ -132,7 +132,7 @@ export default function ChapbookPage() {
 						}
 					})}
 				</Grid>
-			</div>\
+			</div>
 		</div>
 	);
 }
