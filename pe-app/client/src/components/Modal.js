@@ -9,17 +9,16 @@ function check(data) {
 
 const Modal = (props) => {
   const { imgSrc, responses, dates, worksByAuthor } = props;
-  const data = props.artData;
-  // const [data, setData] = useState([]);
+  const { data, show, id, close } = props;
 
-  if (!props.show) {
+  if (show !== id) {
     return null;
   }
   return (
-    <div className="modal" onClick={props.onClose}>
+    <div className="modal-backdrop" onClick={close}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
-          <button onClick={props.onClose} className="button">
+          <button onClick={close} className="button">
             <CloseRoundedIcon
               fontSize="large"
               style={{

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import { makeStyles } from "@material-ui/core/styles";
 import "../css/Modal.css";
@@ -10,7 +10,7 @@ function check(data) {
 
 const useStyles = makeStyles({
 	journalModalContent: {
-		height: '90%',
+		maxHeight: '90%',
 		width: '50%',
 		backgroundColor: "#fff",
 	},
@@ -38,71 +38,83 @@ const useStyles = makeStyles({
 	},
 	journalImages: {
 		paddingTop: "2%",
+		maxHeight: "55vh",
+		overflowY: "auto",
 	},
 	journalImage: {
-		display: "block",
 		marginLeft: "auto",
 		marginRight: "auto",
 		marginBottom: 0,
-		width: "30%",
+		padding: 0,
+		width: "27%",
 		textAlign: "center",
 	},
-	journalDates: {
-
-	},
-
 });
 
 const JournalModal = (props) => {
-	const { modalData, responses, mostRecentDate, author, mailingAddr } = props;
+	const ref = useRef;
+
+	const { modalData,
+		responses,
+		mostRecentDate,
+		author,
+		mailingAddr,
+		show,
+		onClose, } = props;
+
 	const classes = useStyles();
-	if (!props.show) {
+
+	if (show !== author) {
 		return null;
+	} else {
+		return (
+			<div className="modal-backdrop" onClick={onClose}  >
+				<div className={classes.journalModalContent}
+					onClick={(e) => e.stopPropagation()}>
+					<div className="modal-header">
+						<button onClick={onClose} className="button">
+							<CloseRoundedIcon
+								fontSize="large"
+								style={{
+									backgroundColor: "transparent",
+									color: "gray",
+								}}
+							/>
+						</button>
+					</div>
+					<div className={classes.journalModalBody}>
+						<div className={classes.journalModalAuthor}>
+							{author}
+						</div>
+
+						<div className={classes.journalModalDate}>
+							{"Last updated " + mostRecentDate +
+								", " + responses + " Responses"}
+						</div>
+
+						<div className={classes.journalModalAddress}>
+							{"Mailing Address:" + mailingAddr}
+						</div>
+						<div className={classes.journalImages}>
+							<Grid container
+								justify="center"
+								spacing={1}
+								alignItems="flex-end">
+								{modalData.map((entry) => {
+									return (
+										<Grid item className={classes.journalImage}>
+											{entry.image}
+											{entry.date}
+										</Grid>
+									)
+								})}
+							</Grid>
+						</div>
+
+					</div>
+				</div>
+			</div >
+		);
 	}
-	return (
-		<div className="modal" onClick={props.onClose}>
-			<div className={classes.journalModalContent} onClick={(e) => e.stopPropagation()}>
-				<div className="modal-header">
-					<button onClick={props.onClose} className="button">
-						<CloseRoundedIcon
-							fontSize="large"
-							style={{
-								backgroundColor: "transparent",
-								color: "gray",
-							}}
-						/>
-					</button>
-				</div>
-				<div className={classes.journalModalBody}>
-					<div className={classes.journalModalAuthor}>
-						{author}
-					</div>
-
-					<div className={classes.journalModalDate}>
-						{"Last updated " + mostRecentDate +
-							", " + responses + " Responses"}
-					</div>
-
-					<div className={classes.journalModalAddress}>
-						{"Mailing Address:" + mailingAddr}
-					</div>
-					<Grid container
-						justify="center"
-						spacing={1}
-						alignItems="flex-end" className={classes.journalImages}>
-						{modalData.map((entry) => {
-							return (
-								<Grid item className={classes.journalImage}>
-									{entry.image}
-									{entry.date}
-								</Grid>
-							)
-						})}
-					</Grid>
-
-				</div>
-			</div>
-		</div >
-	);
 };
 export default JournalModal;

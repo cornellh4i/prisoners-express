@@ -3,9 +3,30 @@ import React, { useEffect, useState } from "react";
 import { Grid } from "@material-ui/core";
 import Navbar from "./Navbar.js";
 import Filters from "./Filters.js";
+import Modal from "./Modal.js";
+import rectangle from "./greyrectangle.jpeg";
+
+const dates = [
+	"January",
+	"Feburary",
+	"March",
+	"April",
+	"May",
+	"June",
+	"July",
+	"August",
+	"September",
+	"October",
+	"November",
+	"December",
+];
+
+function check(data) {
+	return data !== undefined ? data : "";
+}
 
 export default function ChapbookPage() {
-	const [show, setShow] = useState(false);
+	const [show, setShow] = useState(-1);
 	const [selectedAuthors, setSelectedAuthors] = useState([]);
 	const [uniqueAuthors, setUniqueAuthors] = useState([]);
 	const [showNoResponse, setNoResponse] = useState(true);
@@ -48,7 +69,7 @@ export default function ChapbookPage() {
 					spacing={3}
 					alignItems="center"
 				>
-					{data.map((entry) => {
+					{data.map((entry, index) => {
 						const author =
 							entry["Author Name"] + " " + entry["Last Name"];
 						let responses;
@@ -56,6 +77,32 @@ export default function ChapbookPage() {
 							responses = entry["Responses"].length;
 						} else {
 							responses = 0;
+						}
+						let image;
+						let imgSrc;
+						if (check(entry["Attachments"][0]["thumbnails"])) {
+							imgSrc = entry["Attachments"][0]["thumbnails"]["large"]["url"];
+							image = (
+								<img src={imgSrc} alt="prisoner poetry"
+									style={{
+										height: "22vh",
+										maxHeight: "100%",
+										maxWidth: "10vw",
+									}} />
+							);
+						} else {
+							imgSrc = rectangle;
+							image = (
+								<img
+									src={imgSrc}
+									alt="grey rectangle"
+									style={{
+										height: "22vh",
+										maxHeight: "100%",
+										maxWidth: "10vw",
+									}}
+								/>
+							);
 						}
 						if (
 							selectedAuthors.includes(author) &&
@@ -68,14 +115,24 @@ export default function ChapbookPage() {
 										cardData={entry}
 										show={show}
 										responses={responses}
+										imgSrc={imgSrc}
+										openModal={() => setShow(index)}
+									/>
+									<Modal
+										close={() => setShow(-1)}
+										show={show}
+										data={entry}
+										imgSrc={imgSrc}
+										responses={responses}
+										dates={dates}
+										id={index}
 									/>
 								</Grid>
 							);
 						}
 					})}
 				</Grid>
-			</div>
-			<button onClick={() => setShow(true)}>Show Modal</button>
+			</div>\
 		</div>
 	);
 }

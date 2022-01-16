@@ -101,7 +101,7 @@ export default function Filters(props) {
           onFocus={() => setAuthorsScroll(true)}
           onBlur={() => setAuthorsScroll(false)}
           renderOption={(props, option, { selected }) => (
-            <div style={{ maxHeight: '100px', overFlowY: "auto" }}>
+            <div style={{ maxHeight: '20vh', overFlowY: "auto" }}>
               <li {...props} >
                 <Checkbox
                   icon={icon}

@@ -1,24 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Grid, Card, CardContent, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import JournalModal from "./JournalModal.js"
-
-import rectangle from "./greyrectangle.jpeg";
-
-const dates = [
-	"January",
-	"Feburary",
-	"March",
-	"April",
-	"May",
-	"June",
-	"July",
-	"August",
-	"September",
-	"October",
-	"November",
-	"December",
-];
 
 const useStyles = makeStyles({
 	card: {
@@ -67,158 +49,52 @@ const useStyles = makeStyles({
 	}
 });
 
-function check(data) {
-	return data !== undefined ? data : "";
-}
-
-function checkDate(data) {
-	return data !== undefined ? dates[parseInt(data.split("-")[1]) - 1] + " " + data.split("-")[0] : "";
-}
-
-function checkLoc(data1, data2) {
-	if (data1 === undefined && data2 === undefined) {
-		return "";
-	} else if (data1 === undefined) {
-		return data2;
-	} else if (data2 === undefined) {
-		return data1;
-	} else {
-		return data1 + ", " + data2;
-	}
-}
-
 export default function JournalCard(props) {
-	const [show, setShow] = useState(false);
-	const { worksBySameAuthor,
+	const {
 		author,
 		showNoResponse,
 		showResponses,
-		selectedAuthors } = props
+		selectedAuthors,
+		mostRecentDate,
+		responses,
+		location,
+		openModal,
+	} = props
 
 	const classes = useStyles();
-	let mostRecentDate = worksBySameAuthor == null ? "" :
-		checkDate(worksBySameAuthor[0]["Last modified time"]);
-	let modalData = [];
-	let responses = 0;
-	let imgSrc = rectangle;
-	let image = (
-		<img
-			src={imgSrc}
-			alt="grey recentangle"
-			className={classes.image}
-		/>
-	);
-	let location = "";
-	let mailingAddr = "";
-
-	if (worksBySameAuthor !== null) {
-		location = checkLoc(
-			worksBySameAuthor[0]["City"],
-			worksBySameAuthor[0]["State"]
-		);
-		mailingAddr = "\n" +
-			check(worksBySameAuthor[0]["Author Name"]) +
-			" " +
-			check(worksBySameAuthor[0]["Last Name"]) +
-			", ID:" +
-			"\n" +
-			check(worksBySameAuthor[0]["Room Number"]) +
-			" " +
-			check(worksBySameAuthor[0]["Pre-Address"]) +
-			"\n" +
-			check(worksBySameAuthor[0]["Address"]) +
-			" " +
-			check(worksBySameAuthor[0]["City"]) +
-			", " +
-			check(worksBySameAuthor[0]["State"]) +
-			" " +
-			check(worksBySameAuthor[0]["Zip"])
-		worksBySameAuthor.map((entry) => {
-			if (check(entry["Attachments"][0]["thumbnails"])) {
-				image = (
-					<img
-						src={
-							entry["Attachments"][0]["thumbnails"]["large"]["url"]
-						}
-						alt="prisoner journal entry"
-						style={{
-							height: "30vh",
-							padding: "1vw",
-						}}
-					/>
-				);
-			} else {
-				image = (
-					<img
-						src={imgSrc}
-						alt="grey recentangle"
-						className={classes.image}
-					/>
-				);
-			}
-			if (entry["Responses"]) {
-				responses = entry["Responses"].length;
-			}
-			const date = checkDate(entry["Last modified time"])
-			const obj = { image: image, date: date }
-			modalData.push(obj);
-
-			let recent = mostRecentDate.split(" ");
-			let dateArr = date.split(" ")
-
-			if (parseInt(dateArr[1]) > parseInt(recent[1])) {
-				mostRecentDate = date
-			}
-			else if (dates.indexOf(dateArr[0]) > dates.indexOf(recent[0])) {
-				mostRecentDate = date
-			}
-		})
-
-	}
 
 	if (selectedAuthors.includes(author) &&
 		((showNoResponse && responses === 0) ||
 			(showResponses && responses > 0))) {
 		return (
-			<Grid item>
-				<div onClick={() => setShow(true)}>
-					<Card className={classes.card}>
-						<CardContent className={classes.cardcontent}>
-							<Typography className={classes.author} color="#000000">
-								{author}
+			<div onClick={openModal}>
+				<Card className={classes.card}>
+					<CardContent className={classes.cardcontent}>
+						<Typography className={classes.author} color="#000000">
+							{author}
+						</Typography>
+
+						<Typography
+							variant="h5"
+							component="h2"
+							className={classes.location}
+							color="black"
+						>
+							{location}
+						</Typography>
+
+						<Typography className={classes.date}>
+							{mostRecentDate}
+						</Typography >
+
+						<div className={classes.responseDiv}>
+							<Typography className={classes.response}>
+								{responses + " Responses"}
 							</Typography>
-
-							<Typography
-								variant="h5"
-								component="h2"
-								className={classes.location}
-								color="black"
-							>
-								{location}
-							</Typography>
-
-							<Typography className={classes.date}>
-								{mostRecentDate}
-							</Typography >
-
-							<div className={classes.responseDiv}>
-								<Typography className={classes.response}>
-									{responses + " Responses"}
-								</Typography>
-							</div>
-						</CardContent >
-					</Card >
-					<JournalModal
-						onClose={() => setShow(false)}
-						show={show}
-						modalData={modalData}
-						responses={responses}
-						mostRecentDate={mostRecentDate}
-						author={author}
-						mailingAddr={mailingAddr}
-					/>
-				</div>
-			</Grid>
+						</div>
+					</CardContent >
+				</Card >
+			</div>
 		)
 	}
 	else {

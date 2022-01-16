@@ -9,7 +9,12 @@ import JournalCard from "./JournalCard.js";
 import PoetryCard from "./PoetryCard.js";
 import ChapbookCard from "./ChapbookCard.js";
 import Navbar from "./Navbar.js";
+import rectangle from "./greyrectangle.jpeg";
 import Masonry from "@mui/lab/Masonry";
+
+function check(data) {
+	return typeof data !== "undefined" ? data : "";
+}
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
@@ -18,6 +23,7 @@ export default function FeaturedPage() {
 	const [show, setShow] = useState(false);
 	const [uniqueAuthors, setUniqueAuthors] = useState([]);
 	const [data, setData] = useState([]);
+
 	useEffect(() => {
 		fetch(process.env.REACT_APP_API)
 			.then((response) => response.json())
@@ -92,6 +98,16 @@ export default function FeaturedPage() {
 				>
 					{data.map((entry) => {
 						const type = entry["Program (category)"];
+						let imgSrc = rectangle;
+						if (check(entry["Attachments"][0]["thumbnails"])) {
+							imgSrc = entry["Attachments"][0]["thumbnails"]["large"]["url"];
+						}
+						let responses;
+						if (entry["Responses"]) {
+							responses = entry["Responses"].length;
+						} else {
+							responses = 0;
+						}
 						switch (type) {
 							case "Art":
 								return (
@@ -103,13 +119,21 @@ export default function FeaturedPage() {
 							// 	);
 							case "Poetry":
 								return (
-									<PoetryCard cardData={entry} show={show} />
+									<PoetryCard
+										cardData={entry}
+										responses={responses}
+										imgSrc={imgSrc}
+										openModal={() => setShow(-1)}
+									/>
 								);
 							case "Chapbook":
 								return (
 									<ChapbookCard
 										cardData={entry}
 										show={show}
+										responses={responses}
+										imgSrc={imgSrc}
+										openModal={() => setShow(-1)}
 									/>
 								);
 							default:
