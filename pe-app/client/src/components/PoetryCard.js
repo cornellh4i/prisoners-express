@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
-import Modal from "./Modal.js";
 import { makeStyles } from "@material-ui/core/styles";
 import rectangle from "./greyrectangle.jpeg";
 
@@ -35,11 +34,6 @@ const useStyles = makeStyles({
 		margin: "auto",
 		display: "block",
 	},
-	image: {
-		height: "22vh",
-		maxHeight: "100%",
-		maxWidth: "10vw",
-	},
 	title: {
 		fontFamily: "'Open Sans', sans-serif",
 		fontStyle: "normal",
@@ -71,7 +65,6 @@ const useStyles = makeStyles({
 		fontStyle: "normal",
 		fontWeight: "normal",
 		fontSize: "12px",
-
 		color: "#828282",
 	},
 	info: {
@@ -96,35 +89,22 @@ function checkDate(data) {
 export default function PoetryCard(props) {
 	const classes = useStyles();
 	const [show, setShow] = useState(false);
-	const cardData = props.cardData;
-	let image;
-	let imgSrc;
-	if (check(cardData["Attachments"][0]["thumbnails"])) {
-		imgSrc = cardData["Attachments"][0]["thumbnails"]["large"]["url"];
-		image = (
-			<img src={imgSrc} alt="prisoner poetry" className={classes.image} />
-		);
-	} else {
-		imgSrc = rectangle;
-		image = (
-			<img
-				src={imgSrc}
-				alt="grey rectangle"
-				className={classes.image}
-			/>
-		);
-	}
+	const { cardData, responses, openModal, imgSrc } = props;
 
-	let responses;
-	if (cardData["Responses"]) {
-		responses = cardData["Responses"].length;
-	} else {
-		responses = 0;
-	}
 	let title = cardData["Title"];
 	title = title.length > 22 ? title.slice(0, 20) + "... " : title;
+
+	const image =
+		<img src={imgSrc}
+			alt={imgSrc == rectangle ? "grey rectangle" : "prisoner poetry"}
+			style={{
+				height: "22vh",
+				maxHeight: "100%",
+				maxWidth: "10vw",
+			}} />
+
 	return (
-		<div onClick={() => setShow(true)}>
+		<div onClick={openModal}>
 			<Card className={classes.card}>
 				<CardContent className={classes.cardcontent}>
 					<Grid container columns={16}>
@@ -152,14 +132,7 @@ export default function PoetryCard(props) {
 					</Grid>
 				</CardContent>
 			</Card>
-			<Modal
-				onClose={() => setShow(false)}
-				show={show}
-				artData={cardData}
-				imgSrc={imgSrc}
-				responses={responses}
-				dates={dates}
-			/>
+
 		</div>
 	);
 }

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import Modal from "./Modal.js";
 import rectangle from "./greyrectangle.jpeg";
 
 const dates = [
@@ -34,11 +33,6 @@ const useStyles = makeStyles({
 	imgBox: {
 		margin: "auto",
 		display: "block",
-	},
-	image: {
-		height: "22vh",
-		maxHeight: "100%",
-		maxWidth: "10vw",
 	},
 	title: {
 		fontFamily: "'Open Sans', sans-serif",
@@ -94,42 +88,20 @@ function checkDate(data) {
 }
 
 export default function ChapbookCard(props) {
-	const [show, setShow] = useState(false);
-	const { cardData } = props;
+	const { cardData, responses, imgSrc, openModal } = props;
 	const classes = useStyles();
-	let image;
-	let imgSrc;
-	if (check(cardData["Attachments"][0]["thumbnails"])) {
-		imgSrc = cardData["Attachments"][0]["thumbnails"]["large"]["url"];
-		image = (
-			<img
-				src={imgSrc}
-				className={classes.image}
-				alt="prisoner chapbook cover"
-			/>
-		);
-	} else {
-		imgSrc = rectangle;
-		image = (
-			<img
-				src={imgSrc}
-				alt="grey rectangle"
-				className={classes.image}
-			/>
-		);
-	}
-
-	let responses;
-	if (cardData["Responses"]) {
-		responses = cardData["Responses"].length;
-	} else {
-		responses = 0;
-	}
-
+	const image =
+		<img src={imgSrc}
+			alt={imgSrc == rectangle ? "grey rectangle" : "prisoner poetry"}
+			style={{
+				height: "22vh",
+				maxHeight: "100%",
+				maxWidth: "10vw",
+			}} />
 	let title = cardData["Title"];
 	title = title.length > 22 ? title.slice(0, 20) + "... " : title;
 	return (
-		<div onClick={() => setShow(true)}>
+		<div onClick={openModal}>
 			{
 				<Card className={classes.card}>
 					<CardContent className={classes.cardcontent}>
@@ -160,14 +132,6 @@ export default function ChapbookCard(props) {
 					</CardContent>
 				</Card>
 			}
-			<Modal
-				onClose={() => setShow(false)}
-				show={show}
-				artData={cardData}
-				imgSrc={imgSrc}
-				responses={responses}
-				dates={dates}
-			/>
 		</div>
 	);
 }
