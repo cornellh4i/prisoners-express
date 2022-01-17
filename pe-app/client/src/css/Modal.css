@@ -72,6 +72,8 @@
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
+  white-space: pre-line;
+  float: right;
 }
 
 .modal-body {
