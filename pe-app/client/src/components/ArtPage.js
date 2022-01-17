@@ -3,13 +3,31 @@ import { Grid } from "@material-ui/core";
 import ArtworkCard from "./ArtworkCard.js";
 import Navbar from "./Navbar.js";
 import Filters from "./Filters.js";
+import rectangle from "./greyrectangle.jpeg";
+import Modal from "./Modal.js";
+
+const dates = [
+	"January",
+	"Feburary",
+	"March",
+	"April",
+	"May",
+	"June",
+	"July",
+	"August",
+	"September",
+	"October",
+	"November",
+	"December",
+];
 
 export default function ArtPage() {
-	const [show, setShow] = useState(false);
+	const [show, setShow] = useState(-1);
 	const [selectedAuthors, setSelectedAuthors] = useState([]);
 	const [uniqueAuthors, setUniqueAuthors] = useState([]);
 	const [showNoResponse, setNoResponse] = useState(true);
 	const [showResponses, setResponses] = useState(true);
+	const [worksByAuthor, setWorksByAuthor] = useState({});
 
 	const [data, setData] = useState([]);
 	useEffect(() => {
@@ -26,6 +44,15 @@ export default function ArtPage() {
 				const authorSet = [...new Set(authors)];
 				setSelectedAuthors(authorSet);
 				setUniqueAuthors(authorSet);
+
+				let temp = {};
+				authorSet.map((author) => {
+					const works = d.filter(function (value) {
+						return value["Author Name"] + " " + value["Last Name"] === author
+					});
+					temp[author] = works;
+				});
+				setWorksByAuthor(temp);
 			});
 	}, []);
 
@@ -50,17 +77,25 @@ export default function ArtPage() {
 					spacing={3}
 					alignItems="center"
 				>
-					{data.map((entry) => {
+					{data.map((entry, index) => {
 						const author =
 							entry["Author Name"] + " " + entry["Last Name"];
-						const worksByAuthor = data.filter(function (value) { return value["Author Name"] === entry["Author Name"] && value["Last Name"] === entry["Last Name"] && value["Title"] !== entry["Title"] });
-						console.log("ARRAY" + worksByAuthor);
+
 						let responses;
 						if (entry["Responses"]) {
 							responses = entry["Responses"].length;
 						} else {
 							responses = 0;
 						}
+						let imgSrc;
+						if (entry["Attachments"] &&
+							entry["Attachments"][0] &&
+							entry["Attachments"][0]["thumbnails"]) {
+							imgSrc = entry["Attachments"][0]["thumbnails"]["large"]["url"];
+						} else {
+							imgSrc = rectangle;
+						}
+
 						if (
 							selectedAuthors.includes(author) &&
 							((showNoResponse && responses == 0) ||
@@ -70,9 +105,19 @@ export default function ArtPage() {
 								<Grid item>
 									<ArtworkCard
 										cardData={entry}
-										worksByAuthor={worksByAuthor}
-										show={show}
 										responses={responses}
+										imgSrc={imgSrc}
+										openModal={() => setShow(index)}
+									/>
+									<Modal
+										close={() => setShow(-1)}
+										show={show}
+										worksByAuthor={worksByAuthor[author]}
+										data={entry}
+										imgSrc={imgSrc}
+										responses={responses}
+										dates={dates}
+										id={index}
 									/>
 								</Grid>
 							);
@@ -80,7 +125,6 @@ export default function ArtPage() {
 					})}
 				</Grid>
 			</div>
-			<button onClick={() => setShow(true)}>Show Modal</button>
 		</div>
 	);
 }

@@ -82,11 +82,6 @@ const Modal = (props) => {
         <div>
           <Gallery imgSrc={imgSrc} worksByAuthor={worksByAuthor} />
         </div>
-        <div className="modal-footer">
-          <button onClick={props.onClose} className="button">
-            Close
-          </button>
-        </div>
       </div>
     </div>
   );

@@ -31,7 +31,9 @@ export default function ChapbookPage() {
 	const [uniqueAuthors, setUniqueAuthors] = useState([]);
 	const [showNoResponse, setNoResponse] = useState(true);
 	const [showResponses, setResponses] = useState(true);
+	const [worksByAuthor, setWorksByAuthor] = useState({});
 	const [data, setData] = useState([]);
+
 	useEffect(() => {
 		fetch(process.env.REACT_APP_API)
 			.then((response) => response.json())
@@ -47,6 +49,15 @@ export default function ChapbookPage() {
 				const authorSet = [...new Set(authors)];
 				setSelectedAuthors(authorSet);
 				setUniqueAuthors(authorSet);
+
+				let temp = {};
+				authorSet.map((author) => {
+					const works = d.filter(function (value) {
+						return value["Author Name"] + " " + value["Last Name"] === author
+					});
+					temp[author] = works;
+				});
+				setWorksByAuthor(temp);
 			});
 	}, []);
 
@@ -123,6 +134,7 @@ export default function ChapbookPage() {
 										show={show}
 										data={entry}
 										imgSrc={imgSrc}
+										worksByAuthor={worksByAuthor[author]}
 										responses={responses}
 										dates={dates}
 										id={index}

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Card, CardContent, Typography } from "@material-ui/core";
-import ClickAwayListener from "@mui/material/ClickAwayListener";
-import Modal from "./Modal.js";
 import { makeStyles } from "@material-ui/core/styles";
 import rectangle from "./greyrectangle.jpeg";
 
@@ -90,66 +88,22 @@ export default function ArtworkCard(props) {
     setShow((prev) => !prev);
   };
 
-  const { cardData, worksByAuthor } = props;
+  const { cardData, openModal, imgSrc, responses } = props;
 
-  let responses;
-  if (cardData["Responses"]) {
-    responses = cardData["Responses"].length;
-  } else {
-    responses = 0;
-  }
+  const image = imgSrc == rectangle ? <img
+    src={imgSrc}
+    alt="grey rectangle"
+    className={classes.image}
+  /> : <img
+    onLoad={onImgLoad}
+    src={imgSrc}
+    alt="prisoner art"
+    className={classes.image}
+  />;
 
-  let image;
-  let imgSrc;
-  if (
-    cardData["Attachments"] &&
-    cardData["Attachments"][0] &&
-    cardData["Attachments"][0]["thumbnails"]
-  ) {
-    imgSrc = cardData["Attachments"][0]["thumbnails"]["large"]["url"];
-    image = (
-      <img
-        onLoad={onImgLoad}
-        src={imgSrc}
-        alt="prisoner art"
-        className={classes.image}
-      />
-    );
-  } else {
-    imgSrc = rectangle;
-    image = (
-      <img
-        src={imgSrc}
-        alt="grey rectangle"
-        className={classes.image}
-      />
-    );
-  }
 
   return (
-    // <div>
-    // <ClickAwayListener onClickAway={handleClickAway}>
-    //   <div>
-    //     <div
-    //       className="Card"
-    //       onClick={handleClick}
-    //       style={{}}
-    //     ></div>
-    //     {show ? (
-    //       <Modal
-    //         // show={show}
-    //         // onClose={() => setShow(false)}
-    //         artData={cardData}
-    //         imgSrc={imgSrc}
-    //         responses={responses}
-    //         dates={dates}
-    //       />
-    //     ) : null}
-    //   </div>
-    // </ClickAwayListener>
-    <div className="Card" onClick={() => setShow(true)} style={{}}>
-      <Modal onClose={() => setShow(false)} show={show}
-        artData={cardData} imgSrc={imgSrc} responses={responses} dates={dates} worksByAuthor={worksByAuthor} />
+    <div className="Card" onClick={openModal} style={{}}>
       <Card
         className={classes.card}
         style={{ width: imgWidth > 300 ? "100%" : "22vw" }}

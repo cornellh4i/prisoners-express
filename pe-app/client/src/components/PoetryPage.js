@@ -31,6 +31,7 @@ export default function Cards() {
 	const [uniqueAuthors, setUniqueAuthors] = useState([]);
 	const [showNoResponse, setNoResponse] = useState(true);
 	const [showResponses, setResponses] = useState(true);
+	const [worksByAuthor, setWorksByAuthor] = useState({});
 	const [data, setData] = useState([]);
 
 	useEffect(() => {
@@ -47,6 +48,15 @@ export default function Cards() {
 				const authorSet = [...new Set(authors)];
 				setSelectedAuthors(authorSet);
 				setUniqueAuthors(authorSet);
+
+				let temp = {};
+				authorSet.map((author) => {
+					const works = d.filter(function (value) {
+						return value["Author Name"] + " " + value["Last Name"] === author
+					});
+					temp[author] = works;
+				});
+				setWorksByAuthor(temp);
 			});
 	}, []);
 	return (
@@ -77,31 +87,13 @@ export default function Cards() {
 						} else {
 							responses = 0;
 						}
-						let image;
 						let imgSrc;
-						if (check(entry["Attachments"][0]["thumbnails"])) {
+						if (entry["Attachments"] &&
+							entry["Attachments"][0] &&
+							entry["Attachments"][0]["thumbnails"]) {
 							imgSrc = entry["Attachments"][0]["thumbnails"]["large"]["url"];
-							image = (
-								<img src={imgSrc} alt="prisoner poetry"
-									style={{
-										height: "22vh",
-										maxHeight: "100%",
-										maxWidth: "10vw",
-									}} />
-							);
 						} else {
 							imgSrc = rectangle;
-							image = (
-								<img
-									src={imgSrc}
-									alt="grey rectangle"
-									style={{
-										height: "22vh",
-										maxHeight: "100%",
-										maxWidth: "10vw",
-									}}
-								/>
-							);
 						}
 						if (
 							selectedAuthors.includes(author) &&
@@ -123,6 +115,7 @@ export default function Cards() {
 										imgSrc={imgSrc}
 										responses={responses}
 										dates={dates}
+										worksByAuthor={worksByAuthor[author]}
 										id={index}
 									/>
 								</Grid>
