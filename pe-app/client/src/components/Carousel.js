@@ -19,7 +19,7 @@ const useStyles = makeStyles({
 	},
 	title: {
 		fontFamily: "'Open Sans', sans-serif",
-		fontSize: 15,
+		fontSize: 12,
 		fontWeight: "bold",
 	},
 	info: {
@@ -88,7 +88,7 @@ const Gallery = (props) => {
 		{ console.log(worksByAuthor.length) }
 		return (
 			<div>
-				<Carousel cols={3} rows={1} gap={10} loop>
+				<Carousel cols={3} rows={1} gap={15} loop>
 					{/* {<img width="100%" src={imgSrc.imgSrc} />} */}
 
 					{
@@ -97,7 +97,7 @@ const Gallery = (props) => {
 							else {
 								return (
 									<Carousel.Item>
-										<Card className={classes.card} style={{ width: imgWidth > 300 ? "100%" : "12.25vw" }}>
+										<Card className={classes.card}>
 											<CardContent className={classes.cardContent}>
 												{getImage(entry)}
 												<div className={classes.info}>
