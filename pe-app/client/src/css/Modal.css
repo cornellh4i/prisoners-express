@@ -13,11 +13,19 @@
 }
 
 .modal-content {
-  height: 100%;
+  height: 90%;
   width: 45%;
   background-color: #fff;
   position: absolute;
 }
+
+.modal-content-small {
+  height: 80%;
+  width: 45%;
+  background-color: #fff;
+  position: absolute;
+}
+
 
 .modal-header,
 .modal-footer {
@@ -35,12 +43,31 @@
   font-size:36px
   color: #000000; */
   /* margin: 30px; */
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 30px;
   font-size: 36px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
+}
+
+.modal-title-small {
+  font-size: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+}
+
+.modal-image {
+    height: 70%;
+    display: block;
+    margin: auto;
+    position: relative;
+    padding: .5vw;
+}
+
+.modal-image-small {
+  height: 70%;
+  display: block;
+  margin: auto;
+  position: relative;
+  padding: 3vw;
 }
 
 .button {
@@ -50,35 +77,39 @@
 
 .modal-author {
   /* margin: 10px; */
-  margin-left: 30px;
-  margin-top: 0px;
+
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
 }
 
 .modal-date {
-  margin-left: 30px;
-  margin-top: 0px;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
+  padding-bottom: .5vw;
   color: #828282;
 }
 
 .modal-address {
-  margin-right: 20px;
-  margin-top: -70px;
+  margin-top: -8vh;
   font-size: 14px;
+  padding-right: 1vw;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   white-space: pre-line;
   float: right;
+<<<<<<< HEAD
+  text-align: right;
+=======
+>>>>>>> main
 }
 
 .modal-body {
-  padding: 20px;
   height: 70%;
+  padding-top: 2vw;
+  padding-right: 2vw;
+  padding-left: 3vw;
 }
 
 .modal-tags {

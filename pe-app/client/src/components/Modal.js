@@ -16,7 +16,7 @@ const Modal = (props) => {
   }
   return (
     <div className="modal-backdrop" onClick={close}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+      <div className={worksByAuthor.length > 1 ? "modal-content" : "modal-content-small"} onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
           <button onClick={close} className="button">
             <CloseRoundedIcon
@@ -32,15 +32,9 @@ const Modal = (props) => {
           <img
             src={imgSrc}
             alt="prisoner art"
-            style={{
-              height: "70%",
-              display: "block",
-              margin: "auto",
-              position: "relative",
-              padding: "1vw",
-            }}
+            className={worksByAuthor.length > 1 ? "modal-image" : "modal-image-small"}
           />
-          <div className="modal-title">{check(data["Title"])}</div>
+          <div className={(check(data["Title"])).length > 24 ? "modal-title-small" : "modal-title"}>{check(data["Title"])}</div>
           <div className="modal-author">
             {check(data["Author Name"]) +
               " " +

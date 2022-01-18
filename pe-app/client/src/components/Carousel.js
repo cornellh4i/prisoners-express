@@ -5,11 +5,19 @@ import rectangle from "./greyrectangle.jpeg";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
+	carouselItem: {
+		padding: 0,
+		margin: 0,
+		border: "black solid",
+	},
 	card: {
-		borderRadius: "20px",
+		borderRadius: "0px",
+		padding: 0,
+		margin: 0,
 	},
 	cardcontent: {
-		padding: "1.5vw",
+		padding: 0,
+		margin: 0,
 	},
 	image: {
 		height: "15vh",
@@ -19,11 +27,12 @@ const useStyles = makeStyles({
 	},
 	title: {
 		fontFamily: "'Open Sans', sans-serif",
-		fontSize: 15,
+		fontSize: 12,
 		fontWeight: "bold",
 	},
 	info: {
 		marginLeft: "1vw",
+		textAlign: "center",
 	},
 });
 
@@ -88,7 +97,7 @@ const Gallery = (props) => {
 		{ console.log(worksByAuthor.length) }
 		return (
 			<div>
-				<Carousel cols={3} rows={1} gap={10} loop>
+				<Carousel cols={3} rows={1} gap={15} loop>
 					{/* {<img width="100%" src={imgSrc.imgSrc} />} */}
 
 					{
@@ -96,17 +105,13 @@ const Gallery = (props) => {
 							if (imgSrc == getImgSrc(entry)) return null;
 							else {
 								return (
-									<Carousel.Item>
-										<Card className={classes.card} style={{ width: imgWidth > 300 ? "100%" : "12.25vw" }}>
-											<CardContent className={classes.cardContent}>
-												{getImage(entry)}
-												<div className={classes.info}>
-													<Typography className={classes.title}>
-														{getTitle(entry)}
-													</Typography>
-												</div>
-											</CardContent>
-										</Card>
+									<Carousel.Item className={classes.carouselItem}>
+										{getImage(entry)}
+										<div className={classes.info}>
+											<Typography className={classes.title}>
+												{getTitle(entry)}
+											</Typography>
+										</div>
 									</Carousel.Item>
 								);
 							}
