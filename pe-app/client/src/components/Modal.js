@@ -32,13 +32,7 @@ const Modal = (props) => {
           <img
             src={imgSrc}
             alt="prisoner art"
-            style={{
-              height: "70%",
-              display: "block",
-              margin: "auto",
-              position: "relative",
-              padding: "1vw",
-            }}
+            className={worksByAuthor.length > 1 ? "modal-image" : "modal-image-small"}
           />
           <div className={(check(data["Title"])).length > 24 ? "modal-title-small" : "modal-title"}>{check(data["Title"])}</div>
           <div className="modal-author">

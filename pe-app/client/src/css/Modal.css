@@ -20,7 +20,7 @@
 }
 
 .modal-content-small {
-  height: 50%;
+  height: 80%;
   width: 45%;
   background-color: #fff;
   position: absolute;
@@ -43,30 +43,31 @@
   font-size:36px
   color: #000000; */
   /* margin: 30px; */
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 30px;
   font-size: 36px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
 }
 
 .modal-title-small {
-  /* position: absolute;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 49px;
-  font-size:36px
-  color: #000000; */
-  /* margin: 30px; */
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 30px;
-  font-size: 32px;
+  font-size: 28px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
+}
+
+.modal-image {
+    height: 70%;
+    display: block;
+    margin: auto;
+    position: relative;
+    padding: .5vw;
+}
+
+.modal-image-small {
+  height: 70%;
+  display: block;
+  margin: auto;
+  position: relative;
+  padding: 3vw;
 }
 
 .button {
@@ -76,26 +77,24 @@
 
 .modal-author {
   /* margin: 10px; */
-  margin-left: 30px;
-  margin-top: 0px;
+
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
 }
 
 .modal-date {
-  margin-left: 30px;
-  margin-top: 0px;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
+  padding-bottom: .5vw;
   color: #828282;
 }
 
 .modal-address {
-  margin-right: 30px;
-  margin-top: -65px;
+  margin-top: -8vh;
   font-size: 14px;
+  padding-right: 1vw;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   white-space: pre-line;
@@ -104,8 +103,10 @@
 }
 
 .modal-body {
-  padding: 20px;
   height: 70%;
+  padding-top: 2vw;
+  padding-right: 2vw;
+  padding-left: 3vw;
 }
 
 .modal-tags {
