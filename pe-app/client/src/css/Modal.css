@@ -99,7 +99,10 @@
   font-style: normal;
   white-space: pre-line;
   float: right;
+<<<<<<< HEAD
   text-align: right;
+=======
+>>>>>>> main
 }
 
 .modal-body {
