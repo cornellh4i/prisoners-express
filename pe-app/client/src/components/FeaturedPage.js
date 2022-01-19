@@ -36,7 +36,7 @@ function check(data) {
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
-const categories = ["Art", "Journal", "Poetry", "Chapbook"]
+const categories = ["Art", "Poetry", "Chapbook"]
 const useStyles = makeStyles({
   resetButton: {
     color: "black",
