@@ -19,7 +19,6 @@ setIntervalAsync(cache.triggerUpdate, 5 * 60000); // refresh every 5 min
 
 app.get("/", function (req, res) {
 	res.send(cache.data);
-	console.log(cache.data);
 });
 
 app.listen(port, function () {
