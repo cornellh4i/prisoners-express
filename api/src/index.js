@@ -21,7 +21,7 @@ const cache = new AirtableCache(url, process.env.API_KEY);
 cache.triggerUpdate();
 setIntervalAsync(cache.triggerUpdate, 5 * 60000); // refresh every 5 min
 
-app.get("/", function (req, res) {
+app.get("/api/", function (req, res) {
 	// console.log(cache.data);
 	res.send(cache.data);
 });
