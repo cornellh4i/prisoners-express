@@ -13,7 +13,7 @@ app.use(cors({ origin: "*" }));
 app.options("*", cors());
 require("dotenv").config();
 
-app.use(express.static(path.join(__dirname, "../client/build")));
+app.use(express.static(path.join(__dirname, "../../client/build")));
 
 const url = `https://api.airtable.com/v0/${process.env.BASE_ID}/${process.env.TABLE_NAME}`;
 
@@ -27,7 +27,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("*", (req, res) => {
-	res.sendFile(path.resolve(__dirname, "../client/build", "index.html"));
+	res.sendFile(path.resolve(__dirname, "../../client/build", "index.html"));
 });
 
 app.listen(port, function () {
