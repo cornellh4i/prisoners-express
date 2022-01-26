@@ -5,8 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "cd api && npm install --legacy-peer-deps && npm start",
-		"heroku-postbuild": "cd client && npm install --legacy-peer-deps && npm run build"
+		"start": "concurrently \"cd client && npm start\" \"cd api && npm start\"",
+		"heroku-postbuild": "npm run install-all && cd client && npm run build",
+		"install-all": "concurrently \"cd client && npm install --legacy-peer-deps\" \"cd api && npm install --legacy-peer-deps\""
 	},
 	"engines": {
 		"node": "16.12.0"
