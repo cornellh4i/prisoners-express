@@ -19,7 +19,7 @@ const url = `https://api.airtable.com/v0/${process.env.BASE_ID}/${process.env.TA
 
 const cache = new AirtableCache(url, process.env.API_KEY);
 cache.triggerUpdate();
-setIntervalAsync(cache.triggerUpdate, 1 * 60000); // refresh every 5 min
+setIntervalAsync(cache.triggerUpdate.bind(cache), 5 * 60000); // refresh every 5 min
 
 app.get("/api/", function (req, res) {
 	// console.log(cache.data);
@@ -30,6 +30,6 @@ app.get("/api/", function (req, res) {
 // 	res.sendFile(path.resolve(__dirname, "../../client/build", "index.html"));
 // });
 
-app.listen(port, function () {
+app.listen(process.env.PORT || port, function () {
 	console.log(`Listening on port ${port}`);
 });
