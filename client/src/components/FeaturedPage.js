@@ -160,6 +160,10 @@ export default function FeaturedPage() {
             if (check(entry["Attachments"][0]["thumbnails"])) {
               imgSrc = entry["Attachments"][0]["thumbnails"]["large"]["url"];
             }
+            let pdf;
+            if (check(entry["Attachments"][0]["url"])) {
+              pdf = entry["Attachments"][0]["url"];
+            }
             let responses;
             if (entry["Responses"]) {
               responses = entry["Responses"].length;

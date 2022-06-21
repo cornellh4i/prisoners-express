@@ -8,7 +8,7 @@ function check(data) {
 }
 
 const Modal = (props) => {
-  const { imgSrc, responses, dates, worksByAuthor } = props;
+  const { imgSrc, responses, dates, worksByAuthor, pdf } = props;
   const { data, show, id, close } = props;
 
   if (show !== id) {
@@ -29,7 +29,7 @@ const Modal = (props) => {
           </button>
         </div>
         <div className="modal-body">
-          <a href={imgSrc} target="_blank" rel="noopener noreferrer"><img
+          <a href={pdf} target="_blank" rel="noopener noreferrer"><img
             src={imgSrc}
             alt="prisoner art"
             className={worksByAuthor.length > 1 ? "modal-image" : "modal-image-small"}
