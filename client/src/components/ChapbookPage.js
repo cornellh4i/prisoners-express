@@ -89,6 +89,7 @@ export default function ChapbookPage() {
 						} else {
 							responses = 0;
 						}
+						let image;
 						let imgSrc;
 						if (check(entry["Attachments"][0]["thumbnails"])) {
 							imgSrc = entry["Attachments"][0]["thumbnails"]["large"]["url"];
