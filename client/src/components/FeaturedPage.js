@@ -63,8 +63,6 @@ export default function FeaturedPage() {
       .then((response) => response.json())
       .then((d) => d.filter((entry) => entry["Display"] === true))
       .then((d) => {
-        console.log("DATA:")
-        console.log(d);
         setData(d);
       });
   }, []);

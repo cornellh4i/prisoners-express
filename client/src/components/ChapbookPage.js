@@ -89,7 +89,6 @@ export default function ChapbookPage() {
 						} else {
 							responses = 0;
 						}
-						let image;
 						let imgSrc;
 						if (check(entry["Attachments"][0]["thumbnails"])) {
 							imgSrc = entry["Attachments"][0]["thumbnails"]["large"]["url"];
@@ -115,6 +114,14 @@ export default function ChapbookPage() {
 								/>
 							);
 						}
+						let pdf;
+						if (entry["Attachments"] &&
+							entry["Attachments"][0] &&
+							entry["Attachments"][0]["url"]) {
+							pdf = entry["Attachments"][0]["url"];
+						} else {
+							pdf = "";
+						}
 						if (
 							selectedAuthors.includes(author) &&
 							((showNoResponse && responses === 0) ||
@@ -134,6 +141,7 @@ export default function ChapbookPage() {
 										show={show}
 										data={entry}
 										imgSrc={imgSrc}
+										pdf={pdf}
 										worksByAuthor={worksByAuthor[author]}
 										responses={responses}
 										dates={dates}
