@@ -29,7 +29,7 @@ const Modal = (props) => {
           </button>
         </div>
         <div className="modal-body">
-          <a href={imgSrc}><img
+          <a href={imgSrc} target="_blank" rel="noopener noreferrer"><img
             src={imgSrc}
             alt="prisoner art"
             className={worksByAuthor.length > 1 ? "modal-image" : "modal-image-small"}
