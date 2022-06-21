@@ -47,7 +47,7 @@ const Modal = (props) => {
               check(data["Author Name"]) +
               " " +
               check(data["Last Name"]) +
-              ", ID:" + check(data["Prisoner ID"]) +
+              ", ID: ---" + check(data["Prisoner ID"]) +
               "\n" +
               check(data["Room Number"]) +
               " " +
