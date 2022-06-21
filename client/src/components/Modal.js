@@ -14,6 +14,7 @@ const Modal = (props) => {
   if (show !== id) {
     return null;
   }
+  console.log(data)
   return (
     <div className="modal-backdrop" onClick={close}>
       <div className={worksByAuthor.length > 1 ? "modal-content" : "modal-content-small"} onClick={(e) => e.stopPropagation()}>
@@ -46,7 +47,7 @@ const Modal = (props) => {
               check(data["Author Name"]) +
               " " +
               check(data["Last Name"]) +
-              ", ID:" +
+              ", ID:" + check(data["Prisoner ID"]) +
               "\n" +
               check(data["Room Number"]) +
               " " +
