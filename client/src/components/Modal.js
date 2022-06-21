@@ -29,11 +29,11 @@ const Modal = (props) => {
           </button>
         </div>
         <div className="modal-body">
-          <img
+          <a href={imgSrc}><img
             src={imgSrc}
             alt="prisoner art"
             className={worksByAuthor.length > 1 ? "modal-image" : "modal-image-small"}
-          />
+          /></a>
           <div className={(check(data["Title"])).length > 24 ? "modal-title-small" : "modal-title"}>{check(data["Title"])}</div>
           <div className="modal-author">
             {check(data["Author Name"]) +
