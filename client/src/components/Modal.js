@@ -8,7 +8,7 @@ function check(data) {
 }
 
 const Modal = (props) => {
-  const { imgSrc, responses, dates, worksByAuthor, pdf } = props;
+  const { imgSrc, pdf, responses, dates, worksByAuthor } = props;
   const { data, show, id, close } = props;
 
   if (show !== id) {

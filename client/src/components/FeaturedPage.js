@@ -186,6 +186,7 @@ export default function FeaturedPage() {
                         worksByAuthor={[]}
                         data={entry}
                         imgSrc={imgSrc}
+                        pdf={pdf}
                         responses={responses}
                         dates={dates}
                         id={index}
@@ -207,6 +208,7 @@ export default function FeaturedPage() {
                         show={show}
                         data={entry}
                         imgSrc={imgSrc}
+                        pdf={pdf}
                         responses={responses}
                         dates={dates}
                         worksByAuthor={[]}
@@ -229,6 +231,7 @@ export default function FeaturedPage() {
                         show={show}
                         data={entry}
                         imgSrc={imgSrc}
+                        pdf={pdf}
                         worksByAuthor={[]}
                         responses={responses}
                         dates={dates}
