@@ -29,6 +29,9 @@ const Modal = (props) => {
           </button>
         </div>
         <div className="modal-body">
+        <button className="modal-pdfButton">
+          <a href={pdf}>Open as PDF</a>
+        </button>
           <a href={pdf} target="_blank" rel="noopener noreferrer"><img
             src={imgSrc}
             alt="prisoner art"
