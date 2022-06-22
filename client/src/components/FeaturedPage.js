@@ -63,7 +63,6 @@ export default function FeaturedPage() {
       .then((response) => response.json())
       .then((d) => d.filter((entry) => entry["Display"] === true))
       .then((d) => {
-        // console.log(d);
         setData(d);
       });
   }, []);
@@ -159,6 +158,10 @@ export default function FeaturedPage() {
             if (check(entry["Attachments"][0]["thumbnails"])) {
               imgSrc = entry["Attachments"][0]["thumbnails"]["large"]["url"];
             }
+            let pdf;
+            if (check(entry["Attachments"][0]["url"])) {
+              pdf = entry["Attachments"][0]["url"];
+            }
             let responses;
             if (entry["Responses"]) {
               responses = entry["Responses"].length;
@@ -181,6 +184,7 @@ export default function FeaturedPage() {
                         worksByAuthor={[]}
                         data={entry}
                         imgSrc={imgSrc}
+                        pdf={pdf}
                         responses={responses}
                         dates={dates}
                         id={index}
@@ -202,6 +206,7 @@ export default function FeaturedPage() {
                         show={show}
                         data={entry}
                         imgSrc={imgSrc}
+                        pdf={pdf}
                         responses={responses}
                         dates={dates}
                         worksByAuthor={[]}
@@ -224,6 +229,7 @@ export default function FeaturedPage() {
                         show={show}
                         data={entry}
                         imgSrc={imgSrc}
+                        pdf={pdf}
                         worksByAuthor={[]}
                         responses={responses}
                         dates={dates}

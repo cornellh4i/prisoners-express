@@ -8,13 +8,12 @@ function check(data) {
 }
 
 const Modal = (props) => {
-  const { imgSrc, responses, dates, worksByAuthor } = props;
+  const { imgSrc, pdf, responses, dates, worksByAuthor } = props;
   const { data, show, id, close } = props;
 
   if (show !== id) {
     return null;
   }
-  console.log(data)
   return (
     <div className="modal-backdrop" onClick={close}>
       <div className={worksByAuthor.length > 1 ? "modal-content" : "modal-content-small"} onClick={(e) => e.stopPropagation()}>
@@ -30,11 +29,14 @@ const Modal = (props) => {
           </button>
         </div>
         <div className="modal-body">
-          <img
+        <button className="modal-pdfButton">
+          <a href={pdf} target="_blank" rel="noopener noreferrer">Open as PDF</a>
+        </button>
+          <a href={pdf} target="_blank" rel="noopener noreferrer"><img
             src={imgSrc}
             alt="prisoner art"
             className={worksByAuthor.length > 1 ? "modal-image" : "modal-image-small"}
-          />
+          /></a>
           <div className={(check(data["Title"])).length > 24 ? "modal-title-small" : "modal-title"}>{check(data["Title"])}</div>
           <div className="modal-author">
             {check(data["Author Name"]) +
@@ -47,7 +49,7 @@ const Modal = (props) => {
               check(data["Author Name"]) +
               " " +
               check(data["Last Name"]) +
-              ", ID: ---" + check(data["Prisoner ID"]) +
+              ", ID: " + check(data["Prisoner ID"]) +
               "\n" +
               check(data["Room Number"]) +
               " " +

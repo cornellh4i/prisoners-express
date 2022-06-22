@@ -95,6 +95,14 @@ export default function ArtPage() {
 						} else {
 							imgSrc = rectangle;
 						}
+						let pdf;
+						if (entry["Attachments"] &&
+							entry["Attachments"][0] &&
+							entry["Attachments"][0]["url"]) {
+							pdf = entry["Attachments"][0]["url"];
+						} else {
+							pdf = "";
+						}
 
 						if (
 							selectedAuthors.includes(author) &&
@@ -115,6 +123,7 @@ export default function ArtPage() {
 										worksByAuthor={worksByAuthor[author]}
 										data={entry}
 										imgSrc={imgSrc}
+										pdf={pdf}
 										responses={responses}
 										dates={dates}
 										id={index}
